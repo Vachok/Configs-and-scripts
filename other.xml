@@ -1,7 +1,0 @@
-<application>
-  <component name="CvsApplicationLevelConfiguration">
-    <option name="PATH_TO_PASSWORD_FILE" value="C:\Users\Vachok\.cvspass" />
-    <option name="USE_GZIP" value="true" />
-    <option name="DO_OUTPUT" value="true" />
-  </component>
-</application>
