@@ -10,4 +10,7 @@
     </option>
     <option name="cloneParentDir" value="E:\Google Drive\Google Диск\JetBrains" />
   </component>
+  <component name="VcsApplicationSettings">
+    <option name="DETECT_PATCH_ON_THE_FLY" value="true" />
+  </component>
 </application>
