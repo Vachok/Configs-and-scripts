@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'parser'" />
-    <option name="defaultScopeName" value="Project 'parser'" />
-    <option name="SEARCH_SCOPE" value="Project 'parser'" />
+    <option name="customScope" value="Directory '[parser] - ...\src'" />
+    <option name="defaultScopeName" value="Directory '[parser] - ...\src'" />
+    <option name="SEARCH_SCOPE" value="Directory '[parser] - ...\src'" />
   </component>
 </application>
