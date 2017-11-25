@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '[parser] - ...\src'" />
-    <option name="defaultScopeName" value="Directory '[parser] - ...\src'" />
-    <option name="SEARCH_SCOPE" value="Directory '[parser] - ...\src'" />
+    <option name="customScope" value="File '[parser] - ...\src\parser.iml'" />
+    <option name="defaultScopeName" value="File '[parser] - ...\src\parser.iml'" />
+    <option name="SEARCH_SCOPE" value="File '[parser] - ...\src\parser.iml'" />
   </component>
 </application>
