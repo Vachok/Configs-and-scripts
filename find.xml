@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '[Weather] - ...\parser\ru\vachok\spb\GetWeather.java'" />
-    <option name="defaultScopeName" value="File '[Weather] - ...\parser\ru\vachok\spb\GetWeather.java'" />
-    <option name="SEARCH_SCOPE" value="File '[Weather] - ...\parser\ru\vachok\spb\GetWeather.java'" />
+    <option name="customScope" value="Module 'Weather'" />
+    <option name="defaultScopeName" value="Module 'Weather'" />
+    <option name="SEARCH_SCOPE" value="Module 'Weather'" />
   </component>
 </application>
