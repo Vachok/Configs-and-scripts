@@ -14,6 +14,10 @@
           <option name="url" value="git@github.com:Vachok/Configs-and-scripts.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Vachok/Java_Lessons.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\My_Proj" />
