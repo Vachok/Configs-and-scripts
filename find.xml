@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'Weather'" />
-    <option name="defaultScopeName" value="Project 'Weather'" />
-    <option name="SEARCH_SCOPE" value="Project 'Weather'" />
+    <option name="customScope" value="File '...\Code as is\Lesson6\Main.java [Java_Lessons]'" />
+    <option name="defaultScopeName" value="File '...\Code as is\Lesson6\Main.java [Java_Lessons]'" />
+    <option name="SEARCH_SCOPE" value="File '...\Code as is\Lesson6\Main.java [Java_Lessons]'" />
   </component>
 </application>
