@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '...\Code as is\Lesson6\Main.java [Java_Lessons]'" />
-    <option name="defaultScopeName" value="File '...\Code as is\Lesson6\Main.java [Java_Lessons]'" />
-    <option name="SEARCH_SCOPE" value="File '...\Code as is\Lesson6\Main.java [Java_Lessons]'" />
+    <option name="customScope" value="File '...\src\StaticExmpl.java [Java_Lessons]'" />
+    <option name="defaultScopeName" value="File '...\src\StaticExmpl.java [Java_Lessons]'" />
+    <option name="SEARCH_SCOPE" value="File '...\src\StaticExmpl.java [Java_Lessons]'" />
   </component>
 </application>
