@@ -1,0 +1,7 @@
+<templateSet group="Groovy">
+  <template name="sops" value="System.out.print($END$);" description="Prints to string" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

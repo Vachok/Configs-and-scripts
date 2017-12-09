@@ -3,10 +3,20 @@
     <property name="created">2017-12-08T18:54:24</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2017.3.0.0</property>
-    <property name="modified">2017-12-09T09:30:46</property>
+    <property name="modified">2017-12-09T17:30:59</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <attributes>
+    <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="454b56" />
+      </value>
+    </option>
+    <option name="ABSTRACT_METHOD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ffbc3b" />
+      </value>
+    </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="bbb529" />
@@ -14,15 +24,113 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="8d9c66" />
+      </value>
+    </option>
+    <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="3c3f41" />
+      </value>
+    </option>
+    <option name="ENUM_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ffbc3b" />
+      </value>
+    </option>
+    <option name="INSTANCE_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="cc9ede" />
+      </value>
+    </option>
+    <option name="INSTANCE_FINAL_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="9876aa" />
+        <option name="EFFECT_COLOR" value="3c3f41" />
+      </value>
+    </option>
+    <option name="INTERFACE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="3fc662" />
+      </value>
+    </option>
     <option name="JAVA_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="101010" />
-        <option name="BACKGROUND" value="808080" />
+        <option name="FOREGROUND" value="f4fdff" />
+        <option name="BACKGROUND" value="ff7000" />
+        <option name="ERROR_STRIPE_COLOR" value="d0080" />
+      </value>
+    </option>
+    <option name="JAVA_BRACES">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="4" />
+      </value>
+    </option>
+    <option name="JAVA_COMMA">
+      <value>
+        <option name="FOREGROUND" value="cc7832" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JAVA_DOT">
+      <value>
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JAVA_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="606060" />
+        <option name="BACKGROUND" value="3c3f41" />
+      </value>
+    </option>
+    <option name="JAVA_OPERATION_SIGN">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JAVA_PARENTH">
+      <value />
+    </option>
+    <option name="JAVA_SEMICOLON">
+      <value>
+        <option name="FOREGROUND" value="ff963e" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LOCAL_VARIABLE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="75ade0" />
+      </value>
+    </option>
+    <option name="METHOD_CALL_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ffddc5" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PARAMETER_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ecfcff" />
+      </value>
+    </option>
+    <option name="REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="4e739c" />
+        <option name="EFFECT_COLOR" value="3c3f41" />
+      </value>
+    </option>
+    <option name="REASSIGNED_PARAMETER_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="949d9f" />
+        <option name="EFFECT_COLOR" value="3c3f41" />
+      </value>
+    </option>
+    <option name="STATIC_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="64516e" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
   </attributes>
