@@ -11,12 +11,14 @@ public class Vachok {
 
     public static void main( String args ) {
         double currentTime = new Date().getTime();
+        double futureTime = new Date(17, 12, 14, 22, 26).getTime();
+        for (double i = futureTime; i < currentTime; i++) {
+            double curTime = new Date().getTime();
         double birth = new Date(84, 1, 7, 2, 0).getTime();
-        double mSec = (currentTime - birth);
-        double dateBi = (mSec / 1000 / 60 / 60 / 24);
+        double mSec = (curTime - birth);
+        double dateBi = (mSec / 1000 / 60/60/24);
         String myName = args;
-        for (double i = 0; i < currentTime; i++) {
-            System.out.println(myName + " прожил " + dateBi + " суток");
+            System.out.println(myName + " прожил " + dateBi + " days");
         }
         }
 }
