@@ -28,25 +28,13 @@ public class Persons {
       }
       Scanner enterName = new Scanner(System.in);
       String name = enterName.nextLine();
-      if(name.equals("Vachok")) { Vachok.main(name); }
+      if(name.equals("Vachok")) { ru.vachok.life.Vachok.main(name); }
       else { System.exit(11); }
    }
    private static int getAge(int yearBirthEntered) {
       int year = Calendar.getInstance().get(Calendar.YEAR);
       return year-yearBirthEntered;
    }
-
 }
 
-class Vachok {
-   public static void main(String args) {
-      String myName = args;
-      System.out.println(myName);
-      long currentDate = new Date().getTime();
-      long birthTime = new Date(1984, 1, 7, 2, 0, 0).getTime();
-      long lifeTime = birthTime-currentDate;
-      // Calendar oldest = new Calendar().get();
-      //  System.out.println(oldest);
-   }
-}
 // at 14.12.2017 (14:42)
