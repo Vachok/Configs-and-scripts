@@ -2,26 +2,46 @@ package ru.vachok.life;
 
 
 
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Scanner;
+
+
+
 public class Persons {
    private int h;
-   private int age;
    public static void main(String[] args) {
+      long todayLong = new Date().getTime();
+      System.out.println("Сегодня - "+todayLong+" мсек от рождества Юниксова...");
+      System.out.print("Введите ваш год рождения:");
+      Scanner enteredAge = new Scanner(System.in);
+      int yearBirthEntered = enteredAge.nextInt();
+      int age = getAge(yearBirthEntered);
+      if(age < 100) { System.out.println("Ваш возраст = "+age); }
+      else {
+         System.out.println("ой, не пизди!");
+         System.exit(age);
+      }
+      System.exit(0);
+      if(age > 0) { System.out.println("Ваш возраст = "+age); }
+      else {
+         System.out.println("ой, не пизди!");
+         System.exit(age);
+      }
+      System.exit(0);
+
+
+
    }
-   int getH() {
-      return h;
-   }
-   void setH(int h) {
-      this.h = h;
-   }
-   int getAge() {
-      return age;
-   }
-   void setAge(int age) {
-      this.age = age;
+   private static int getAge(int yearBirthEntered) {
+      int year = Calendar.getInstance().get(Calendar.YEAR);
+      return year-yearBirthEntered;
    }
 
-   public static class Vachok {
-      int age;
-   }
+}
+
+class Vachok {
+   int age;
+   int birthday;
 }
 // at 14.12.2017 (14:42)
