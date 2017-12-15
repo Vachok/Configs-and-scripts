@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '...\src\VolatileMain.java [Java_Lessons]'" />
-    <option name="defaultScopeName" value="File '...\src\VolatileMain.java [Java_Lessons]'" />
-    <option name="SEARCH_SCOPE" value="File '...\src\VolatileMain.java [Java_Lessons]'" />
+    <option name="customScope" value="File '...\src\Main.java [Java_Lessons]'" />
+    <option name="defaultScopeName" value="File '...\src\Main.java [Java_Lessons]'" />
+    <option name="SEARCH_SCOPE" value="File '...\src\Main.java [Java_Lessons]'" />
   </component>
 </application>
