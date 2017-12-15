@@ -3,17 +3,15 @@ package ru.vachok.life.doing;
 
 
 public class Drinks {
-    private Object redBull = new Object();
+    public static Object redBull;
 
-
-    public Object getRedBull() {
+    private Object getRedBull() {
         String eName = "Red Bull";
         int vol = 200;
         byte cal = 46;
         return redBull;
     }
 }
-
 
 
 

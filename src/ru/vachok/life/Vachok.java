@@ -11,12 +11,12 @@ public class Vachok {
         Scanner scanner = new Scanner(System.in);
         String nameOfDrink = scanner.nextLine();
         if (nameOfDrink.startsWith("Red")) {
-            System.out.println("BULLLLLL");
+            System.out.println("BULLLLLL " + Drinks.redBull.toString());
         } else System.exit(111);
         return nameOfDrink;
     }
 
-        public static void main (String args ){
+        public static void main ( String args){
             double currentTime = new Date().getTime();
             String drinking = getDrink();
             for (int i = 0; i < 100000; i++) {
@@ -36,7 +36,8 @@ public class Vachok {
                 String s = "пиздец";
                 System.out.print(s);
             }
-            System.out.println(drinking);
+            String drink = getDrink();
+            System.out.println(drink);
         }
     }
 

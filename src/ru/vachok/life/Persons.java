@@ -10,7 +10,7 @@ import java.util.*;
 
 class Persons {
 
-   public static void main( String[] args ) {
+   public static void main(String args) {
       long todayLong = new Date().getTime();
       System.out.println("Сегодня - " + todayLong + " мсек от рождества Юниксова...");
       System.out.print("Введите ваш год рождения:");
