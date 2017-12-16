@@ -2,19 +2,12 @@ package ru.vachok.life.Persons;
 
 
 
-import ru.vachok.life.doing.Drinks;
-
 import java.util.Date;
 import java.util.Scanner;
 
 public class Vachok {
     private static String getDrink() {
-        Scanner scanner = new Scanner(System.in);
-        String nameOfDrink = scanner.nextLine();
-        if (nameOfDrink.startsWith("Red")) {
-            System.out.println("BULLLLLL " + Drinks.redBull.toString());
-        } else System.exit(111);
-        return nameOfDrink;
+        return null;
     }
 
         public static void main ( String args){
