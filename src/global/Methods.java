@@ -2,10 +2,14 @@ package global;
 
 
 
+import java.util.Scanner;
+
+
 public class Methods {
 
-    public static void drinkMe() {
-
+    public static String drinkMe() {
+        System.out.println("Ваш напиток?\n");
+        return new Scanner(System.in).nextLine();
     }
 }
 

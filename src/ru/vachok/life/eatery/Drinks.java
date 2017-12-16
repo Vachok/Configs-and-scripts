@@ -2,6 +2,8 @@ package ru.vachok.life.eatery;
 
 
 
+import global.Methods;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -15,14 +17,32 @@ import static java.lang.System.err;
 
 public class Drinks {
 
+    private static String queryName = Methods.drinkMe();
+
+
     public static void main( String[] args ) throws IOException {
-        System.out.println(listDrinks());
-        System.out.println("");
-        System.out.println(myDrink("Red Bull"));
+        System.out.print("Он?");
+        System.out.println(myDrink());
     }
 
 
-    private static Set listDrinks() throws IOException {
+
+    /**
+     * @return имя
+     *
+     * @throws IOException если нет файла
+     */
+    private static String myDrink() throws IOException {
+        Collection<String> drinkName = listDrinks();
+        String s = null;
+        if (drinkName.contains(queryName)) {
+            s = drinkName.toString();
+        } else System.out.println("нету");
+        return s;
+    }
+
+
+    private static Set<String> listDrinks() throws IOException {
         File drinks = new File("C:\\My_Proj\\Vachoks_Life\\Res\\drnk");
         if (drinks.isFile()) {
             System.out.print("+++");
@@ -31,27 +51,12 @@ public class Drinks {
             System.exit(100);
         }
         FileReader readDrnk = new FileReader(drinks);
-        BufferedReader bufferedReader = new BufferedReader(readDrnk);
-        Set collection = new HashSet();
-        String drink = bufferedReader.readLine();
-        collection.add(drink);
+        String bufferedReader = new BufferedReader(readDrnk).readLine();
+        Set<String> collection = new HashSet<>();
+        for (int i = 0; i < 100; i++) {
+            collection.add(bufferedReader);
+        }
         return collection;
-    }
-
-
-    /**
-     * @param queryName запрос напитка
-     * @return имя
-     *
-     * @throws IOException если нет файла
-     */
-    public static String myDrink( String queryName ) throws IOException {
-        Collection drinkName = listDrinks();
-        String s = null;
-        if (drinkName.contains(queryName)) {
-            s = drinkName.toString();
-        } else System.out.println("нету");
-        return s;
     }
 }
 

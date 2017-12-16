@@ -8,10 +8,10 @@ import java.util.Scanner;
 
 
 
-class Person {
+public class Person {
 
-   public static void main(String args) {
-      long todayLong = new Date().getTime();
+    public static void main( String args ) {
+        long todayLong = new Date().getTime();
       System.out.println("Сегодня - " + todayLong + " мсек от рождества Юниксова...");
       System.out.print("Введите ваш год рождения:");
       Scanner enteredAge = new Scanner(System.in);
@@ -28,10 +28,8 @@ class Person {
          System.out.println("ой, не пизди!");
          System.exit(age);
       }
-      Scanner enterName = new Scanner(System.in);
-      String eName = enterName.nextLine();
-      if (eName.equals("Vachok")) {
-         Vachok.main(eName);
+        if (args.equals("Vachok")) {
+            Vachok.main(args);
       } else {
          boolean err = System.err.checkError();
          System.out.print(err);

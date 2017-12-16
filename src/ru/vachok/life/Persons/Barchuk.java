@@ -9,7 +9,6 @@ public class Barchuk {
 
 
     public static void main( String[] args ) {
-
     }
 }
 
