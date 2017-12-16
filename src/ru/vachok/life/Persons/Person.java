@@ -1,14 +1,14 @@
-package ru.vachok.life;
+package ru.vachok.life.Persons;
 
 
 
-import java.io.File;
-import java.io.IOException;
-import java.util.*;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Scanner;
 
 
 
-class Persons {
+class Person {
 
    public static void main(String args) {
       long todayLong = new Date().getTime();
@@ -31,7 +31,7 @@ class Persons {
       Scanner enterName = new Scanner(System.in);
       String eName = enterName.nextLine();
       if (eName.equals("Vachok")) {
-         ru.vachok.life.Vachok.main(eName);
+         Vachok.main(eName);
       } else {
          boolean err = System.err.checkError();
          System.out.print(err);

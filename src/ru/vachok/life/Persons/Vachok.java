@@ -1,10 +1,11 @@
-package ru.vachok.life;
+package ru.vachok.life.Persons;
 
 
-
-import java.util.*;
 
 import ru.vachok.life.doing.Drinks;
+
+import java.util.Date;
+import java.util.Scanner;
 
 public class Vachok {
     private static String getDrink() {
