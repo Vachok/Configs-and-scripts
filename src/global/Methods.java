@@ -4,7 +4,8 @@ package global;
 
 public class Methods {
 
-    public static void eatMe( int weight ) {
+    public static void drinkMe() {
+
     }
 }
 

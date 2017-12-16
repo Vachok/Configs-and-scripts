@@ -6,6 +6,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -16,13 +17,15 @@ public class Drinks {
 
     public static void main( String[] args ) throws IOException {
         System.out.println(listDrinks());
+        System.out.println("");
+        System.out.println(myDrink("Red Bull"));
     }
 
 
     private static Set listDrinks() throws IOException {
         File drinks = new File("C:\\My_Proj\\Vachoks_Life\\Res\\drnk");
         if (drinks.isFile()) {
-            FileReader drnk = new FileReader(drinks);
+            System.out.print("+++");
         } else {
             err.println("ERROORRRR! NO FILE!");
             System.exit(100);
@@ -31,22 +34,24 @@ public class Drinks {
         BufferedReader bufferedReader = new BufferedReader(readDrnk);
         Set collection = new HashSet();
         String drink = bufferedReader.readLine();
-        int i = drink.hashCode();
         collection.add(drink);
-//        System.out.println(drink);
         return collection;
     }
 
 
-    @Override
-    public boolean equals( Object obj ) {
-        return super.equals(obj);
-    }
-
-
-    @Override
-    public int hashCode() {
-        return super.hashCode();
+    /**
+     * @param queryName запрос напитка
+     * @return имя
+     *
+     * @throws IOException если нет файла
+     */
+    public static String myDrink( String queryName ) throws IOException {
+        Collection drinkName = listDrinks();
+        String s = null;
+        if (drinkName.contains(queryName)) {
+            s = drinkName.toString();
+        } else System.out.println("нету");
+        return s;
     }
 }
 
