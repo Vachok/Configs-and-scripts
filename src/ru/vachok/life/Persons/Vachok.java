@@ -21,7 +21,7 @@ public class Vachok {
         System.out.print("Vachok, сколько кг ты весишь сегодня?\n");
             int weight = scanner.nextInt();
             int heigth = 175;
-        Methods.drinkMe();
+        Methods.inputStr();
             System.out.print(heigth + " рост" + weight + " вес");
             if (weight > 70) {
                 String s = "пиздец";

@@ -30,7 +30,10 @@ public class Person {
       }
         if (args.equals("Vachok")) {
             Vachok.main(args);
-      } else {
+        }
+        if (args.equals("Barchuk")) {
+            Barchuk.main(args);
+        } else {
          boolean err = System.err.checkError();
          System.out.print(err);
       }

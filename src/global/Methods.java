@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public class Methods {
 
-    public static String drinkMe() {
-        System.out.println("Ваш напиток?\n");
+    public static String inputStr() {
+        System.out.println("\n");
         return new Scanner(System.in).nextLine();
     }
 }

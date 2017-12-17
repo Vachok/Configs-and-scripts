@@ -8,7 +8,8 @@ public class Barchuk {
     final static int height = 162;
 
 
-    public static void main( String[] args ) {
+    public static void main( String args ) {
+        System.out.println("My Name is " + args);
     }
 }
 

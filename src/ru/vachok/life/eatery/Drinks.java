@@ -9,22 +9,22 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Collection;
-import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 import static java.lang.System.err;
 
 
 public class Drinks {
 
-    private static String queryName = Methods.drinkMe();
+    private static final String queryName = Methods.inputStr();
+
 
 
     public static void main( String[] args ) throws IOException {
-        System.out.print("Он?");
-        System.out.println(myDrink());
-    }
 
+        Object[] napitki = myDrink();
+    }
 
 
     /**
@@ -32,31 +32,36 @@ public class Drinks {
      *
      * @throws IOException если нет файла
      */
-    private static String myDrink() throws IOException {
-        Collection<String> drinkName = listDrinks();
-        String s = null;
-        if (drinkName.contains(queryName)) {
-            s = drinkName.toString();
-        } else System.out.println("нету");
-        return s;
+    private static Object[] myDrink() throws IOException {
+        Collection<String> nap = listDrinks();
+        Object[] objects;
+        objects = nap.toArray();
+        if ((nap.contains(queryName))) {
+            for (String s1 : nap) {
+                if (s1.contains(queryName)) System.out.println(s1 + "\ntotal size " + nap.size());
+            }
+        } else {
+            System.out.println("нету такого\nЕсть:" + nap);
+            System.exit(111);
+        }
+        return objects;
     }
 
 
     private static Set<String> listDrinks() throws IOException {
         File drinks = new File("C:\\My_Proj\\Vachoks_Life\\Res\\drnk");
-        if (drinks.isFile()) {
-            System.out.print("+++");
-        } else {
+        if (!drinks.isFile()) {
             err.println("ERROORRRR! NO FILE!");
             System.exit(100);
         }
         FileReader readDrnk = new FileReader(drinks);
-        String bufferedReader = new BufferedReader(readDrnk).readLine();
-        Set<String> collection = new HashSet<>();
-        for (int i = 0; i < 100; i++) {
-            collection.add(bufferedReader);
+        BufferedReader bufferedReader = new BufferedReader(readDrnk);
+        String bufferedString;
+        Set<String> drnkS = new TreeSet<>();
+        while ((bufferedString = bufferedReader.readLine()) != null) {
+            drnkS.add(bufferedString);
         }
-        return collection;
+        return drnkS;
     }
 }
 
