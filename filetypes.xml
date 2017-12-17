@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="Main" type="JAVA" />
+      <mapping pattern="names" type="PLAIN_TEXT" />
       <mapping pattern="drnk" type="PLAIN_TEXT" />
       <mapping pattern="gist" type="PLAIN_TEXT" />
     </extensionMap>
