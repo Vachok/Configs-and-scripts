@@ -7,7 +7,9 @@ import ru.vachok.life.Persons.Barchuk;
 import ru.vachok.life.Persons.Vachok;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.Scanner;
 
 
@@ -58,6 +60,14 @@ public class Methods {
             System.err.print("file block!");
         }
         System.out.wait(1000);
+    }
+
+
+    public static List getClean() {
+        List<String> trash = new ArrayList<>();
+        String s = new Scanner(System.in).nextLine();
+        while (s != null) trash.add(s);
+        return trash;
     }
 }
 

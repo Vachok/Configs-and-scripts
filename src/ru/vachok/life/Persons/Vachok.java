@@ -5,6 +5,7 @@ package ru.vachok.life.Persons;
 import global.Methods;
 
 import java.util.Date;
+import java.util.List;
 
 import static global.Methods.lookingFor;
 
@@ -20,6 +21,7 @@ public class Vachok {
     private static double hoursBi = (mSec / 1000 / 60 / 60);
     private static String lifeTm = "пожил " + hoursBi + " часов...";
     double currentTime = new Date().getTime();
+    List trash = Methods.getClean();
 
 
     public static String getLifeTm() {
@@ -32,6 +34,7 @@ public class Vachok {
         System.out.println("Чего желаете?");
         String inP = Methods.inputStr();
         lookingFor(inP);
+        System.out.print(Methods.getClean().toString());
     }
 
 
