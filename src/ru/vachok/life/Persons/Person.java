@@ -29,7 +29,7 @@ public class Person {
          System.exit(age);
       }
         if (args.equals("Vachok")) {
-            Vachok.main(args);
+            Vachok.main();
         }
         if (args.equals("Barchuk")) {
             Barchuk.main(args);
