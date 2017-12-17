@@ -29,8 +29,7 @@ public class Vachok {
 
     public static void main() {
         System.out.println(lifeTm);
-        getWeight();
-        System.out.println("Чего еще?");
+        System.out.println("Чего желаете?");
         String inP = Methods.inputStr();
         lookingFor(inP);
     }
