@@ -15,13 +15,13 @@ public class Main {
     public static String nameChara;
 
 
-    public static void main( String... args ) throws IOException {
+    public static void main( String... args ) throws IOException, InterruptedException {
         String today = Calendar.getInstance().getTime().toString();
         System.out.println(today);
         System.out.println("Введите имя:");
         nameChara = new Scanner(System.in).nextLine();
         ru.vachok.life.Persons.Person.main(nameChara);
-        Methods.nameToFile();
+        Methods.stringToFile();
     }
 }
 // at 14.12.2017 (14:26)

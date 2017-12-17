@@ -6,10 +6,7 @@ import ru.vachok.life.Main;
 import ru.vachok.life.Persons.Barchuk;
 import ru.vachok.life.Persons.Vachok;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.Date;
 import java.util.Scanner;
 
@@ -45,14 +42,22 @@ public class Methods {
     }
 
 
-    public static void nameToFile() throws IOException {
+    public static void stringToFile() throws IOException, InterruptedException {
         File names = new File("Res\\names");
         FileWriter fileWriter = new FileWriter(names);
-        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-        bufferedWriter.newLine();
-        Date today = new Date();
-        bufferedWriter.write(Main.nameChara + ";" + today);
-        bufferedWriter.close();
+        if (names.canWrite()) {
+            FileReader fileReader = new FileReader(names);
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+            Date today = new Date();
+            String s = Main.nameChara + ";" + today;
+            bufferedWriter.close();
+            while (bufferedReader.readLine() != null) bufferedWriter.write(s);
+            bufferedWriter.close();
+        } else {
+            System.err.print("file block!");
+        }
+        System.out.wait(1000);
     }
 }
 
