@@ -2,6 +2,7 @@ package global;
 
 
 
+import ru.vachok.life.Persons.Barchuk;
 import ru.vachok.life.Persons.Vachok;
 
 import java.util.Scanner;
@@ -26,9 +27,9 @@ public class Methods {
             for (int i = 0; i < 2100000000; i++) {
                 System.err.println(s + s + s + s + s + s + s + s + s + "Вот уже на " + "протяжении " + Vachok.getLifeTm());
             }
-        } else {
-            System.exit(0);
         }
+        if (s.equals("exit")) System.exit(0);
+        if (s.equals("love")) Barchuk.main(s);
     }
 
 

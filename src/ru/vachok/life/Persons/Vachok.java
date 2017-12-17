@@ -6,6 +6,9 @@ import global.Methods;
 
 import java.util.Date;
 
+import static global.Methods.lookingFor;
+
+
 public class Vachok {
 
     private static final int heigth = 175;
@@ -27,7 +30,9 @@ public class Vachok {
     public static void main() {
         System.out.println(lifeTm);
         getWeight();
-        Methods.lookingFor(Methods.inputStr());
+        System.out.println("Чего еще?");
+        String inP = Methods.inputStr();
+        lookingFor(inP);
     }
 
 

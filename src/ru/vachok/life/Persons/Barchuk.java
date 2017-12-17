@@ -9,7 +9,14 @@ public class Barchuk {
 
 
     public static void main( String args ) {
-        System.out.println("My Name is " + args);
+        if (args.equals("love")) {
+            String bmH = "!!!!!!!!!!! Barchi's breakmyheat !!!!!!!!!";
+            for (int i = 0; i < 1000000000; i++) {
+                System.err.println(bmH + bmH + bmH);
+            }
+
+            System.out.println("My Name is " + args);
+        }
     }
 }
 

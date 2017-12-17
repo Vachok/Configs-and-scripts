@@ -14,9 +14,7 @@ public class Person {
         long todayLong = new Date().getTime();
       System.out.println("Сегодня - " + todayLong + " мсек от рождества Юниксова...");
       System.out.print("Введите ваш год рождения:");
-      Scanner enteredAge = new Scanner(System.in);
-      int yearBirthEntered = enteredAge.nextInt();
-      int age = getAge(yearBirthEntered);
+        int age = getAge();
       if (age < 100) { System.out.println(Calendar.getInstance().getTime());
       } else {
          System.out.println("ой, не пизди!");
@@ -40,8 +38,10 @@ public class Person {
    }
 
 
-      private static int getAge ( int yearBirthEntered ){
+    private static int getAge() {
          int year = Calendar.getInstance().get(Calendar.YEAR);
+        Scanner enteredAge = new Scanner(System.in);
+        int yearBirthEntered = enteredAge.nextInt();
          return year - yearBirthEntered;
       }
    }
