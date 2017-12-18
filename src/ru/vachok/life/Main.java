@@ -20,7 +20,7 @@ public class Main {
         System.out.println(today);
         System.out.println("Введите имя:");
         nameChara = new Scanner(System.in).nextLine();
-        ru.vachok.life.Persons.Person.main(nameChara);
+        Person.main(nameChara);
         Methods.stringToFile();
     }
 }
