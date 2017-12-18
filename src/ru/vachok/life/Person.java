@@ -18,27 +18,25 @@ public class Person extends Thread {
     public void run() {
 
         long todayLong = new Date().getTime();
-      System.out.println("Сегодня - " + todayLong + " мсек от рождества Юниксова...");
+        System.out.println("Сегодня - " + todayLong + " мсек от рождества Юниксова...");
         Thread vachok = new Vachok();
         Thread barchi = new Barchuk();
         synchronized (this) {
             if (nameChara.equals("Vachok")) synchronized (this) {
-                    vachok.run();
-                    vachok.setName("Vachok-THR");
-                }
-                if (nameChara.equals("Barchuk")) {
-                    barchi.start();
-                    vachok.setName("Barchuk-THR");
-                } else Person.getAge();
+                vachok.run();
+                vachok.setName("Vachok-THR");
             }
-                boolean err = System.err.checkError();
-                System.out.print(err);
+            if (nameChara.equals("Barchuk")) {
+                barchi.start();
+                vachok.setName("Barchuk-THR");
+            } else Person.getAge();
         }
-      }
+        boolean err = System.err.checkError();
+        System.out.print(err);
+    }
 
 
-    @SuppressWarnings({"UnusedReturnValue" , "WeakerAccess"})
-    public static int getAge() {
+    private static int getAge() {
         System.out.print("Введите ваш год рождения:");
         Scanner enteredAge = new Scanner(System.in);
         int yearBirthEntered = enteredAge.nextInt();
@@ -57,7 +55,8 @@ public class Person extends Thread {
             System.exit(age);
         }
         return age;
-      }
-   }
+    }
+}
+
 
 // at 14.12.2017 (14:42)
