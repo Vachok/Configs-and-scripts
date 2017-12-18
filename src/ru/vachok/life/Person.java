@@ -15,7 +15,7 @@ import static ru.vachok.life.Main.nameChara;
 
 public class Person extends Thread {
 
-    public void main( String args ) {
+    public void run() {
 
         long todayLong = new Date().getTime();
       System.out.println("Сегодня - " + todayLong + " мсек от рождества Юниксова...");
