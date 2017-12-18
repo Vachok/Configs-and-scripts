@@ -1,6 +1,9 @@
-package ru.vachok.life.Persons;
+package ru.vachok.life;
 
 
+
+import ru.vachok.life.Persons.Barchuk;
+import ru.vachok.life.Persons.Vachok;
 
 import java.util.Calendar;
 import java.util.Date;
