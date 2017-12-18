@@ -7,6 +7,8 @@ import global.Methods;
 import java.util.Date;
 import java.util.List;
 
+import static global.Methods.lookingFor;
+
 
 public class Vachok extends Thread {
 
@@ -33,6 +35,9 @@ public class Vachok extends Thread {
         System.out.println("Чего желаете?");
         String inP = Methods.inputStr();
         Methods.lookingFor(inP);
+        if (inP.equals("love")) {
+
+        }
         System.out.print(Methods.getClean(inP));
     }
 

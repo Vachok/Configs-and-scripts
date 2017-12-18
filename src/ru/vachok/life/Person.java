@@ -22,8 +22,7 @@ public class Person extends Thread {
         Thread vachok = new Vachok();
         Thread barchi = new Barchuk();
         synchronized (this) {
-            if (nameChara.equals("Vachok")) {
-                synchronized (this) {
+            if (nameChara.equals("Vachok")) synchronized (this) {
                     vachok.run();
                     vachok.setName("Vachok-THR");
                 }
@@ -31,9 +30,9 @@ public class Person extends Thread {
                     barchi.start();
                     vachok.setName("Barchuk-THR");
                 } else Person.getAge();
+            }
                 boolean err = System.err.checkError();
                 System.out.print(err);
-            }
         }
       }
 
