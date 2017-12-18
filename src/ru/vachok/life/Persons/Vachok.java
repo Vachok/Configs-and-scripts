@@ -29,11 +29,12 @@ public class Vachok extends Thread {
 
     @Override
     public void run() {
+        Thread barchi = new Barchuk();
         System.out.println(Vachok.lifeTm);
         System.out.println("Чего желаете?");
         String inP = Methods.inputStr();
         if (inP.equals("love")) {
-
+            Barchuk.main(inP);
         }
         System.out.print(Methods.getClean(inP));
     }
