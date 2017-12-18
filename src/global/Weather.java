@@ -2,7 +2,7 @@ package global;
 
 
 
-import ru.vachok.life.Persons.Vachok;
+import ru.vachok.life.Person;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -14,11 +14,12 @@ public class Weather extends Thread {
 
         @Override
         public void run() {
+            Thread.currentThread().setDaemon(true);
             Thread.currentThread().setName("Weather");
             Thread.currentThread().setPriority(1);
             System.out.println("Weather started!");
             Thread.currentThread().checkAccess();
-            int thread = Vachok.activeCount();
+            int thread = Person.activeCount();
             int i = 0;
             int a = 0;
             File lck = new File("lck.lck");
