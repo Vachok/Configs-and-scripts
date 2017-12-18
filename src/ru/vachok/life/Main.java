@@ -22,7 +22,7 @@ public class Main extends Thread {
         Thread person = new Person();
         person.run();
         person.setName("persons-thr");
-
+     
     }
 }
 // at 14.12.2017 (14:26)
