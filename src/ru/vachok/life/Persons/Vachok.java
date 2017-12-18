@@ -34,7 +34,9 @@ public class Vachok extends Thread {
         System.out.println(Vachok.lifeTm);
         System.out.println("Чего желаете?");
         String inP = Methods.inputStr();
-        while (!inP.isEmpty()) lookingFor(inP);
+        if (inP.equals("love")) {
+
+        }
         System.out.print(Methods.getClean(inP));
     }
 

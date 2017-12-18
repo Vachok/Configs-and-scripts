@@ -22,17 +22,17 @@ public class Person extends Thread {
         Thread vachok = new Vachok();
         Thread barchi = new Barchuk();
         synchronized (this) {
-            if (nameChara.equals("Vachok")) {
-                synchronized (this) {
+            if (nameChara.equals("Vachok")) synchronized (this) {
                     vachok.run();
-                    vachok.setName("Starting Vachok's THR");
+                vachok.setName("Vachok-THR");
                 }
-                if (nameChara.equals("Barchuk")) {
-                    Barchuk.main(args);
-                } else Person.getAge();
+            if (nameChara.equals("Barchuk")) synchronized (this) {
+                barchi.start();
+                barchi.setName("Barchi-THR");
+            }
+            else Person.getAge();
                 boolean err = System.err.checkError();
                 System.out.print(err);
-            }
         }
       }
 

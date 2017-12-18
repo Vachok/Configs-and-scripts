@@ -2,6 +2,8 @@ package ru.vachok.life;
 
 
 
+import global.Weather;
+
 import java.util.Calendar;
 import java.util.Scanner;
 
@@ -12,7 +14,9 @@ public class Main extends Thread {
     public static String nameChara;
 
     public static void main( String... args ) {
+        Thread weather = new Weather();
         String today = Calendar.getInstance().getTime().toString();
+        weather.start();
         System.out.println(today);
         System.out.println("Введите имя:");
         nameChara = new Scanner(System.in).nextLine();
