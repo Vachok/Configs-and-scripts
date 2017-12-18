@@ -13,11 +13,12 @@ public class Main extends Thread {
 
     public static String nameChara;
 
-    public static void main( String... args ) {
+
+    public static void main( String... args ) throws InterruptedException {
         Thread weather = new Weather();
-        weather.setDaemon(true);
-        weather.start();
         String today = Calendar.getInstance().getTime().toString();
+        weather.start();
+        sleep(150);
         System.out.println(today);
         System.out.println("Введите имя:");
         nameChara = new Scanner(System.in).nextLine();
