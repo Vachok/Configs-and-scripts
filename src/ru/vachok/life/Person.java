@@ -1,6 +1,9 @@
-package ru.vachok.life.Persons;
+package ru.vachok.life;
 
 
+
+import ru.vachok.life.Persons.Barchuk;
+import ru.vachok.life.Persons.Vachok;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -10,13 +13,14 @@ import static ru.vachok.life.Main.nameChara;
 
 
 
-public class Person {
+public class Person extends Thread {
 
     public void main( String args ) {
 
         long todayLong = new Date().getTime();
       System.out.println("Сегодня - " + todayLong + " мсек от рождества Юниксова...");
-        Thread vachok = new Thread();
+        Thread vachok = new Vachok();
+        Thread barchi = new Barchuk();
         synchronized (this) {
             if (nameChara.equals("Vachok")) {
                 synchronized (this) {
@@ -31,7 +35,6 @@ public class Person {
             }
         }
       }
-   }
 
 
     @SuppressWarnings({"UnusedReturnValue" , "WeakerAccess"})
