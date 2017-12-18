@@ -63,10 +63,11 @@ public class Methods {
     }
 
 
-    public static List getClean() {
+    public static List getClean( String inP ) {
         List<String> trash = new ArrayList<>();
-        String s = new Scanner(System.in).nextLine();
-        while (s != null) trash.add(s);
+        while (!inP.equals("stop")) {
+            trash.add(inP);
+        }
         return trash;
     }
 }

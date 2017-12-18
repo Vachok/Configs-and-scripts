@@ -21,7 +21,7 @@ public class Vachok {
     private static double hoursBi = (mSec / 1000 / 60 / 60);
     private static String lifeTm = "пожил " + hoursBi + " часов...";
     double currentTime = new Date().getTime();
-    List trash = Methods.getClean();
+    List trash;
 
 
     public static String getLifeTm() {
@@ -33,8 +33,8 @@ public class Vachok {
         System.out.println(lifeTm);
         System.out.println("Чего желаете?");
         String inP = Methods.inputStr();
-        lookingFor(inP);
-        System.out.print(Methods.getClean().toString());
+        while (!inP.isEmpty()) lookingFor(inP);
+        System.out.print(Methods.getClean(inP));
     }
 
 
