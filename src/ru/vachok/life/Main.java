@@ -15,8 +15,9 @@ public class Main extends Thread {
 
     public static void main( String... args ) {
         Thread weather = new Weather();
-        String today = Calendar.getInstance().getTime().toString();
+        weather.setDaemon(true);
         weather.start();
+        String today = Calendar.getInstance().getTime().toString();
         System.out.println(today);
         System.out.println("Введите имя:");
         nameChara = new Scanner(System.in).nextLine();
