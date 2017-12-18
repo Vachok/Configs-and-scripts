@@ -2,7 +2,7 @@ package ru.vachok.life.Persons;
 
 
 
-public class Barchuk {
+public class Barchuk extends Thread {
 
     final static boolean isWoman = true;
     final static int height = 162;

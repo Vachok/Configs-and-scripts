@@ -6,22 +6,30 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Scanner;
 
+import static ru.vachok.life.Main.nameChara;
+
 
 
 public class Person {
 
-    public static void main( String args ) {
+    public void main( String args ) {
+
         long todayLong = new Date().getTime();
       System.out.println("Сегодня - " + todayLong + " мсек от рождества Юниксова...");
-        if (args.equals("Vachok")) {
-            Vachok.main();
+        Thread vachok = new Thread();
+        synchronized (this) {
+            if (nameChara.equals("Vachok")) {
+                synchronized (this) {
+                    vachok.run();
+                    vachok.setName("Starting Vachok's THR");
+                }
+                if (nameChara.equals("Barchuk")) {
+                    Barchuk.main(args);
+                } else Person.getAge();
+                boolean err = System.err.checkError();
+                System.out.print(err);
+            }
         }
-        if (args.equals("Barchuk")) {
-            Barchuk.main(args);
-        } else {
-            getAge();
-         boolean err = System.err.checkError();
-         System.out.print(err);
       }
    }
 
