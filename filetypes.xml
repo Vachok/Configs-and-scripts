@@ -5,6 +5,7 @@
       <mapping pattern="names" type="PLAIN_TEXT" />
       <mapping pattern="drnk" type="PLAIN_TEXT" />
       <mapping pattern="gist" type="PLAIN_TEXT" />
+      <mapping ext="lck" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
