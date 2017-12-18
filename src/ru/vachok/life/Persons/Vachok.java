@@ -10,7 +10,7 @@ import java.util.List;
 import static global.Methods.lookingFor;
 
 
-public class Vachok {
+public class Vachok extends Thread {
 
     private static final int heigth = 175;
     @SuppressWarnings("deprecation")
@@ -29,13 +29,15 @@ public class Vachok {
     }
 
 
-    public static void main() {
-        System.out.println(lifeTm);
+    @Override
+    public void run() {
+        System.out.println(Vachok.lifeTm);
         System.out.println("Чего желаете?");
         String inP = Methods.inputStr();
         while (!inP.isEmpty()) lookingFor(inP);
         System.out.print(Methods.getClean(inP));
     }
+
 
 
     private static void getWeight() {
