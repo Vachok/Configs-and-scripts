@@ -2,45 +2,52 @@ package ru.vachok.life.Persons;
 
 
 
-import ru.vachok.life.doing.Drinks;
+import global.Methods;
 
 import java.util.Date;
-import java.util.Scanner;
+import java.util.List;
+
+import static global.Methods.lookingFor;
+
 
 public class Vachok {
-    private static String getDrink() {
-        Scanner scanner = new Scanner(System.in);
-        String nameOfDrink = scanner.nextLine();
-        if (nameOfDrink.startsWith("Red")) {
-            System.out.println("BULLLLLL " + Drinks.redBull.toString());
-        } else System.exit(111);
-        return nameOfDrink;
+
+    private static final int heigth = 175;
+    @SuppressWarnings("deprecation")
+    private static double birth = new Date(84 , 1 , 7 , 2 , 0).getTime();
+    private static double curTime = new Date().getTime();
+    private static double mSec = (curTime - birth);
+    private static double dateBi = (mSec / 1000 / 60 / 60 / 24);
+    private static double hoursBi = (mSec / 1000 / 60 / 60);
+    private static String lifeTm = "пожил " + hoursBi + " часов...";
+    double currentTime = new Date().getTime();
+    List trash;
+
+
+    public static String getLifeTm() {
+        return lifeTm;
     }
 
-        public static void main ( String args){
-            double currentTime = new Date().getTime();
-            String drinking = getDrink();
-            for (int i = 0; i < 100000; i++) {
-                double curTime = new Date().getTime();
-                @SuppressWarnings("deprecation") double birth = new Date(84 , 1 , 7 , 2 , 0).getTime();
-                double mSec = (curTime - birth);
-                double dateBi = (mSec / 1000 / 60 / 60 / 24);
-                System.out.println(args + " прожил " + dateBi + " days");
-            }
-            Scanner scanner = new Scanner(System.in);
-            System.out.print("Vachok, сколько кг ты весишь сегодня?");
 
-            int weight = scanner.nextInt();
-            int heigth = 175;
-            System.out.print(heigth + " рост" + weight + " вес");
-            if (weight > 70) {
-                String s = "пиздец";
-                System.out.print(s);
-            }
-            String drink = getDrink();
-            System.out.println(drink);
-        }
+    public static void main() {
+        System.out.println(lifeTm);
+        System.out.println("Чего желаете?");
+        String inP = Methods.inputStr();
+        while (!inP.isEmpty()) lookingFor(inP);
+        System.out.print(Methods.getClean(inP));
     }
+
+
+    private static void getWeight() {
+        System.out.print("Vachok, сколько кг ты весишь сегодня?\n");
+        double weight = Methods.inputDbl();
+        System.out.print(heigth + " рост\n" + weight + " вес");
+        if (weight > 70) {
+            String s = " !!пиздец!!";
+            System.out.print(s);
+            }
+    }
+}
 
 
 
