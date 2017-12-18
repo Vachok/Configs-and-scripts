@@ -7,8 +7,6 @@ import global.Methods;
 import java.util.Date;
 import java.util.List;
 
-import static global.Methods.lookingFor;
-
 
 public class Vachok extends Thread {
 
@@ -34,7 +32,7 @@ public class Vachok extends Thread {
         System.out.println(Vachok.lifeTm);
         System.out.println("Чего желаете?");
         String inP = Methods.inputStr();
-        while (!inP.isEmpty()) lookingFor(inP);
+        Methods.lookingFor(inP);
         System.out.print(Methods.getClean(inP));
     }
 

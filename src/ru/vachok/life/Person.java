@@ -15,7 +15,7 @@ import static ru.vachok.life.Main.nameChara;
 
 public class Person extends Thread {
 
-    public void main( String args ) {
+    public void run() {
 
         long todayLong = new Date().getTime();
       System.out.println("Сегодня - " + todayLong + " мсек от рождества Юниксова...");
@@ -25,10 +25,11 @@ public class Person extends Thread {
             if (nameChara.equals("Vachok")) {
                 synchronized (this) {
                     vachok.run();
-                    vachok.setName("Starting Vachok's THR");
+                    vachok.setName("Vachok-THR");
                 }
                 if (nameChara.equals("Barchuk")) {
-                    Barchuk.main(args);
+                    barchi.start();
+                    vachok.setName("Barchuk-THR");
                 } else Person.getAge();
                 boolean err = System.err.checkError();
                 System.out.print(err);

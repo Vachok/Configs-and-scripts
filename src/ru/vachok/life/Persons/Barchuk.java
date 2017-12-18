@@ -14,8 +14,8 @@ public class Barchuk extends Thread {
     public static void main( String args ) {
         if (args.contains("love")) {
             String bmH = "!!!!!!!!!!! Barchi's breakmyheat !!!!!!!!!";
-            for (int i = 0; i < 1000000000; i++) {
-                System.err.println(bmH + bmH + bmH + i + "times...");
+            for (int i = 0; i < Integer.MAX_VALUE; i++) {
+                System.err.println(bmH + bmH + bmH + i + "  " + "/" + Integer.MAX_VALUE);
             }
 
             System.out.println("My Name is " + args);
