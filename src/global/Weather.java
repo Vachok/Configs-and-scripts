@@ -2,17 +2,36 @@ package global;
 
 
 
-    public class Weather extends Thread {
+import ru.vachok.life.Person;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+
+public class Weather extends Thread {
 
         @Override
         public void run() {
+            Thread.currentThread().setDaemon(true);
             Thread.currentThread().setName("Weather");
+            Thread.currentThread().setPriority(1);
+            System.out.println("Weather started!");
             Thread.currentThread().checkAccess();
-//            while (alive) {
-//                long f = 0;
-//                f++;
-//            }
-            System.out.println("Weather nested");
+            int thread = Person.activeCount();
+            int i = 0;
+            int a = 0;
+            File lck = new File("lck.lck");
+            try {
+                FileWriter fileWriter = new FileWriter(lck);
+                BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+                bufferedWriter.write(a);
+                bufferedWriter.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            System.out.println("Weather stops..." + thread);
         }
     }
 
