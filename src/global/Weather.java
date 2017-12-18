@@ -22,6 +22,7 @@ import ru.vachok.life.Main;
             System.out.println("Weather nested");
         }
     }
+}
 
 
 
