@@ -2,7 +2,7 @@ package global;
 
 
 
-import ru.vachok.life.Person;
+import ru.vachok.life.Persons.Vachok;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -18,10 +18,9 @@ public class Weather extends Thread {
             Thread.currentThread().setPriority(1);
             System.out.println("Weather started!");
             Thread.currentThread().checkAccess();
-            Thread thread = Person.currentThread();
+            int thread = Vachok.activeCount();
             int i = 0;
             int a = 0;
-            while (thread.isAlive()) a = i++;
             File lck = new File("lck.lck");
             try {
                 FileWriter fileWriter = new FileWriter(lck);
@@ -31,7 +30,7 @@ public class Weather extends Thread {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            System.out.println("Weather stops...");
+            System.out.println("Weather stops..." + thread);
         }
     }
 
