@@ -2,38 +2,39 @@ package global;
 
 
 
+import ru.vachok.life.Main;
 import ru.vachok.life.Person;
+import ru.vachok.life.Persons.Barchuk;
+import ru.vachok.life.Persons.Vachok;
 
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 
-public class Weather extends Thread {
+public class Weather {
 
-        @Override
-        public void run() {
-            Thread.currentThread().setDaemon(true);
-            Thread.currentThread().setName("Weather");
-            Thread.currentThread().setPriority(1);
-            System.out.println("Weather started!");
-            Thread.currentThread().checkAccess();
-            int thread = Person.activeCount();
-            int i = 0;
-            int a = 0;
-            File lck = new File("lck.lck");
-            try {
-                FileWriter fileWriter = new FileWriter(lck);
-                BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-                bufferedWriter.write(a);
-                bufferedWriter.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            System.out.println("Weather stops..." + thread);
-        }
+    public static void main() throws IOException {
+        List list = new ArrayList();
+        Thread.currentThread().setName("Weather");
+        Thread.currentThread().setPriority(1);
+        System.out.println("Weather started!");
+        list.addAll(Vachok.getAllStackTraces().values());
+        list.addAll(Main.getAllStackTraces().values());
+        list.addAll(Barchuk.getAllStackTraces().values());
+        list.addAll(Person.getAllStackTraces().values());
+        File trace = new File("trace");
+        FileWriter fileWriter = new FileWriter(trace);
+        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+        bufferedWriter.write(list.toString());
+        bufferedWriter.close();
     }
+}
+
+
 
 
 
