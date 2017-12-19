@@ -26,11 +26,11 @@ public class Methods {
     }
 
 
-    public static void lookingFor( String s ) {
+    private static void lookingFor( String s ) {
         if (s.isEmpty()) {
             s = "не найдёшь себя...";
             for (int i = 0; i < 2100000000; i++) {
-                System.err.println(s + s + s + s + s + s + s + s + s + "Вот уже на " + "протяжении " + Vachok.getLifeTm());
+                System.err.println(s + s + s + s + s + s + "Вот уже на " + "протяжении " + Vachok.getLifeTm());
             }
         }
         if (s.equals("exit")) System.exit(0);

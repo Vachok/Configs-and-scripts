@@ -10,7 +10,7 @@ import java.util.Date;
 import java.util.Scanner;
 
 
-public class Nora {
+class Nora {
 
     final boolean isDog = true;
 

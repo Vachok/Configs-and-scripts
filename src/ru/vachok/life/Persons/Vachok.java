@@ -3,7 +3,9 @@ package ru.vachok.life.Persons;
 
 
 import global.Methods;
+import global.Weather;
 
+import java.io.IOException;
 import java.util.Date;
 import java.util.List;
 
@@ -12,12 +14,12 @@ public class Vachok extends Thread {
 
     private static final int heigth = 175;
     @SuppressWarnings("deprecation")
-    private static double birth = new Date(84 , 1 , 7 , 2 , 0).getTime();
-    private static double curTime = new Date().getTime();
-    private static double mSec = (curTime - birth);
+    private static final double birth = new Date(84 , 1 , 7 , 2 , 0).getTime();
+    private static final double curTime = new Date().getTime();
+    private static final double mSec = (curTime - birth);
     private static double dateBi = (mSec / 1000 / 60 / 60 / 24);
-    private static double hoursBi = (mSec / 1000 / 60 / 60);
-    private static String lifeTm = "пожил " + hoursBi + " часов...";
+    private static final double hoursBi = (mSec / 1000 / 60 / 60);
+    private static final String lifeTm = "пожил " + hoursBi + " часов...";
     double currentTime = new Date().getTime();
     List trash;
 
@@ -29,26 +31,36 @@ public class Vachok extends Thread {
 
     @Override
     public void run() {
-        Thread barchi = new Barchuk();
         System.out.println(Vachok.lifeTm);
         System.out.println("Чего желаете?");
         String inP = Methods.inputStr();
         if (inP.equals("love")) {
             Barchuk.main(inP);
+        } else {
+            try {
+                Vachok.getWeight();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
-        System.out.print(Methods.getClean(inP));
     }
 
 
 
-    private static void getWeight() {
+    private static void getWeight() throws InterruptedException {
         System.out.print("Vachok, сколько кг ты весишь сегодня?\n");
         double weight = Methods.inputDbl();
         System.out.print(heigth + " рост\n" + weight + " вес");
         if (weight > 70) {
             String s = " !!пиздец!!";
-            System.out.print(s);
+            System.err.println(s);
+            sleep(1000);
+            try {
+                Weather.main();
+            } catch (IOException e) {
+                e.printStackTrace();
             }
+        }
     }
 }
 

@@ -15,7 +15,7 @@ import java.util.TreeSet;
 import static java.lang.System.err;
 
 
-public class Drinks {
+class Drinks {
 
     private static final String queryName = Methods.inputStr();
 

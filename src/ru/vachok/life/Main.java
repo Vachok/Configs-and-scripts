@@ -4,6 +4,7 @@ package ru.vachok.life;
 
 import global.Weather;
 
+import java.io.IOException;
 import java.util.Calendar;
 import java.util.Scanner;
 
@@ -15,9 +16,12 @@ public class Main extends Thread {
 
 
     public static void main( String... args ) throws InterruptedException {
-        Thread weather = new Weather();
         String today = Calendar.getInstance().getTime().toString();
-        weather.start();
+        try {
+            Weather.main();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         sleep(150);
         System.out.println(today);
         System.out.println("Введите имя:");
