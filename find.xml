@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '...\src\global\Weather.java [Vachoks_Life]'" />
-    <option name="defaultScopeName" value="File '...\src\global\Weather.java [Vachoks_Life]'" />
-    <option name="SEARCH_SCOPE" value="File '...\src\global\Weather.java [Vachoks_Life]'" />
+    <option name="customScope" value="Project 'Vachoks_Life'" />
+    <option name="defaultScopeName" value="Project 'Vachoks_Life'" />
+    <option name="SEARCH_SCOPE" value="Project 'Vachoks_Life'" />
   </component>
 </application>
