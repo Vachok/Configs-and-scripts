@@ -1,0 +1,36 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main" type="Application" factoryName="Application" show_console_on_std_out="true" show_console_on_std_err="true" nameIsGenerated="true">
+    <log_file path="$PROJECT_DIR$/logs/run" checked="true" skipped="false" show_all="true" alias="Main" />
+    <output_file path="$PROJECT_DIR$/logs/cons/cons.t" is_save="true" />
+    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <pattern>
+        <option name="PATTERN" value="ru.vachok.life.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <extension name="recording" autostart="true">
+      <include_pattern>
+        <option name="PATTERN" value="ru.vachok.life.*" />
+        <option name="ENABLED" value="true" />
+        <option name="INCLUDE" value="true" />
+      </include_pattern>
+      <include_pattern>
+        <option name="PATTERN" value="global.*" />
+        <option name="ENABLED" value="true" />
+        <option name="INCLUDE" value="true" />
+      </include_pattern>
+    </extension>
+    <option name="MAIN_CLASS_NAME" value="ru.vachok.life.Main" />
+    <option name="VM_PARAMETERS" value="" />
+    <option name="PROGRAM_PARAMETERS" value="" />
+    <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <option name="ENABLE_SWING_INSPECTOR" value="true" />
+    <option name="ENV_VARIABLES" />
+    <option name="PASS_PARENT_ENVS" value="true" />
+    <module name="Vachoks_Life" />
+    <envs />
+    <method />
+  </configuration>
+</component>

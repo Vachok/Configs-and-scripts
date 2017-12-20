@@ -36,7 +36,7 @@ public class Person extends Thread {
     }
 
 
-    private static int getAge() {
+    private static void getAge() {
         System.out.print("Введите ваш год рождения:");
         Scanner enteredAge = new Scanner(System.in);
         int yearBirthEntered = enteredAge.nextInt();
@@ -54,7 +54,6 @@ public class Person extends Thread {
             System.out.println("ой, не пизди!");
             System.exit(age);
         }
-        return age;
     }
 }
 
