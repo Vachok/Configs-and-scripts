@@ -1,0 +1,14 @@
+<application>
+  <component name="DefaultFont">
+    <option name="LINE_SPACING" value="0.85" />
+    <option name="SECONDARY_FONT_FAMILY" value="Courier New" />
+  </component>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="" />
+    <option name="IS_DND_ENABLED" value="false" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern case-sensitive="true" pattern="\btodo\b.*" />
+    <pattern case-sensitive="true" pattern="\bfixme\b.*" />
+  </component>
+</application>

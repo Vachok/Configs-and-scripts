@@ -1,0 +1,6 @@
+<application>
+  <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_DOC_COMMENTS" value="true" />
+  </component>
+  <component name="DaemonCodeAnalyzerSettings" profile="Project Default" />
+</application>
