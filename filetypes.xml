@@ -1,14 +1,15 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="script" type="Bash" />
+      <mapping ext="t" type="Cmd" />
       <mapping pattern="Main" type="JAVA" />
-      <mapping pattern="gist" type="PLAIN_TEXT" />
-      <mapping pattern="names" type="PLAIN_TEXT" />
       <mapping pattern="drnk" type="PLAIN_TEXT" />
+      <mapping pattern="names" type="PLAIN_TEXT" />
+      <mapping pattern="gist" type="PLAIN_TEXT" />
       <mapping ext="lck" type="PLAIN_TEXT" />
       <mapping ext="conf" type="Properties" />
       <mapping ext="fwb" type="XML" />
+      <mapping ext="script" type="Bash" />
     </extensionMap>
   </component>
 </application>
