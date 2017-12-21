@@ -1,13 +1,14 @@
 <application>
   <component name="MaterialThemeConfig">
     <option name="version" value="1.4.5" />
+    <option name="selectedTheme" value="ARC_DARK" />
     <option name="highlightColor" value="80cbc4" />
     <option name="highlightThickness" value="3" />
-    <option name="isContrastMode" value="true" />
     <option name="isBoldTabs" value="true" />
     <option name="isCustomTreeIndentEnabled" value="true" />
-    <option name="accentColor" value="80cbc4" />
+    <option name="accentColor" value="616161" />
     <option name="compactSidebar" value="true" />
+    <option name="statusBarTheme" value="false" />
     <option name="tabsHeight" value="20" />
     <option name="isCompactStatusBar" value="true" />
     <option name="isCompactTables" value="true" />
