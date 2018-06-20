@@ -1,0 +1,33 @@
+<application>
+  <component name="ChangesBarApplicationComponent">
+    <watchForCollisions>true</watchForCollisions>
+    <showPopup>true</showPopup>
+    <addCommentEditor>true</addCommentEditor>
+    <addChangelistScope>false</addChangelistScope>
+    <expandChangelistScope>true</expandChangelistScope>
+    <closeFilesWhenSwitchingChangelist>false</closeFilesWhenSwitchingChangelist>
+    <openFilesWhenSwitchingChangelist>false</openFilesWhenSwitchingChangelist>
+    <openFilesInBackground>true</openFilesInBackground>
+  </component>
+  <component name="RecentTaskRepositories">
+    <GitHub shared="false" url="https://github.com">
+      <option name="assignedIssuesOnly" value="false" />
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <password />
+      <token>df9cdf98df9cdf92df92df9cdfcbdfccdfccdf93dfccdf9edfcedf9adf9fdf9cdfc9df9cdf9fdfcedf9fdfcedf9adf9cdf9bdf98df9fdf9ddfcedfcbdf9fdf9adf92df98df9fdf9bdf9adf9bdf98df9d</token>
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="repoAuthor" value="Vachok" />
+      <option name="repoName" value="Trainings" />
+      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="useHttpAuthentication" value="false" />
+      <option name="useProxy" value="false" />
+      <option name="user" value="" />
+      <username />
+    </GitHub>
+  </component>
+  <component name="RefactoringSettings">
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+  </component>
+</application>

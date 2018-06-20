@@ -1,0 +1,7 @@
+<application>
+  <component name="sequencePlugin">
+    <option name="USE_3D_VIEW" value="true" />
+    <option name="FONT_NAME" value="Droid Serif" />
+    <option name="FONT_SIZE" value="8" />
+  </component>
+</application>
