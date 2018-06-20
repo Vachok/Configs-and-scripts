@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="Main" type="JAVA" />
       <mapping pattern="gist" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
