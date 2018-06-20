@@ -14,6 +14,7 @@
       <mapping ext="vw" type="DBN-SQL" />
       <mapping pattern="Main" type="JAVA" />
       <mapping pattern="gist" type="PLAIN_TEXT" />
+      <mapping pattern="regpass" type="PLAIN_TEXT" />
       <mapping pattern="names" type="PLAIN_TEXT" />
       <mapping pattern="drnk" type="PLAIN_TEXT" />
       <mapping ext="lck" type="PLAIN_TEXT" />
