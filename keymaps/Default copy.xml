@@ -5,6 +5,10 @@
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="alt l" />
   </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <mouse-shortcut keystroke="control button2" />
+  </action>
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="scroll_lock" />
   </action>

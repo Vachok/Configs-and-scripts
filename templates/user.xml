@@ -1,7 +1,29 @@
 <templateSet group="user">
-  <template name="ttt" value="$DATE$ ($TIME$)&#10;$END$" shortcut="SPACE" description="timedate" toReformat="true" toShortenFQNames="true">
+  <template name="ttt" value="$DATE$ ($TIME$) $END$&#10;" shortcut="SPACE" description="timedate" toReformat="false" toShortenFQNames="true">
     <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="false" />
     <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+    </context>
+  </template>
+  <template name="ln" value="{@link $END$}" shortcut="SPACE" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="шшш" value="&lt;i&gt;$END$&lt;/i&gt;" shortcut="SPACE" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="ppp" value="&#10;&lt;p&gt;&#10;$END$" shortcut="SPACE" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="href" value="&lt;a href=&quot;$CLIP$&quot; target=_blank&gt;$END$&lt;/a&gt;" shortcut="SPACE" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="CLIP" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_COMMENT" value="true" />
     </context>
