@@ -14,5 +14,13 @@
   <component name="TodoConfiguration">
     <pattern case-sensitive="true" pattern="\btodo\b.*" />
     <pattern case-sensitive="true" pattern="\bfixme\b.*" />
+    <pattern icon="important" useCustomColors="true" case-sensitive="true" pattern="STOP">
+      <option name="FOREGROUND" value="90a41" />
+      <option name="BACKGROUND" value="f3ff00" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="EFFECT_COLOR" value="3c3f41" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+      <option name="EFFECT_TYPE" value="4" />
+    </pattern>
   </component>
 </application>
