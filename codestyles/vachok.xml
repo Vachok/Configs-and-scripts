@@ -153,6 +153,7 @@
               <AND>
                 <FIELD>true</FIELD>
                 <PUBLIC>true</PUBLIC>
+                <visibility />
               </AND>
             </match>
           </rule>
@@ -258,16 +259,6 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
-                <visibility />
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <FIELD>true</FIELD>
                 <FINAL>true</FINAL>
                 <PRIVATE>true</PRIVATE>
                 <STATIC>true</STATIC>
@@ -295,6 +286,7 @@
                 <FIELD>true</FIELD>
                 <FINAL>true</FINAL>
                 <PRIVATE>true</PRIVATE>
+                <visibility />
               </AND>
             </match>
           </rule>
@@ -305,6 +297,17 @@
               <AND>
                 <FIELD>true</FIELD>
                 <PRIVATE>true</PRIVATE>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <visibility />
               </AND>
             </match>
           </rule>
