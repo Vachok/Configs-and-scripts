@@ -316,6 +316,16 @@
           <rule>
             <match>
               <AND>
+                <CONSTRUCTOR>true</CONSTRUCTOR>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
                 <SETTER />
                 <visibility />
               </AND>
@@ -327,16 +337,6 @@
             <match>
               <AND>
                 <GETTER />
-                <visibility />
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <CONSTRUCTOR>true</CONSTRUCTOR>
                 <visibility />
               </AND>
             </match>

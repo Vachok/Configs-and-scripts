@@ -14,7 +14,7 @@
   <component name="TodoConfiguration">
     <pattern case-sensitive="true" pattern="\btodo\b.*" />
     <pattern case-sensitive="true" pattern="\bfixme\b.*" />
-    <pattern icon="important" useCustomColors="true" case-sensitive="true" pattern="STOP">
+    <pattern icon="important" useCustomColors="true" case-sensitive="true" pattern="STOPHERE">
       <option name="FOREGROUND" value="90a41" />
       <option name="BACKGROUND" value="f3ff00" />
       <option name="FONT_TYPE" value="3" />
