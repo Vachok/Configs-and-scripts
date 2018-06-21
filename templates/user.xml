@@ -28,4 +28,13 @@
       <option name="JAVA_COMMENT" value="true" />
     </context>
   </template>
+  <template name="msgep" value="messageToUser.out(&quot;$SOURCE_CLASS$_$LINENUM$&quot;, ($e$.getMessage()+&quot;\n\n&quot;+ java.util.Arrays.toString($e$.getStackTrace()).replaceAll(&quot;, &quot;, &quot;\n&quot;)).getBytes());&#10;messageToUser.errorAlert(&quot;$SOURCE_CLASS$&quot;, $e$.getMessage(), java.util.Arrays.toString($e$.getStackTrace()));" toReformat="true" toShortenFQNames="true">
+    <variable name="SOURCE_CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="LINENUM" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <variable name="e" expression="expressionType(Expression)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
