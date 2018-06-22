@@ -1,0 +1,15 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="https://sonarcloud.io" />
+          <token>df9edf92df9edf92df9bdf9cdfc9df9ddf9fdfc9df9bdf9fdf9bdf98dfc8df92dfccdf9fdf9ddfcfdf9fdf9bdf9fdf99df9cdf93dfcedf9ddf99df9fdfcedf9edf92df98dfc8df9ddf9bdf9bdf92dfcb</token>
+          <option name="name" value="vachok-github" />
+          <organizationKey>vachok-github</organizationKey>
+          <enableNotifications>true</enableNotifications>
+        </SonarQubeServer>
+      </list>
+    </option>
+  </component>
+</application>
