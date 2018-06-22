@@ -20,6 +20,7 @@
       <mapping pattern="names" type="PLAIN_TEXT" />
       <mapping pattern="drnk" type="PLAIN_TEXT" />
       <mapping ext="lck" type="PLAIN_TEXT" />
+      <mapping ext="prn" type="PLAIN_TEXT" />
       <mapping ext="re" type="PLAIN_TEXT" />
       <mapping ext="conf" type="Properties" />
       <mapping ext="fwb" type="XML" />
