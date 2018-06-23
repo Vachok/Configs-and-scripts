@@ -1,6 +1,7 @@
 <application>
   <component name="PathMacrosImpl">
-    <macro name="MAVEN_REPOSITORY" value="C:\Users\14350\.m2\repository" />
-    <macro name="KOTLIN_BUNDLED" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\plugins\Kotlin\kotlinc" />
+    <macro name="KOTLIN_BUNDLED" value="C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2018.1.5/plugins/Kotlin/kotlinc" />
+    <macro name="MAVEN_REPOSITORY" value="G:/My_Proj/.m2/repository" />
+    <macro name="MySQL" value="C:/Program Files/MySQL/MySQL Server 5.7" />
   </component>
 </application>
