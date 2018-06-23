@@ -2,5 +2,8 @@
   <component name="CodeFoldingSettings">
     <option name="COLLAPSE_DOC_COMMENTS" value="true" />
   </component>
+  <component name="CodeInsightSettings">
+    <option name="USE_ACCESSORS_IN_EQUALS_HASHCODE" value="true" />
+  </component>
   <component name="DaemonCodeAnalyzerSettings" profile="Project Default" />
 </application>
