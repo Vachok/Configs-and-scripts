@@ -2,6 +2,12 @@
   <action id="ExternalSystem_22b7bb92inetor12cbe04cclean build check jar">
     <mouse-shortcut keystroke="alt button3" />
   </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="RearrangeCode">
+    <mouse-shortcut keystroke="alt button2" />
+  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt t" />
     <mouse-shortcut keystroke="control button2" />
