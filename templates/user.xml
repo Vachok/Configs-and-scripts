@@ -49,7 +49,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="sclass" value="/**&#10; * This Class Simple Name&#10; */&#10;private static final java.lang.String SOURCE_CLASS = $CLASS$.class.getSimpleName();" shortcut="SPACE" toReformat="true" toShortenFQNames="true">
+  <template name="sclass" value="/**&#10; * This Class Simple Name&#10; */&#10;private static final java.lang.String SOURCE_CLASS = $CLASS$.class.getSimpleName();" shortcut="SPACE" description="" toReformat="true" toShortenFQNames="true">
     <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
