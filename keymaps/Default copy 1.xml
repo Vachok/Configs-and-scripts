@@ -1,0 +1,5 @@
+<keymap version="1" name="Default copy 1" parent="$default">
+  <action id="ExternalSystem_22b7bb92inetor12cbe04cclean build check jar">
+    <mouse-shortcut keystroke="alt button3" />
+  </action>
+</keymap>

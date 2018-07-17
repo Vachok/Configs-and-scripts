@@ -37,7 +37,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="uns" value="throw new java.lang.UnsupportedOperationException(&quot;31&quot;+&quot; &quot;+e.getMessage()+&quot;\n&quot;+ java.util.Arrays.toString(e.getStackTrace()));" toReformat="true" toShortenFQNames="true">
+  <template name="uns" value="throw new java.lang.UnsupportedOperationException(&quot;31&quot;+&quot; &quot;+e.getMessage()+&quot;\n&quot;+ java.util.Arrays.toString(e.getStackTrace()));" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
