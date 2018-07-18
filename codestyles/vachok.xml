@@ -24,9 +24,10 @@
     </formatting-settings>
   </DBN-SQL>
   <JavaCodeStyleSettings>
-    <option name="VISIBILITY" value="private" />
+    <option name="VISIBILITY" value="packageLocal" />
     <option name="SPACE_AFTER_CLOSING_ANGLE_BRACKET_IN_TYPE_ARGUMENT" value="true" />
     <option name="CLASS_NAMES_IN_JAVADOC" value="3" />
+    <option name="JD_LEADING_ASTERISKS_ARE_ENABLED" value="false" />
   </JavaCodeStyleSettings>
   <DBN-PSQL>
     <case-options enabled="false">
