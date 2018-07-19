@@ -1,12 +1,9 @@
 <application>
   <component name="libraryTable">
     <library name="lib">
-      <CLASSES>
-        <root url="file://$USER_HOME$/IdeaProjects/lessons/generics/src/lib" />
-      </CLASSES>
+      <CLASSES />
       <JAVADOC />
       <SOURCES />
-      <jarDirectory url="file://$USER_HOME$/IdeaProjects/lessons/generics/src/lib" recursive="false" />
     </library>
   </component>
 </application>
