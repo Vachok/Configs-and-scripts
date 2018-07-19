@@ -41,7 +41,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="msgep" value="messageToUser.errorAlert(SOURCE_CLASS, $LINE$, $e$.getMessage());&#10;messageToUser.out(SOURCE_CLASS+&quot;_$LINE$&quot;, (e.getMessage() + &quot;\n\n&quot; + Arrays.toString(e.getStackTrace()).replaceAll(&quot;, &quot;, &quot;\n&quot;)).getBytes());" description="" toReformat="true" toShortenFQNames="true">
+  <template name="msgep" value="messageToUser.errorAlert(SOURCE_CLASS, &quot;$LINE$&quot;, $e$.getMessage());&#10;messageToUser.out(SOURCE_CLASS+&quot;_$LINE$&quot;, (e.getMessage() + &quot;\n\n&quot; + Arrays.toString(e.getStackTrace()).replaceAll(&quot;, &quot;, &quot;\n&quot;)).getBytes());" description="" toReformat="true" toShortenFQNames="true">
     <variable name="e" expression="expressionType(Expression)" defaultValue="" alwaysStopAt="false" />
     <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
     <context>
