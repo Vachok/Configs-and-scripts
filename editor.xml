@@ -1,0 +1,12 @@
+<application>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern icon="important" useCustomColors="true" pattern="notcompil">
+      <option name="FOREGROUND" value="90a41" />
+      <option name="BACKGROUND" value="f3ff00" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="EFFECT_COLOR" value="fffffb" />
+    </pattern>
+  </component>
+</application>
