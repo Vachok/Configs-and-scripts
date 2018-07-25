@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="ttt" value="$DATE$ ($TIME$) $END$&#10;" shortcut="SPACE" description="timedate" toReformat="false" toShortenFQNames="true">
+  <template name="ttt" value="$DATE$ ($TIME$)$END$&#10;" shortcut="SPACE" description="timedate" toReformat="false" toShortenFQNames="true">
     <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="false" />
     <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="false" />
     <context>
