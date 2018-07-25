@@ -55,4 +55,15 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="putlink" value="System.out.println(&quot;$CLASS_NAME$.$METHOD_NAME$&quot;);&#10;links.put(&quot;$METHOD_NAME$&quot;, $END$, false);" shortcut="SPACE" description="Prints current class and method names to System.out" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
