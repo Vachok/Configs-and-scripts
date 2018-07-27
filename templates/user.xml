@@ -66,7 +66,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="arts" value="java.util.Arrays.toString($ARRAY$$END$).replaceAll(&quot;, &quot;,&quot; &quot;).replace(&quot;{&quot;, &quot;&quot;).replace(&quot;}&quot;,&quot;&quot;))" description="Array to String" toReformat="true" toShortenFQNames="true">
+  <template name="arts" value="java.util.Arrays.toString($ARRAY$$END$).replaceAll(&quot;, &quot;,&quot; &quot;).replace(&quot;{&quot;, &quot;&quot;).replace(&quot;}&quot;,&quot;&quot;)" description="Array to String" toReformat="true" toShortenFQNames="true">
     <variable name="ARRAY" expression="arrayVariable()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
