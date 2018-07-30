@@ -1,0 +1,6 @@
+<application>
+  <component name="GitToolBoxAppSettings">
+    <option name="presentationMode" value="text" />
+    <option name="showProjectViewStatusBeforeLocation" value="true" />
+  </component>
+</application>
