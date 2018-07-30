@@ -1,10 +1,5 @@
 <application>
   <component name="SonarLintGlobalSettings">
-    <option name="excludedRules">
-      <set>
-        <option value="squid:S1451" />
-      </set>
-    </option>
     <option name="includedRules">
       <set>
         <option value="squid:CallToFileDeleteOnExitMethod" />
