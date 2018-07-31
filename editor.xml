@@ -12,5 +12,12 @@
       <option name="FONT_TYPE" value="2" />
       <option name="EFFECT_COLOR" value="fffffb" />
     </pattern>
+    <pattern useCustomColors="true" pattern="\bMARK\b.*">
+      <option name="FOREGROUND" value="fffffb" />
+      <option name="BACKGROUND" value="3ff" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="EFFECT_COLOR" value="effbff" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
   </component>
 </application>
