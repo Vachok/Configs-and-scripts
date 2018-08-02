@@ -80,7 +80,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="soutl" value="java.lang.System.out.println(&quot;$CLASS$.$METHOD$&quot;);&#10;        linksToSave.put(SOURCE_CLASS,&quot;$CLASS$.$METHOD$&quot;);" toReformat="true" toShortenFQNames="true">
+  <template name="soutl" value="java.lang.System.out.println(&quot;$CLASS$.$METHOD$&quot;);&#10;        linksToSave.put(SOURCE_CLASS,&quot;$CLASS$.$METHOD$&quot;);" description="" toReformat="true" toShortenFQNames="true">
     <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
     <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <context>
