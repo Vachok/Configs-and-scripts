@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Module 'java8_main'" />
-    <option name="defaultScopeName" value="Module 'java8_main'" />
+    <option name="customScope" value="Project 'java8'" />
+    <option name="defaultScopeName" value="Project 'java8'" />
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Module 'java8_main'" />
+    <option name="SEARCH_SCOPE" value="Project 'java8'" />
   </component>
 </application>
