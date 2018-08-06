@@ -80,9 +80,8 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="soutl" value="java.lang.System.out.println(&quot;$CLASS$.$METHOD$&quot;);&#10;        linksToSave.put(SOURCE_CLASS,&quot;$CLASS$.$METHOD$&quot;);" description="" toReformat="true" toShortenFQNames="true">
-    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
-    <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+  <template name="soutl" value="Logger.getLogger(SOURCE_CLASS).log(Level.INFO,$E$+&quot; &quot;+isSaved );&#10;linksPut(SOURCE_CLASS, $E$, isSaved);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="E" expression="expressionType(Expression)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />

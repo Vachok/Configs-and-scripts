@@ -3,6 +3,7 @@
     <option name="excludedRules">
       <set>
         <option value="squid:S1451" />
+        <option value="squid:S2629" />
       </set>
     </option>
     <option name="includedRules">
