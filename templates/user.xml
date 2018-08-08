@@ -87,4 +87,10 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="log" value="logger.log(java.util.logging.Level.WARNING, ()-&gt; e.getMessage()+&quot;\n\n&quot;+ java.util.Arrays.toString(e.getStackTrace()));" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
