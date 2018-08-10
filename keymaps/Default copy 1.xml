@@ -2,6 +2,9 @@
   <action id="ExternalSystem_22b7bb92inetor12cbe04cclean build check jar">
     <mouse-shortcut keystroke="alt button3" />
   </action>
+  <action id="ExternalSystem_22b7bb92inetor12cbe04cclean build check jar distZip installDist">
+    <mouse-shortcut keystroke="alt button3" />
+  </action>
   <action id="ExternalSystem_22b7bb92inetor12cbe04cclean testClasses test">
     <mouse-shortcut keystroke="control button3" />
   </action>
