@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'lesson.general'" />
-    <option name="defaultScopeName" value="Project 'lesson.general'" />
-    <option name="SEARCH_SCOPE" value="Project 'lesson.general'" />
+    <option name="customScope" value="Module 'ru.vachok.parsing_main'" />
+    <option name="defaultScopeName" value="Module 'ru.vachok.parsing_main'" />
+    <option name="SEARCH_SCOPE" value="Module 'ru.vachok.parsing_main'" />
   </component>
 </application>
