@@ -15,6 +15,7 @@
       <mapping ext="srctrldb" type="PLAIN_TEXT" />
       <mapping ext="tmp" type="PLAIN_TEXT" />
       <mapping ext="316" type="PLAIN_TEXT" />
+      <mapping ext="f" type="PLAIN_TEXT" />
       <mapping ext="now" type="PLAIN_TEXT" />
       <mapping ext="srctrlbm" type="PLAIN_TEXT" />
     </extensionMap>
