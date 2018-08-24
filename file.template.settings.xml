@@ -1,5 +1,8 @@
 <application>
   <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="classpath.txt" reformat="false" live-template-enabled="true" />
+    </default_templates>
     <code_templates>
       <template name="Catch Statement Body.java" reformat="true" live-template-enabled="true" enabled="true" />
     </code_templates>

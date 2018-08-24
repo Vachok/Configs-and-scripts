@@ -1,4 +1,10 @@
 <code_scheme name="vachok" version="173">
+  <option name="OTHER_INDENT_OPTIONS">
+    <value>
+      <option name="INDENT_SIZE" value="3" />
+      <option name="TAB_SIZE" value="3" />
+    </value>
+  </option>
   <option name="SOFT_MARGINS" value="119" />
   <DBN-PSQL>
     <case-options enabled="false">
