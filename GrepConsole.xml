@@ -11,6 +11,44 @@
                 <option name="grepExpressionItems">
                   <list>
                     <GrepExpressionItem>
+                      <option name="grepExpression" value="true" />
+                      <option name="highlightOnlyMatchingText" value="true" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-15728864" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="foregroundColor">
+                            <GrepColor>
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="grepExpression" value="false" />
+                      <option name="highlightOnlyMatchingText" value="true" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-65520" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="foregroundColor">
+                            <GrepColor>
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
                       <option name="continueMatching" value="true" />
                       <option name="grepExpression" value="ru.vachok.mysqlandprops" />
                       <option name="highlightOnlyMatchingText" value="true" />
@@ -358,6 +396,7 @@
             </list>
           </option>
           <option name="id" value="1513795723295" />
+          <option name="maxLengthToMatch" value="200" />
           <option name="name" value="default" />
         </Profile>
       </list>
