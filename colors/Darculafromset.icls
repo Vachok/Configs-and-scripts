@@ -4,7 +4,7 @@
     <property name="created">2018-06-20T12:10:09</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2018.1.4.0.0</property>
-    <property name="modified">2018-08-24T09:18:57</property>
+    <property name="modified">2018-08-28T09:55:11</property>
     <property name="originalScheme">Darcula copy2</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -78,6 +78,44 @@
         <option name="BACKGROUND" value="394c70" />
       </value>
     </option>
+    <option name="DBNavigator.TextAttributes.SQL.DataType">
+      <value>
+        <option name="FOREGROUND" value="828eba" />
+        <option name="BACKGROUND" value="3c3f41" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DBNavigator.TextAttributes.SQL.Identifier">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="EFFECT_COLOR" value="b1b7b9" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="DBNavigator.TextAttributes.SQL.Keyword">
+      <value>
+        <option name="BACKGROUND" value="1b445f" />
+      </value>
+    </option>
+    <option name="DBNavigator.TextAttributes.SQL.Parenthesis">
+      <value>
+        <option name="FOREGROUND" value="ffd800" />
+      </value>
+    </option>
+    <option name="DBNavigator.TextAttributes.SQL.QuotedIdentifier">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="4" />
+      </value>
+    </option>
+    <option name="DBNavigator.TextAttributes.SQL.Variable">
+      <value>
+        <option name="FOREGROUND" value="828eba" />
+        <option name="EFFECT_COLOR" value="3c3f41" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="DEBUGGER_SMART_STEP_INTO_TARGET">
       <value>
         <option name="BACKGROUND" value="404861" />
@@ -149,8 +187,8 @@
     </option>
     <option name="INSTANCE_FINAL_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="9e8100" />
-        <option name="EFFECT_COLOR" value="a28800" />
+        <option name="FOREGROUND" value="bc92ce" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="INTERFACE_NAME_ATTRIBUTES">
@@ -303,6 +341,67 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="REGEXP.BRACES">
+      <value>
+        <option name="FOREGROUND" value="ffd173" />
+      </value>
+    </option>
+    <option name="REGEXP.CHARACTER">
+      <value>
+        <option name="FOREGROUND" value="aca997" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="REGEXP.DOT">
+      <value>
+        <option name="FOREGROUND" value="ff0010" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="REGEXP.ESC_CHARACTER">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="ff08d4" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="REGEXP.META">
+      <value>
+        <option name="FOREGROUND" value="597cc2" />
+      </value>
+    </option>
+    <option name="REGEXP.NAME">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="EFFECT_COLOR" value="fff20" />
+      </value>
+    </option>
+    <option name="REGEXP.OPTIONS">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="REGEXP.PARENTHS">
+      <value>
+        <option name="FOREGROUND" value="e89b2b" />
+      </value>
+    </option>
+    <option name="REGEXP.QUOTE_CHARACTER">
+      <value>
+        <option name="FOREGROUND" value="66a3f4" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="585b5d" />
+        <option name="EFFECT_TYPE" value="4" />
+      </value>
+    </option>
+    <option name="REGEXP.REDUNDANT_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="96ff" />
+        <option name="EFFECT_COLOR" value="3c3f41" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="SONARLINT_BLOCKER">
       <value>
         <option name="FOREGROUND" value="ff0114" />
@@ -316,7 +415,7 @@
     <option name="SONARLINT_CRITICAL">
       <value>
         <option name="FOREGROUND" value="ff0114" />
-        <option name="BACKGROUND" value="c2bc58" />
+        <option name="BACKGROUND" value="c2a55b" />
         <option name="FONT_TYPE" value="1" />
         <option name="ERROR_STRIPE_COLOR" value="ff5b65" />
         <option name="EFFECT_TYPE" value="2" />
@@ -325,21 +424,21 @@
     <option name="SONARLINT_INFO">
       <value>
         <option name="FOREGROUND" value="ffd800" />
-        <option name="EFFECT_COLOR" value="fffb52" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="SONARLINT_MAJOR">
       <value>
-        <option name="FOREGROUND" value="ff0010" />
-        <option name="BACKGROUND" value="fff578" />
+        <option name="FOREGROUND" value="ff1a59" />
+        <option name="BACKGROUND" value="94e298" />
         <option name="ERROR_STRIPE_COLOR" value="e7bf00" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="SONARLINT_MINOR">
       <value>
-        <option name="EFFECT_COLOR" value="6f7679" />
+        <option name="EFFECT_COLOR" value="bbc5c8" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -347,6 +446,7 @@
       <value>
         <option name="FOREGROUND" value="919a9c" />
         <option name="BACKGROUND" value="374752" />
+        <option name="EFFECT_COLOR" value="121315" />
       </value>
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">
@@ -358,6 +458,7 @@
     <option name="STATIC_FIELD_IMPORTED_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="906ea2" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="3c3f41" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
