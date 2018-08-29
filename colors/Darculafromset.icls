@@ -4,7 +4,7 @@
     <property name="created">2018-06-20T12:10:09</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2018.1.4.0.0</property>
-    <property name="modified">2018-08-28T09:55:11</property>
+    <property name="modified">2018-08-29T12:40:11</property>
     <property name="originalScheme">Darcula copy2</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -45,6 +45,7 @@
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
+        <option name="BACKGROUND" value="464b4d" />
         <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_COLOR" value="f1cff" />
       </value>
