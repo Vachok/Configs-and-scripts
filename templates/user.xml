@@ -93,7 +93,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="br" value="&lt;br&gt;" toReformat="true" toShortenFQNames="true">
+  <template name="br" value="&lt;br&gt;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_COMMENT" value="true" />
