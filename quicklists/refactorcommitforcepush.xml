@@ -1,0 +1,5 @@
+<list display="refactorcommitforcepush">
+  <action id="ReformatCode" />
+  <action id="RearrangeCode" />
+  <action id="CheckinProject" />
+</list>

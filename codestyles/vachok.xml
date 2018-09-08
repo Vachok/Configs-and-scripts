@@ -1,0 +1,419 @@
+<code_scheme name="vachok" version="173">
+  <option name="OTHER_INDENT_OPTIONS">
+    <value>
+      <option name="INDENT_SIZE" value="3" />
+      <option name="TAB_SIZE" value="3" />
+    </value>
+  </option>
+  <option name="SOFT_MARGINS" value="119" />
+  <DBN-PSQL>
+    <case-options enabled="false">
+      <option name="KEYWORD_CASE" value="lower" />
+      <option name="FUNCTION_CASE" value="lower" />
+      <option name="PARAMETER_CASE" value="lower" />
+      <option name="DATATYPE_CASE" value="lower" />
+      <option name="OBJECT_CASE" value="preserve" />
+    </case-options>
+    <formatting-settings enabled="false" />
+  </DBN-PSQL>
+  <DBN-SQL>
+    <case-options enabled="true">
+      <option name="KEYWORD_CASE" value="lower" />
+      <option name="FUNCTION_CASE" value="lower" />
+      <option name="PARAMETER_CASE" value="lower" />
+      <option name="DATATYPE_CASE" value="lower" />
+      <option name="OBJECT_CASE" value="preserve" />
+    </case-options>
+    <formatting-settings enabled="true">
+      <option name="STATEMENT_SPACING" value="one_line" />
+      <option name="CLAUSE_CHOP_DOWN" value="chop_down_if_statement_long" />
+      <option name="ITERATION_ELEMENTS_WRAPPING" value="chop_down_if_not_single" />
+    </formatting-settings>
+  </DBN-SQL>
+  <JavaCodeStyleSettings>
+    <option name="SPACE_AFTER_CLOSING_ANGLE_BRACKET_IN_TYPE_ARGUMENT" value="true" />
+    <option name="CLASS_NAMES_IN_JAVADOC" value="3" />
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="4" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="2" />
+    <option name="JD_ADD_BLANK_AFTER_PARM_COMMENTS" value="true" />
+    <option name="JD_ADD_BLANK_AFTER_RETURN" value="true" />
+    <option name="JD_KEEP_INVALID_TAGS" value="false" />
+    <option name="JD_DO_NOT_WRAP_ONE_LINE_COMMENTS" value="true" />
+    <option name="JD_KEEP_EMPTY_EXCEPTION" value="false" />
+    <option name="JD_LEADING_ASTERISKS_ARE_ENABLED" value="false" />
+    <option name="JD_INDENT_ON_CONTINUATION" value="true" />
+  </JavaCodeStyleSettings>
+  <DBN-PSQL>
+    <case-options enabled="false">
+      <option name="KEYWORD_CASE" value="lower" />
+      <option name="FUNCTION_CASE" value="lower" />
+      <option name="PARAMETER_CASE" value="lower" />
+      <option name="DATATYPE_CASE" value="lower" />
+      <option name="OBJECT_CASE" value="preserve" />
+    </case-options>
+    <formatting-settings enabled="false" />
+  </DBN-PSQL>
+  <DBN-SQL>
+    <case-options enabled="false">
+      <option name="KEYWORD_CASE" value="lower" />
+      <option name="FUNCTION_CASE" value="lower" />
+      <option name="PARAMETER_CASE" value="lower" />
+      <option name="DATATYPE_CASE" value="lower" />
+      <option name="OBJECT_CASE" value="preserve" />
+    </case-options>
+    <formatting-settings enabled="false">
+      <option name="STATEMENT_SPACING" value="one_line" />
+      <option name="CLAUSE_CHOP_DOWN" value="chop_down_if_statement_long" />
+      <option name="ITERATION_ELEMENTS_WRAPPING" value="chop_down_if_not_single" />
+    </formatting-settings>
+  </DBN-SQL>
+  <codeStyleSettings language="HTML">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="JAVA">
+    <option name="RIGHT_MARGIN" value="150" />
+    <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
+    <option name="BLANK_LINES_AFTER_PACKAGE" value="2" />
+    <option name="BLANK_LINES_BEFORE_IMPORTS" value="0" />
+    <option name="BLANK_LINES_AFTER_IMPORTS" value="2" />
+    <option name="BLANK_LINES_AROUND_FIELD" value="1" />
+    <option name="BLANK_LINES_AROUND_FIELD_IN_INTERFACE" value="1" />
+    <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1" />
+    <option name="BLANK_LINES_AFTER_ANONYMOUS_CLASS_HEADER" value="1" />
+    <option name="ELSE_ON_NEW_LINE" value="true" />
+    <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true" />
+    <option name="ALIGN_MULTILINE_PARENTHESIZED_EXPRESSION" value="true" />
+    <option name="SPACE_AROUND_EQUALITY_OPERATORS" value="false" />
+    <option name="SPACE_WITHIN_CAST_PARENTHESES" value="true" />
+    <option name="SPACE_BEFORE_IF_PARENTHESES" value="false" />
+    <option name="SPACE_BEFORE_WHILE_PARENTHESES" value="false" />
+    <option name="SPACE_BEFORE_FOR_PARENTHESES" value="false" />
+    <option name="SPACE_BEFORE_TRY_PARENTHESES" value="false" />
+    <option name="SPACE_BEFORE_CATCH_PARENTHESES" value="false" />
+    <option name="SPACE_BEFORE_SWITCH_PARENTHESES" value="false" />
+    <option name="SPACE_BEFORE_SYNCHRONIZED_PARENTHESES" value="false" />
+    <option name="SPACE_BEFORE_IF_LBRACE" value="false" />
+    <option name="SPACE_BEFORE_ELSE_LBRACE" value="false" />
+    <option name="SPACE_BEFORE_WHILE_LBRACE" value="false" />
+    <option name="SPACE_BEFORE_FOR_LBRACE" value="false" />
+    <option name="SPACE_BEFORE_DO_LBRACE" value="false" />
+    <option name="SPACE_BEFORE_SWITCH_LBRACE" value="false" />
+    <option name="SPACE_BEFORE_TRY_LBRACE" value="false" />
+    <option name="SPACE_BEFORE_CATCH_LBRACE" value="false" />
+    <option name="SPACE_BEFORE_ELSE_KEYWORD" value="false" />
+    <option name="SPACE_BEFORE_QUEST" value="false" />
+    <option name="SPACE_BEFORE_COLON" value="false" />
+    <option name="RESOURCE_LIST_WRAP" value="2" />
+    <option name="WRAP_FIRST_METHOD_IN_CALL_CHAIN" value="true" />
+    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
+    <option name="IF_BRACE_FORCE" value="1" />
+    <option name="DOWHILE_BRACE_FORCE" value="1" />
+    <option name="WHILE_BRACE_FORCE" value="1" />
+    <option name="FOR_BRACE_FORCE" value="1" />
+    <option name="METHOD_ANNOTATION_WRAP" value="1" />
+    <option name="CLASS_ANNOTATION_WRAP" value="1" />
+    <option name="FIELD_ANNOTATION_WRAP" value="1" />
+    <option name="SPACE_BEFORE_ANOTATION_PARAMETER_LIST" value="true" />
+    <option name="ENUM_CONSTANTS_WRAP" value="1" />
+    <option name="WRAP_ON_TYPING" value="0" />
+    <option name="SOFT_MARGINS" value="119" />
+    <arrangement>
+      <groups>
+        <group>
+          <type>GETTERS_AND_SETTERS</type>
+          <order>KEEP</order>
+        </group>
+        <group>
+          <type>OVERRIDDEN_METHODS</type>
+          <order>BY_NAME</order>
+        </group>
+        <group>
+          <type>DEPENDENT_METHODS</type>
+          <order>BREADTH_FIRST</order>
+        </group>
+      </groups>
+      <rules>
+        <section>
+          <rule>
+            <match>
+              <INTERFACE>true</INTERFACE>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <FINAL>true</FINAL>
+                <PUBLIC>true</PUBLIC>
+                <STATIC>true</STATIC>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <FINAL>true</FINAL>
+                <PUBLIC>true</PUBLIC>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <PUBLIC>true</PUBLIC>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <FINAL>true</FINAL>
+                <PROTECTED>true</PROTECTED>
+                <STATIC>true</STATIC>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <FINAL>true</FINAL>
+                <PROTECTED>true</PROTECTED>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <PROTECTED>true</PROTECTED>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <FINAL>true</FINAL>
+                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
+                <STATIC>true</STATIC>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <FINAL>true</FINAL>
+                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <FINAL>true</FINAL>
+                <PRIVATE>true</PRIVATE>
+                <STATIC>true</STATIC>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <FINAL>true</FINAL>
+                <PRIVATE>true</PRIVATE>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <PRIVATE>true</PRIVATE>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <visibility />
+              </AND>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section start_comment="/*Instance*/">
+          <rule>
+            <match>
+              <AND>
+                <CONSTRUCTOR>true</CONSTRUCTOR>
+                <visibility />
+              </AND>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section start_comment="/*Get&amp;Set*/">
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <SETTER />
+                <visibility />
+              </AND>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <GETTER />
+                <METHOD>true</METHOD>
+                <visibility />
+              </AND>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section start_comment="/*Class Initializer*/">
+          <rule>
+            <match>
+              <AND>
+                <INITIALIZER_BLOCK>true</INITIALIZER_BLOCK>
+                <STATIC>true</STATIC>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <INITIALIZER_BLOCK>true</INITIALIZER_BLOCK>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section start_comment="/*Methods*/">
+          <rule>
+            <match>
+              <OVERRIDDEN />
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <PUBLIC>true</PUBLIC>
+                <STATIC>true</STATIC>
+                <visibility />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <visibility />
+              </AND>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <PRIVATE>true</PRIVATE>
+              </AND>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <ENUM>true</ENUM>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <CLASS>true</CLASS>
+            </match>
+          </rule>
+        </section>
+      </rules>
+    </arrangement>
+  </codeStyleSettings>
+</code_scheme>

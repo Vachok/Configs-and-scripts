@@ -3,11 +3,43 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
+          <option name="url" value="https://github.com/Vachok/parser" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:Vachok/parser.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:Vachok/Configs-and-scripts.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Vachok/Java_Lessons.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
           <option name="url" value="https://github.com/Vachok/Trainings.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="kudr@srv-git.eatmeat.ru:home/kudr/inetor" />
+          <option name="url" value="git@srv-git:/home/src/ito" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="src@srv-git:/home/src/ito" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="ITDept@srv-git:/home/src/ito" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="ITDept@srv-git.eatmeat.ru:/home/ITDept" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:Vachok/rchain.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
@@ -16,6 +48,13 @@
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\My_Proj" />
+    <option name="cloneParentDir" value="C:\Users\ikudryashov\IdeaProjects" />
+  </component>
+  <component name="Vcs.Log.App.Settings">
+    <option name="SHOW_TAG_NAMES" value="true" />
+    <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
+  </component>
+  <component name="VcsApplicationSettings">
+    <option name="DETECT_PATCH_ON_THE_FLY" value="true" />
   </component>
 </application>

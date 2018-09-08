@@ -1,0 +1,102 @@
+<templateSet group="user">
+  <template name="ttt" value="$DATE$ ($TIME$)$END$" shortcut="SPACE" description="timedate" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+    </context>
+  </template>
+  <template name="ln" value="{@link $END$}" shortcut="SPACE" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="шшш" value="&lt;i&gt;$END$&lt;/i&gt;" shortcut="SPACE" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="ppp" value="&#10;&lt;p&gt;&#10;$END$" shortcut="SPACE" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="href" value="&lt;a href=&quot;$CLIP$&quot; target=_blank&gt;$END$&lt;/a&gt;" shortcut="SPACE" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="CLIP" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="msge" value="messageToUser.errorAlert(SOURCE_CLASS, &quot;ID - $LINE$&quot;, e.getMessage());&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="uns" value="throw new java.lang.UnsupportedOperationException(&quot;31&quot;+&quot; &quot;+e.getMessage()+&quot;\n&quot;+ java.util.Arrays.toString(e.getStackTrace()));" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="msgep" value="messageToUser.errorAlert(SOURCE_CLASS, &quot;$LINE$&quot;, $e$.getMessage());&#10;messageToUser.out(SOURCE_CLASS+&quot;_$LINE$&quot;, (e.getMessage() + &quot;\n\n&quot; + Arrays.toString(e.getStackTrace()).replaceAll(&quot;, &quot;, &quot;\n&quot;)).getBytes());" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="e" expression="expressionType(Expression)" defaultValue="" alwaysStopAt="false" />
+    <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sclass" value="/**&#10; * This Class Simple Name&#10; */&#10;private static final java.lang.String SOURCE_CLASS = $CLASS$.class.getSimpleName();" shortcut="SPACE" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="putlink" value="System.out.println(&quot;$CLASS_NAME$.$METHOD_NAME$&quot;);&#10;links.put(&quot;$METHOD_NAME$&quot;, $END$, false);" shortcut="SPACE" description="Prints current class and method names to System.out" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="arts" value="java.util.Arrays.toString($ARRAY$$END$).replaceAll(&quot;, &quot;,&quot; &quot;).replace(&quot;{&quot;, &quot;&quot;).replace(&quot;}&quot;,&quot;&quot;)" description="Array to String" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="arrayVariable()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="thm" value="java.lang.Thread.currentThread().setName(&quot;$CLASS$.$METHOD$&quot;);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="soutl" value="Logger.getLogger(SOURCE_CLASS).log(Level.INFO,$E$+&quot; &quot;+isSaved );&#10;linksPut(SOURCE_CLASS, $E$, isSaved);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="E" expression="expressionType(Expression)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="log" value="logger.log(java.util.logging.Level.WARNING, ()-&gt; e.getMessage()+&quot;\n\n&quot;+ java.util.Arrays.toString(e.getStackTrace()));" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="br" value="&lt;br&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

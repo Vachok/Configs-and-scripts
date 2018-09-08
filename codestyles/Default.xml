@@ -1,1 +1,36 @@
-<code_scheme name="Default" version="173" />
+<code_scheme name="Default" version="173">
+  <JavaCodeStyleSettings>
+    <option name="JD_ADD_BLANK_AFTER_RETURN" value="true" />
+  </JavaCodeStyleSettings>
+  <Properties>
+    <option name="SPACES_AROUND_KEY_VALUE_DELIMITER" value="true" />
+  </Properties>
+  <codeStyleSettings language="JAVA">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="4" />
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="5" />
+    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0" />
+    <option name="BLANK_LINES_AFTER_PACKAGE" value="3" />
+    <option name="BLANK_LINES_BEFORE_IMPORTS" value="2" />
+    <option name="BLANK_LINES_AFTER_IMPORTS" value="2" />
+    <option name="BLANK_LINES_AROUND_CLASS" value="3" />
+    <option name="BLANK_LINES_AROUND_METHOD" value="2" />
+    <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1" />
+    <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
+    <option name="SPACE_BEFORE_COMMA" value="true" />
+    <option name="SPACE_WITHIN_METHOD_PARENTHESES" value="true" />
+    <option name="WRAP_ON_TYPING" value="1" />
+    <arrangement>
+      <groups>
+        <group>
+          <type>GETTERS_AND_SETTERS</type>
+          <order>KEEP</order>
+        </group>
+        <group>
+          <type>DEPENDENT_METHODS</type>
+          <order>BREADTH_FIRST</order>
+        </group>
+      </groups>
+    </arrangement>
+  </codeStyleSettings>
+</code_scheme>

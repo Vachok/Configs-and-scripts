@@ -1,0 +1,7 @@
+<application>
+  <component name="GitToolBoxAppSettings">
+    <option name="presentationMode" value="arrowHeads" />
+    <option name="showProjectViewStatusBeforeLocation" value="true" />
+    <option name="updateProjectActionId" value="gitextender.update.project.action" />
+  </component>
+</application>

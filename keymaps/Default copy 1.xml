@@ -1,0 +1,42 @@
+<keymap version="1" name="Default copy 1" parent="$default">
+  <action id="ExternalSystem_22b7bb92inetor12cbe04cclean build check jar">
+    <mouse-shortcut keystroke="alt button3" />
+  </action>
+  <action id="ExternalSystem_22b7bb92inetor12cbe04cclean build check jar distZip installDist">
+    <mouse-shortcut keystroke="alt button3" />
+  </action>
+  <action id="ExternalSystem_22b7bb92inetor12cbe04cclean testClasses test">
+    <mouse-shortcut keystroke="control button3" />
+  </action>
+  <action id="ExternalSystem_6efccd36pbem_chess3a9c04f0clean build check jar">
+    <mouse-shortcut keystroke="alt button3" />
+  </action>
+  <action id="ExternalSystem_c45b9f80generala1c4f1dfgeneral [run]">
+    <mouse-shortcut keystroke="alt button3" />
+  </action>
+  <action id="ExternalSystem_c45b9f80generics96d96765lessons:generics [run]">
+    <mouse-shortcut keystroke="control button3" />
+  </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
+  <action id="IntroduceField" />
+  <action id="IntroduceParameter" />
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="RearrangeCode">
+    <mouse-shortcut keystroke="alt button2" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <mouse-shortcut keystroke="control button2" />
+  </action>
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="scroll_lock" />
+  </action>
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
+</keymap>
