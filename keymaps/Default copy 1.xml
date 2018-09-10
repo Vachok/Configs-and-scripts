@@ -1,4 +1,7 @@
 <keymap version="1" name="Default copy 1" parent="$default">
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
+  </action>
   <action id="ExternalSystem_22b7bb92inetor12cbe04cclean build check jar">
     <mouse-shortcut keystroke="alt button3" />
   </action>
@@ -20,6 +23,7 @@
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
+  <action id="IntroduceConstant" />
   <action id="IntroduceField" />
   <action id="IntroduceParameter" />
   <action id="QuickJavaDoc">
