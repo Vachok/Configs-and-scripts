@@ -99,7 +99,7 @@
       <option name="JAVA_COMMENT" value="true" />
     </context>
   </template>
-  <template name="lg" value="logger.info($END$)" toReformat="true" toShortenFQNames="true">
+  <template name="lg" value="logger.info($END$)" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
