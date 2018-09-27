@@ -14,6 +14,7 @@
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="me" type="PLAIN_TEXT" />
       <mapping ext="srctrldb" type="PLAIN_TEXT" />
+      <mapping ext="obj" type="PLAIN_TEXT" />
       <mapping ext="tmp" type="PLAIN_TEXT" />
       <mapping ext="316" type="PLAIN_TEXT" />
       <mapping ext="f" type="PLAIN_TEXT" />
