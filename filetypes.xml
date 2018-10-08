@@ -20,6 +20,7 @@
       <mapping ext="f" type="PLAIN_TEXT" />
       <mapping ext="now" type="PLAIN_TEXT" />
       <mapping ext="srctrlbm" type="PLAIN_TEXT" />
+      <mapping ext="res" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
