@@ -3,6 +3,7 @@
     <option name="excludedRules">
       <set>
         <option value="squid:CommentedOutCodeLine" />
+        <option value="squid:S106" />
         <option value="squid:S2629" />
       </set>
     </option>
@@ -58,9 +59,7 @@
         <option value="squid:S2197" />
         <option value="squid:S2208" />
         <option value="squid:S2211" />
-        <option value="squid:S2245" />
         <option value="squid:S2253" />
-        <option value="squid:S2257" />
         <option value="squid:S2258" />
         <option value="squid:S2301" />
         <option value="squid:S2444" />
