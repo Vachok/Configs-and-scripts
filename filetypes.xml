@@ -13,6 +13,7 @@
       <mapping ext="vw" type="DBN-SQL" />
       <mapping pattern="goolemapsreq" type="PLAIN_TEXT" />
       <mapping ext="me" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
       <mapping ext="srctrldb" type="PLAIN_TEXT" />
       <mapping ext="obj" type="PLAIN_TEXT" />
       <mapping ext="tmp" type="PLAIN_TEXT" />
