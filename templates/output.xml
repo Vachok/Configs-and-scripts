@@ -1,7 +1,7 @@
 <templateSet group="output">
-  <template name="soutv" value="System.out.println(&quot;$EXPR_COPY$ = &quot; + $EXPR$);" description="Prints a value to System.out" toReformat="true" toShortenFQNames="true">
-    <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
-    <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false" />
+  <template name="soutm" value="LOGGER.warn(&quot;$CLASS_NAME$.$METHOD_NAME$&quot;);" description="Prints current class and method names to System.out" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <context />
   </template>
 </templateSet>
