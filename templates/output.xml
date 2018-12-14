@@ -4,4 +4,7 @@
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <context />
   </template>
+  <template name="sout" value="LOGGER.info($END$);" description="Prints a string to System.out" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
