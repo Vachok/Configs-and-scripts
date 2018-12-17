@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="670-340" type="PLAIN_TEXT" />
       <mapping pattern="ArchivesSorter" type="PLAIN_TEXT" />
       <mapping pattern="goolemapsreq" type="PLAIN_TEXT" />
       <mapping ext="me" type="PLAIN_TEXT" />
