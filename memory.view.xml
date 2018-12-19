@@ -1,5 +1,6 @@
 <application>
   <component name="MemoryViewSettings">
-    <option name="isShowWithDiffOnly" value="true" />
+    <option name="isShowWithInstancesOnly" value="false" />
+    <option name="isAutoUpdateModeOn" value="true" />
   </component>
 </application>

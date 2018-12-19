@@ -1,5 +1,13 @@
 <application>
   <component name="ToStringTemplates">
-    <option name="defaultTempalteName" value="String concat (+)" />
+    <option name="defaultTempalteName" value="StringBuilder (JDK 1.5)" />
+    <option name="templates">
+      <list>
+        <TemplateResource>
+          <option name="fileName" value="nStringJoiner" />
+          <option name="template" value="public java.lang.String toString() {&#10;return new java.util.StringJoiner(&quot;\n&quot;, $classname##&#10;.class.getSimpleName() + &quot;\n&quot;, &quot;\n&quot;)&#10;#foreach ($member in $members)&#10;#if(!$member.modifierStatic)&#10;.add(&quot;$member.name=##&#10;#if ($member.primitiveArray || $member.objectArray)&#10;&quot; + java.util.Arrays.toString($member.name)##&#10;#elseif ($member.string)&#10;'&quot; + $member.accessor + &quot;'\n&quot;##   &#10;#else&#10;&quot; + $member.accessor ##&#10;#end&#10;)&#10;#end&#10;#end&#10;.toString();&#10;}" />
+        </TemplateResource>
+      </list>
+    </option>
   </component>
 </application>
