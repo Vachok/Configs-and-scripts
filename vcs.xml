@@ -46,9 +46,13 @@
           <option name="url" value="https://github.com/Vachok/pbem_chess.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Vachok/ftpplus.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\ikudryashov\IdeaProjects" />
+    <option name="cloneParentDir" value="C:\Users\14350\IdeaProjects" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_TAG_NAMES" value="true" />
