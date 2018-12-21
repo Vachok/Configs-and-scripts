@@ -2,6 +2,6 @@
   <component name="DarkyenusTimeTrackerDefaults">
     <option name="idleThresholdMs" value="61000" />
     <option name="autoCountIdleSeconds" value="15" />
-    <option name="gitTimePattern" value="Время {{lh &quot;hour&quot;s}} {{lm &quot;minute&quot;s}} {{ts &quot;second&quot;s}}" />
+    <option name="gitTimePattern" value="{{lh &quot;hour&quot;s}} {{lm &quot;minute&quot;s}} {{ts &quot;second&quot;s}}" />
   </component>
 </application>
