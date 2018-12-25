@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Module 'networker_main'" />
-    <option name="defaultScopeName" value="Module 'networker_main'" />
-    <option name="SEARCH_SCOPE" value="Module 'networker_main'" />
+    <option name="customScope" value="File '...\modules\networker\src\main\java\ru\vachok\networker\net\NetScannerSvc.java [networker_main]'" />
+    <option name="defaultScopeName" value="File '...\modules\networker\src\main\java\ru\vachok\networker\net\NetScannerSvc.java [networker_main]'" />
+    <option name="SEARCH_SCOPE" value="File '...\modules\networker\src\main\java\ru\vachok\networker\net\NetScannerSvc.java [networker_main]'" />
   </component>
 </application>
