@@ -1,9 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="klib" type="ARCHIVE" />
+      <mapping ext="trg" type="DBN-PSQL" />
       <mapping ext="pks" type="DBN-PSQL" />
       <mapping ext="prc" type="DBN-PSQL" />
-      <mapping ext="trg" type="DBN-PSQL" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="tps" type="DBN-PSQL" />
       <mapping ext="tpe" type="DBN-PSQL" />
@@ -22,10 +23,10 @@
       <mapping ext="316" type="PLAIN_TEXT" />
       <mapping ext="ru" type="PLAIN_TEXT" />
       <mapping ext="me" type="PLAIN_TEXT" />
-      <mapping ext="md" type="PLAIN_TEXT" />
       <mapping ext="srctrldb" type="PLAIN_TEXT" />
       <mapping ext="srctrlbm" type="PLAIN_TEXT" />
       <mapping ext="tmp" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
       <mapping ext="f" type="PLAIN_TEXT" />
       <mapping ext="now" type="PLAIN_TEXT" />
       <mapping ext="msg" type="PLAIN_TEXT" />
