@@ -12,9 +12,13 @@
       <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
+      <mapping pattern="visit_C618FFF83054EF9AE1A235C39E1CB446" type="PLAIN_TEXT" />
       <mapping pattern="670-340" type="PLAIN_TEXT" />
+      <mapping pattern="visit_C646EAD74542DF86C8625B84E4F13462" type="PLAIN_TEXT" />
       <mapping pattern="ArchivesSorter" type="PLAIN_TEXT" />
+      <mapping pattern="visitor" type="PLAIN_TEXT" />
       <mapping pattern="goolemapsreq" type="PLAIN_TEXT" />
+      <mapping pattern="visit_322143A1D7D6D5CE9C314DDDCCE916CC" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="obj" type="PLAIN_TEXT" />
       <mapping ext="own" type="PLAIN_TEXT" />
