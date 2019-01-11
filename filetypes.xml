@@ -12,6 +12,7 @@
       <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
+      <mapping pattern="visit_C8A82BB3A1521A39C7E4B80F98A19ED5" type="PLAIN_TEXT" />
       <mapping pattern="visit_C618FFF83054EF9AE1A235C39E1CB446" type="PLAIN_TEXT" />
       <mapping pattern="670-340" type="PLAIN_TEXT" />
       <mapping pattern="visit_C646EAD74542DF86C8625B84E4F13462" type="PLAIN_TEXT" />
