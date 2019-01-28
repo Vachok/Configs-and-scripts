@@ -11,6 +11,5 @@
     <entry key="ide.mac.allowDarkWindowDecorations" value="true" />
     <entry key="ide.tooltip.initialDelay" value="880" />
     <entry key="debugger.valueTooltipAutoShowOnSelection" value="true" />
-    <entry key="editor.distraction.free.mode" value="true" />
   </component>
 </application>
