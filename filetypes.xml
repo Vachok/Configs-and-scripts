@@ -37,6 +37,7 @@
       <mapping ext="srctrlbm" type="PLAIN_TEXT" />
       <mapping ext="tmp" type="PLAIN_TEXT" />
       <mapping ext="f" type="PLAIN_TEXT" />
+      <mapping ext="ips" type="PLAIN_TEXT" />
       <mapping ext="now" type="PLAIN_TEXT" />
       <mapping ext="msg" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
