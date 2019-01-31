@@ -5,6 +5,10 @@
       <list>
         <TemplateKey>
           <option name="groupName" value="output" />
+          <option name="key" value="soutp" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="output" />
           <option name="key" value="soutv" />
         </TemplateKey>
       </list>
