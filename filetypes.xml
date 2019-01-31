@@ -26,6 +26,8 @@
       <mapping pattern="visit_322143A1D7D6D5CE9C314DDDCCE916CC" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="obj" type="PLAIN_TEXT" />
+      <mapping ext="ser" type="PLAIN_TEXT" />
+      <mapping ext="dev" type="PLAIN_TEXT" />
       <mapping ext="own" type="PLAIN_TEXT" />
       <mapping ext="rgh" type="PLAIN_TEXT" />
       <mapping ext="res" type="PLAIN_TEXT" />
