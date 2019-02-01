@@ -28,22 +28,7 @@
       <option name="JAVA_COMMENT" value="true" />
     </context>
   </template>
-  <template name="msge" value="messageToUser.errorAlert(SOURCE_CLASS, &quot;ID - $LINE$&quot;, e.getMessage());&#10;" description="" toReformat="true" toShortenFQNames="true">
-    <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-    </context>
-  </template>
   <template name="uns" value="throw new java.lang.UnsupportedOperationException(&quot;31&quot;+&quot; &quot;+e.getMessage()+&quot;\n&quot;+ java.util.Arrays.toString(e.getStackTrace()));" description="" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="msgep" value="messageToUser.errorAlert(SOURCE_CLASS, &quot;$LINE$&quot;, $e$.getMessage());&#10;messageToUser.out(SOURCE_CLASS+&quot;_$LINE$&quot;, (e.getMessage() + &quot;\n\n&quot; + Arrays.toString(e.getStackTrace()).replaceAll(&quot;, &quot;, &quot;\n&quot;)).getBytes());" description="" toReformat="true" toShortenFQNames="true">
-    <variable name="e" expression="expressionType(Expression)" defaultValue="" alwaysStopAt="false" />
-    <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
@@ -75,12 +60,7 @@
       <option name="JAVA_COMMENT" value="true" />
     </context>
   </template>
-  <template name="lg" value="logger.info($END$)" description="" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="cttr" value="LOGGER.throwing(&quot;$CLASS$&quot;, &quot;$METHOD$&quot;, e);" description="Logger throwing" toReformat="true" toShortenFQNames="true">
+  <template name="cttr" value="new MessageCons().errorAlert(&quot;$CLASS$&quot;, &quot;$METHOD$&quot;, TForms.from(e));" description="Logger throwing" toReformat="true" toShortenFQNames="true">
     <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
     <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <context>
