@@ -29,6 +29,7 @@
       <mapping ext="obj" type="PLAIN_TEXT" />
       <mapping ext="ser" type="PLAIN_TEXT" />
       <mapping ext="dev" type="PLAIN_TEXT" />
+      <mapping ext="tv" type="PLAIN_TEXT" />
       <mapping ext="own" type="PLAIN_TEXT" />
       <mapping ext="rgh" type="PLAIN_TEXT" />
       <mapping ext="res" type="PLAIN_TEXT" />
