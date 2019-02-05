@@ -4,7 +4,7 @@
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <context />
   </template>
-  <template name="sout" value="new MessageCons().info($END$);" description="Prints a string to new MessageCons" toReformat="true" toShortenFQNames="true">
+  <template name="sout" value="new MessageCons().infoNoTitles($END$);" description="Prints a string to new MessageCons" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
   <template name="soutpst" value="System.out.println($FORMAT$);" description="Prints method parameter names and values to System.out" toReformat="true" toShortenFQNames="true">
