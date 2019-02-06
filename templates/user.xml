@@ -76,7 +76,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="soutv" value="String valStr=&quot;$EXPR_COPY$ = &quot; + $EXPR$;&#10;new MessageCons().info(Thread.currentThread().getName(),&quot;$CLASS$.$METH$&quot;, valStr);" description="Prints a value to Logger" toReformat="true" toShortenFQNames="true">
+  <template name="soutv" value="String valStr=&quot;$EXPR_COPY$ = &quot; + $EXPR$;&#10;new MessageLocal().info(Thread.currentThread().getName(),&quot;$CLASS$.$METH$&quot;, valStr);" description="Prints a value to Logger" toReformat="true" toShortenFQNames="true">
     <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
     <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false" />
     <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
