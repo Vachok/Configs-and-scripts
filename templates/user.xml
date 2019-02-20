@@ -76,7 +76,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="soutv" value="messageToUser.info(&quot;$CLASS$.$METH$&quot;,&quot;$EXPR_COPY$&quot;,$EXPR$);" description="Prints a value to Logger" toReformat="true" toShortenFQNames="true">
+  <template name="soutv" value="messageToUser.info(&quot;$CLASS$.$METH$&quot;,&quot;$EXPR_COPY$&quot;,$EXPR$);" shortcut="TAB" description="Prints a value to messageToUser" toReformat="true" toShortenFQNames="true">
     <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
     <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false" />
     <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
