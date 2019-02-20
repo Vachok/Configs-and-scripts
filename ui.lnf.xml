@@ -1,7 +1,4 @@
 <application>
-  <component name="DependencyUISettings">
-    <option name="UI_FLATTEN_PACKAGES" value="false" />
-  </component>
   <component name="UISettings">
     <option name="ANIMATE_WINDOWS" value="false" />
     <option name="COLOR_BLINDNESS" value="deuteranopia" />
