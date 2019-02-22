@@ -84,4 +84,12 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="hrefttt" value="&lt;a href=&quot;$CLOPBOARD$&quot; target=_blank&gt;$DATE$ ($TIME$)&lt;/a&gt;" description="Time as link" toReformat="true" toShortenFQNames="true">
+    <variable name="CLOPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
