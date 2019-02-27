@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Changed Files" />
-    <option name="defaultScopeName" value="Changed Files" />
-    <option name="SEARCH_SCOPE" value="Changed Files" />
+    <option name="customScope" value="File '...\modules\networker\src\main\java\ru\vachok\networker\net\NetPinger.java [networker_main]'" />
+    <option name="defaultScopeName" value="File '...\modules\networker\src\main\java\ru\vachok\networker\net\NetPinger.java [networker_main]'" />
+    <option name="SEARCH_SCOPE" value="File '...\modules\networker\src\main\java\ru\vachok\networker\net\NetPinger.java [networker_main]'" />
   </component>
 </application>
