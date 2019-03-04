@@ -2,7 +2,7 @@
   <component name="GrepConsole">
     <option name="donationNagger">
       <DonationNagger>
-        <option name="actionsExecuted" value="36" />
+        <option name="actionsExecuted" value="39" />
         <option name="firstUsage" value="0" />
         <option name="firstUsedVersion" value="8.4.162.000.1" />
         <option name="lastNaggingDate" value="0" />
@@ -18,6 +18,29 @@
               <GrepExpressionGroup>
                 <option name="grepExpressionItems">
                   <list>
+                    <GrepExpressionItem>
+                      <option name="continueMatching" value="true" />
+                      <option name="grepExpression" value="Breakpoint reached" />
+                      <option name="highlightOnlyMatchingText" value="true" />
+                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
+                      <option name="showCountInConsole" value="true" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-14942434" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="bold" value="true" />
+                          <option name="foregroundColor">
+                            <GrepColor>
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="continueMatching" value="true" />
                       <option name="fold" value="true" />
@@ -89,7 +112,6 @@
                       <option name="grepExpression" value="EXCEPTION" />
                       <option name="highlightOnlyMatchingText" value="true" />
                       <option name="operationOnMatch" value="CONTINUE_MATCHING" />
-                      <option name="showCountInConsole" value="true" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
