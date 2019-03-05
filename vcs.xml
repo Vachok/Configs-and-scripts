@@ -59,6 +59,7 @@
     <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
   </component>
   <component name="VcsApplicationSettings">
+    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/IdeaProjects/spring/modules/networker/src/test/resources/patches" />
     <option name="DETECT_PATCH_ON_THE_FLY" value="true" />
   </component>
 </application>
