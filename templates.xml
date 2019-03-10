@@ -1,5 +1,17 @@
 <application>
   <component name="TemplateSettings">
     <defaultShortcut shortcut="SPACE" />
+    <option name="deletedKeys">
+      <list>
+        <TemplateKey>
+          <option name="groupName" value="output" />
+          <option name="key" value="soutp" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="output" />
+          <option name="key" value="soutv" />
+        </TemplateKey>
+      </list>
+    </option>
   </component>
 </application>

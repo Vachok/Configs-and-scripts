@@ -1,12 +1,5 @@
 <application>
   <component name="SonarLintGlobalSettings">
-    <option name="excludedRules">
-      <set>
-        <option value="squid:CommentedOutCodeLine" />
-        <option value="squid:S106" />
-        <option value="squid:S2629" />
-      </set>
-    </option>
     <option name="includedRules">
       <set>
         <option value="squid:CallToFileDeleteOnExitMethod" />
@@ -16,6 +9,7 @@
         <option value="squid:ParsingError" />
         <option value="squid:S00103" />
         <option value="squid:S00104" />
+        <option value="squid:S00105" />
         <option value="squid:S00121" />
         <option value="squid:S00122" />
         <option value="squid:S1067" />
@@ -26,6 +20,7 @@
         <option value="squid:S1151" />
         <option value="squid:S1160" />
         <option value="squid:S1162" />
+        <option value="squid:S1166" />
         <option value="squid:S1188" />
         <option value="squid:S1194" />
         <option value="squid:S1200" />
@@ -33,6 +28,8 @@
         <option value="squid:S1244" />
         <option value="squid:S1258" />
         <option value="squid:S126" />
+        <option value="squid:S1309" />
+        <option value="squid:S1312" />
         <option value="squid:S1314" />
         <option value="squid:S134" />
         <option value="squid:S138" />
@@ -41,6 +38,7 @@
         <option value="squid:S1695" />
         <option value="squid:S1696" />
         <option value="squid:S1697" />
+        <option value="squid:S1698" />
         <option value="squid:S1699" />
         <option value="squid:S1711" />
         <option value="squid:S1774" />
@@ -59,9 +57,11 @@
         <option value="squid:S2197" />
         <option value="squid:S2208" />
         <option value="squid:S2211" />
+        <option value="squid:S2250" />
         <option value="squid:S2253" />
         <option value="squid:S2258" />
         <option value="squid:S2301" />
+        <option value="squid:S2325" />
         <option value="squid:S2444" />
         <option value="squid:S2658" />
         <option value="squid:S2693" />
@@ -71,17 +71,22 @@
         <option value="squid:S2755" />
         <option value="squid:S2972" />
         <option value="squid:S2973" />
+        <option value="squid:S2974" />
         <option value="squid:S3030" />
+        <option value="squid:S3254" />
         <option value="squid:S3282" />
         <option value="squid:S3306" />
         <option value="squid:S3329" />
         <option value="squid:S3330" />
+        <option value="squid:S3340" />
         <option value="squid:S3366" />
         <option value="squid:S3369" />
         <option value="squid:S3374" />
         <option value="squid:S3417" />
+        <option value="squid:S3437" />
         <option value="squid:S3546" />
         <option value="squid:S3553" />
+        <option value="squid:S3688" />
         <option value="squid:S3749" />
         <option value="squid:S3750" />
         <option value="squid:S3751" />
