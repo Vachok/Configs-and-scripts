@@ -1,9 +1,0 @@
-<application>
-  <component name="ParameterNameHintsSettings">
-    <blacklists>
-      <blacklist language="Java">
-        <added pattern="java.util.Calendar.set(year,month,date,hourOfDay,minute)" />
-      </blacklist>
-    </blacklists>
-  </component>
-</application>
