@@ -3,5 +3,16 @@
     <option name="FONT_SIZE" value="13" />
     <option name="FONT_FAMILY" value="Source Code Pro" />
     <option name="USE_LIGATURES" value="true" />
+    <option name="SECONDARY_FONT_FAMILY" value="Consolas" />
+  </component>
+  <component name="InspectionProfileManager">
+    <info color="be9117">
+      <option name="BACKGROUND" value="52503a" />
+      <option name="ERROR_STRIPE_COLOR" value="be9117" />
+      <option name="EFFECT_TYPE" value="2" />
+      <option name="myName" value="UNUSED ENTRY" />
+      <option name="myVal" value="50" />
+      <option name="myExternalName" value="UNUSED ENTRY" />
+    </info>
   </component>
 </application>
