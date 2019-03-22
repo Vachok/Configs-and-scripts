@@ -54,18 +54,16 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ferr" value="messageToUser.errorAlert(&quot;$CLASS$&quot;, &quot;$METH$&quot;, e.getMessage());&#10;FileSystemWorker.error(&quot;$CLASS$.$METH$&quot;, e);" shortcut="ENTER" description="Err to file" toReformat="true" toShortenFQNames="true">
-    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+  <template name="ferr" value="messageToUser.errorAlert(getClass().getSimpleName(), &quot;$METH$&quot;, e.getMessage());&#10;FileSystemWorker.error(getClass().getSimpleName()+&quot;.$METH$&quot;, e);" shortcut="ENTER" description="Err to file" toReformat="true" toShortenFQNames="true">
     <variable name="METH" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="soutv" value="messageToUser.info(&quot;$CLASS$.$METH$&quot;,&quot;$EXPR_COPY$&quot;,&quot; = &quot;+$EXPR$);" description="Prints a value to messageToUser" toReformat="true" toShortenFQNames="true">
+  <template name="soutv" value="messageToUser.info(getClass().getSimpleName()+&quot;.$METH$&quot;,&quot;$EXPR_COPY$&quot;,&quot; = &quot;+$EXPR$);" description="Prints a value to messageToUser" toReformat="true" toShortenFQNames="true">
     <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
     <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false" />
-    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
     <variable name="METH" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
