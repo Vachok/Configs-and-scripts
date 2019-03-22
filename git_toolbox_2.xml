@@ -1,7 +1,5 @@
 <application>
   <component name="GitToolBoxAppSettings2">
-    <option name="presentationMode" value="arrowHeads" />
-    <option name="updateProjectActionId" value="gitextender.update.project.action" />
     <option name="decorationParts">
       <list>
         <DecorationPartConfig>
