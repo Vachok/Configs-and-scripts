@@ -54,12 +54,6 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="br" value="&lt;br&gt;" description="" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="HTML" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-    </context>
-  </template>
   <template name="ferr" value="messageToUser.errorAlert(&quot;$CLASS$&quot;, &quot;$METH$&quot;, e.getMessage());&#10;FileSystemWorker.error(&quot;$CLASS$.$METH$&quot;, e);" shortcut="ENTER" description="Err to file" toReformat="true" toShortenFQNames="true">
     <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
     <variable name="METH" expression="methodName()" defaultValue="" alwaysStopAt="false" />

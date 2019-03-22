@@ -1,5 +1,5 @@
 <templateSet group="Zen HTML">
-  <template name="br" value="&lt;br&gt;" description="&lt;br&gt;" toReformat="true" toShortenFQNames="true">
+  <template name="br" value="&lt;br&gt;&#10;$END$" shortcut="ENTER" description="&lt;br&gt;" toReformat="true" toShortenFQNames="false">
     <context>
       <option name="JSP" value="true" />
       <option name="JSX_HTML" value="true" />
