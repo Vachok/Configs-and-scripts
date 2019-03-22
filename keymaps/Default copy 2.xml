@@ -1,0 +1,20 @@
+<keymap version="1" name="Default copy 2" parent="$default">
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+    <mouse-shortcut keystroke="control button143" />
+  </action>
+  <action id="CollapseBlock">
+    <keyboard-shortcut first-keystroke="shift ctrl period" />
+    <mouse-shortcut keystroke="alt button142" />
+  </action>
+  <action id="CollapseSelection">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+    <mouse-shortcut keystroke="alt button143" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl add" />
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+    <mouse-shortcut keystroke="control button142" />
+  </action>
+</keymap>
