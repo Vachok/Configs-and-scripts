@@ -19,6 +19,7 @@
         </DecorationPartConfig>
       </list>
     </option>
+    <option name="blameInlineDateType" value="ABSOLUTE" />
     <option name="previousVersionMigrated" value="true" />
   </component>
 </application>
