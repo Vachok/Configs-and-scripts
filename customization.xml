@@ -15,6 +15,12 @@
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="tasks.close" is_action="true" action_type="1" position="17">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <action id="tasks.close" icon="$USER_HOME$/IdeaProjects/ftpplus/modules/networker/src/main/resources/static/icons/icons8-realtime-16.png" />
     <action id="tasks.open.in.browser" icon="$USER_HOME$/IdeaProjects/ftpplus/modules/networker/src/main/resources/static/icons/icons8-open-in-browser-16.png" />
     <action id="tasks.goto" icon="$USER_HOME$/IdeaProjects/ftpplus/modules/networker/src/main/resources/static/icons/icons8-add-16.png" />
     <action id="tasks.show.task.description" icon="$USER_HOME$/IdeaProjects/ftpplus/modules/networker/src/main/resources/static/icons/icons8-about-16.png" />
