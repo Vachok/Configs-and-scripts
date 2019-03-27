@@ -8,5 +8,6 @@
     <option name="OPEN_IN_BROWSER_GIST" value="false" />
     <option name="COPY_URL_GIST" value="true" />
     <option name="PRIVATE_GIST" value="false" />
+    <option name="CONNECTION_TIMEOUT" value="15000" />
   </component>
 </application>
