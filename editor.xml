@@ -8,9 +8,23 @@
   </component>
   <component name="EditorSettings">
     <option name="CARET_BLINKING_PERIOD" value="700" />
+    <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <option name="ARE_LINE_NUMBERS_SHOWN" value="false" />
+    <option name="ARE_GUTTER_ICONS_SHOWN" value="false" />
+    <option name="IS_FOLDING_OUTLINE_SHOWN" value="false" />
+    <option name="SHOW_BREADCRUMBS" value="false" />
+    <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
     <option name="IS_DND_ENABLED" value="false" />
   </component>
   <component name="InspectionProfileManager">
+    <info color="be9117">
+      <option name="BACKGROUND" value="52503a" />
+      <option name="ERROR_STRIPE_COLOR" value="be9117" />
+      <option name="EFFECT_TYPE" value="2" />
+      <option name="myName" value="UNUSED ENTRY" />
+      <option name="myVal" value="50" />
+      <option name="myExternalName" value="UNUSED ENTRY" />
+    </info>
     <info color="be9117">
       <option name="BACKGROUND" value="52503a" />
       <option name="ERROR_STRIPE_COLOR" value="be9117" />
