@@ -34,10 +34,9 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="sclass" value="/**&#10; * This Class Simple Name&#10; */&#10;private static final java.lang.String CLASS_NAME = $CLASS$.class.getSimpleName();" shortcut="SPACE" description="" toReformat="true" toShortenFQNames="true">
-    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
+  <template name="err" value="messageToUser.error(e.getMessage());" shortcut="SPACE" description="only err" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_CODE" value="true" />
     </context>
   </template>
   <template name="arts" value="java.util.Arrays.toString($ARRAY$$END$).replaceAll(&quot;, &quot;,&quot; &quot;).replace(&quot;{&quot;, &quot;&quot;).replace(&quot;}&quot;,&quot;&quot;)" description="Array to String" toReformat="true" toShortenFQNames="true">
@@ -54,7 +53,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ferr" value="messageToUser.errorAlert(getClass().getSimpleName(), &quot;.$METH$&quot;, e.getMessage());&#10;FileSystemWorker.error(getClass().getSimpleName()+&quot;.$METH$&quot;, e);" shortcut="ENTER" description="Err to file" toReformat="true" toShortenFQNames="true">
+  <template name="ferr" value="messageToUser.error(FileSystemWorker.error(getClass().getSimpleName()+&quot;.$METH$&quot;, e));" shortcut="ENTER" description="Err to file" toReformat="true" toShortenFQNames="true">
     <variable name="METH" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
@@ -85,6 +84,13 @@
     </context>
   </template>
   <template name="thns" value="AppComponents.threadConfig().thrNameSet(&quot;$END$&quot;);" description="thrNameSet" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ferri" value="messageToUser.error(FileSystemWorker.error(getClass().getSimpleName()+&quot;.$METH$&quot;, e));&#10;Thread.currentThread().checkAccess();&#10;Thread.currentThread().interrupt();" shortcut="ENTER" description="Err to file if interrupt" toReformat="true" toShortenFQNames="true">
+    <variable name="METH" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
