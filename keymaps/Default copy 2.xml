@@ -18,6 +18,17 @@
     <mouse-shortcut keystroke="control button142" />
   </action>
   <action id="IntroduceParameter" />
+  <action id="Move">
+    <keyboard-shortcut first-keystroke="f6" />
+    <mouse-shortcut keystroke="alt button2" />
+  </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="ShowReformatFileDialog">
+    <keyboard-shortcut first-keystroke="shift ctrl alt l" />
+    <mouse-shortcut keystroke="control button2" />
+  </action>
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="scroll_lock" />
   </action>
