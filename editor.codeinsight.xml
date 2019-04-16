@@ -4,6 +4,7 @@
     <option name="COLLAPSE_DOC_COMMENTS" value="true" />
   </component>
   <component name="CodeInsightSettings">
+    <option name="SHOW_SOURCE_INFERRED_ANNOTATIONS" value="false" />
     <option name="ADD_IMPORTS_ON_PASTE" value="1" />
   </component>
   <component name="DaemonCodeAnalyzerSettings" profile="Project Default" />
