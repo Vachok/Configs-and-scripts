@@ -2,7 +2,6 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
-      <mapping pattern="psps" type="PLAIN_TEXT" />
       <mapping pattern="visit_C646EAD74542DF86C8625B84E4F13462" type="PLAIN_TEXT" />
       <mapping pattern="visit_C618FFF83054EF9AE1A235C39E1CB446" type="PLAIN_TEXT" />
       <mapping pattern="pass" type="PLAIN_TEXT" />
@@ -11,8 +10,9 @@
       <mapping pattern="testpass" type="PLAIN_TEXT" />
       <mapping pattern="DiapazonedScan" type="PLAIN_TEXT" />
       <mapping pattern="visitor" type="PLAIN_TEXT" />
-      <mapping pattern="670-340" type="PLAIN_TEXT" />
       <mapping pattern="visit_C8A82BB3A1521A39C7E4B80F98A19ED5" type="PLAIN_TEXT" />
+      <mapping pattern="670-340" type="PLAIN_TEXT" />
+      <mapping pattern="psps" type="PLAIN_TEXT" />
       <mapping pattern="goolemapsreq" type="PLAIN_TEXT" />
       <mapping pattern="ConstantsForser" type="PLAIN_TEXT" />
       <mapping pattern="visit_322143A1D7D6D5CE9C314DDDCCE916CC" type="PLAIN_TEXT" />
@@ -21,6 +21,7 @@
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="rgh" type="PLAIN_TEXT" />
       <mapping ext="me" type="PLAIN_TEXT" />
+      <mapping ext="map" type="PLAIN_TEXT" />
       <mapping ext="srctrldb" type="PLAIN_TEXT" />
       <mapping ext="err" type="PLAIN_TEXT" />
       <mapping ext="obj" type="PLAIN_TEXT" />
