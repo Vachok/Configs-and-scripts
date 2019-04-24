@@ -31,6 +31,7 @@
       <mapping ext="ssh" type="PLAIN_TEXT" />
       <mapping ext="tv" type="PLAIN_TEXT" />
       <mapping ext="316" type="PLAIN_TEXT" />
+      <mapping ext="files" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="f" type="PLAIN_TEXT" />
       <mapping ext="now" type="PLAIN_TEXT" />
