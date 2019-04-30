@@ -30,6 +30,7 @@
       <mapping ext="pstobjstr" type="PLAIN_TEXT" />
       <mapping ext="ser" type="PLAIN_TEXT" />
       <mapping ext="ssh" type="PLAIN_TEXT" />
+      <mapping ext="pst" type="PLAIN_TEXT" />
       <mapping ext="tv" type="PLAIN_TEXT" />
       <mapping ext="316" type="PLAIN_TEXT" />
       <mapping ext="4" type="PLAIN_TEXT" />
