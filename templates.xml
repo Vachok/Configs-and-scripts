@@ -1,0 +1,12 @@
+<application>
+  <component name="TemplateSettings">
+    <option name="deletedKeys">
+      <list>
+        <TemplateKey>
+          <option name="groupName" value="output" />
+          <option name="key" value="sout" />
+        </TemplateKey>
+      </list>
+    </option>
+  </component>
+</application>
