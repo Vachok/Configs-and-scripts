@@ -25,6 +25,7 @@
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="rgh" type="PLAIN_TEXT" />
       <mapping ext="res" type="PLAIN_TEXT" />
+      <mapping ext="lck" type="PLAIN_TEXT" />
       <mapping ext="me" type="PLAIN_TEXT" />
       <mapping ext="map" type="PLAIN_TEXT" />
       <mapping ext="srctrldb" type="PLAIN_TEXT" />
