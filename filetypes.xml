@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
+      <mapping pattern="0" type="PLAIN_TEXT" />
       <mapping pattern="Дневник" type="PLAIN_TEXT" />
       <mapping pattern="visit_C8A82BB3A1521A39C7E4B80F98A19ED5" type="PLAIN_TEXT" />
       <mapping pattern="pass" type="PLAIN_TEXT" />
@@ -10,21 +11,22 @@
       <mapping pattern="24hrs" type="PLAIN_TEXT" />
       <mapping pattern="ConstantsForser" type="PLAIN_TEXT" />
       <mapping pattern="Контакты" type="PLAIN_TEXT" />
+      <mapping pattern="dfs" type="PLAIN_TEXT" />
       <mapping pattern="Входящие" type="PLAIN_TEXT" />
       <mapping pattern="goolemapsreq" type="PLAIN_TEXT" />
       <mapping pattern="Отправленные" type="PLAIN_TEXT" />
-      <mapping pattern="psps" type="PLAIN_TEXT" />
       <mapping pattern="670-340" type="PLAIN_TEXT" />
       <mapping pattern="visitor" type="PLAIN_TEXT" />
+      <mapping pattern="psps" type="PLAIN_TEXT" />
       <mapping pattern="visit_322143A1D7D6D5CE9C314DDDCCE916CC" type="PLAIN_TEXT" />
       <mapping pattern="visit_C646EAD74542DF86C8625B84E4F13462" type="PLAIN_TEXT" />
       <mapping pattern="DiapazonedScan" type="PLAIN_TEXT" />
       <mapping pattern="testpass" type="PLAIN_TEXT" />
       <mapping ext="mini" type="PLAIN_TEXT" />
       <mapping ext="own" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="rgh" type="PLAIN_TEXT" />
-      <mapping ext="res" type="PLAIN_TEXT" />
       <mapping ext="lck" type="PLAIN_TEXT" />
       <mapping ext="me" type="PLAIN_TEXT" />
       <mapping ext="map" type="PLAIN_TEXT" />
@@ -39,15 +41,15 @@
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="tv" type="PLAIN_TEXT" />
       <mapping ext="316" type="PLAIN_TEXT" />
+      <mapping ext="4" type="PLAIN_TEXT" />
       <mapping ext="files" type="PLAIN_TEXT" />
-      <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="f" type="PLAIN_TEXT" />
       <mapping ext="now" type="PLAIN_TEXT" />
       <mapping ext="dev" type="PLAIN_TEXT" />
       <mapping ext="ru" type="PLAIN_TEXT" />
       <mapping ext="msg" type="PLAIN_TEXT" />
       <mapping ext="srctrlbm" type="PLAIN_TEXT" />
-      <mapping ext="4" type="PLAIN_TEXT" />
+      <mapping ext="res" type="PLAIN_TEXT" />
       <mapping ext="ips" type="PLAIN_TEXT" />
       <mapping ext="pstcontenttofolderswithattachments" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
