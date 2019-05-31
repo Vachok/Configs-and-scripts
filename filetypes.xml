@@ -23,10 +23,11 @@
       <mapping pattern="visit_C646EAD74542DF86C8625B84E4F13462" type="PLAIN_TEXT" />
       <mapping pattern="DiapazonedScan" type="PLAIN_TEXT" />
       <mapping pattern="testpass" type="PLAIN_TEXT" />
+      <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="showcontacts" type="PLAIN_TEXT" />
+      <mapping ext="files" type="PLAIN_TEXT" />
       <mapping ext="obj" type="PLAIN_TEXT" />
       <mapping ext="ser" type="PLAIN_TEXT" />
-      <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="pst" type="PLAIN_TEXT" />
       <mapping ext="dev" type="PLAIN_TEXT" />
       <mapping ext="pstobjstr" type="PLAIN_TEXT" />
@@ -36,6 +37,7 @@
       <mapping ext="rgh" type="PLAIN_TEXT" />
       <mapping ext="onlist" type="PLAIN_TEXT" />
       <mapping ext="res" type="PLAIN_TEXT" />
+      <mapping ext="list" type="PLAIN_TEXT" />
       <mapping ext="316" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="ru" type="PLAIN_TEXT" />
@@ -47,7 +49,6 @@
       <mapping ext="srctrlbm" type="PLAIN_TEXT" />
       <mapping ext="pstcontenttofolderswithattachments" type="PLAIN_TEXT" />
       <mapping ext="tmp" type="PLAIN_TEXT" />
-      <mapping ext="files" type="PLAIN_TEXT" />
       <mapping ext="lck" type="PLAIN_TEXT" />
       <mapping ext="f" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
