@@ -59,6 +59,7 @@
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="ips" type="PLAIN_TEXT" />
       <mapping ext="now" type="PLAIN_TEXT" />
+      <mapping ext="tmp50814" type="PLAIN_TEXT" />
       <mapping ext="4" type="PLAIN_TEXT" />
       <mapping ext="msg" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
