@@ -27,12 +27,14 @@
       <mapping ext="showcontacts" type="PLAIN_TEXT" />
       <mapping ext="files" type="PLAIN_TEXT" />
       <mapping ext="obj" type="PLAIN_TEXT" />
+      <mapping ext="tmp51399" type="PLAIN_TEXT" />
       <mapping ext="ser" type="PLAIN_TEXT" />
       <mapping ext="pst" type="PLAIN_TEXT" />
       <mapping ext="dev" type="PLAIN_TEXT" />
       <mapping ext="pstobjstr" type="PLAIN_TEXT" />
       <mapping ext="tv" type="PLAIN_TEXT" />
       <mapping ext="ssh" type="PLAIN_TEXT" />
+      <mapping ext="tmp51358" type="PLAIN_TEXT" />
       <mapping ext="own" type="PLAIN_TEXT" />
       <mapping ext="rgh" type="PLAIN_TEXT" />
       <mapping ext="onlist" type="PLAIN_TEXT" />
