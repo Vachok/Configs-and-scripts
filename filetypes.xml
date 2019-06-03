@@ -38,6 +38,7 @@
       <mapping ext="onlist" type="PLAIN_TEXT" />
       <mapping ext="res" type="PLAIN_TEXT" />
       <mapping ext="list" type="PLAIN_TEXT" />
+      <mapping ext="tmp48342" type="PLAIN_TEXT" />
       <mapping ext="316" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="ru" type="PLAIN_TEXT" />
