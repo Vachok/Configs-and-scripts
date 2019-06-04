@@ -54,6 +54,7 @@
       <mapping ext="pstcontenttofolderswithattachments" type="PLAIN_TEXT" />
       <mapping ext="tmp" type="PLAIN_TEXT" />
       <mapping ext="lck" type="PLAIN_TEXT" />
+      <mapping ext="trans" type="PLAIN_TEXT" />
       <mapping ext="tmp48173" type="PLAIN_TEXT" />
       <mapping ext="tmp48183" type="PLAIN_TEXT" />
       <mapping ext="f" type="PLAIN_TEXT" />
