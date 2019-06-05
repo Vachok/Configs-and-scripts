@@ -2,7 +2,9 @@
   <component name="libraryTable">
     <library name="lib">
       <CLASSES />
-      <JAVADOC />
+      <JAVADOC>
+        <root url="https://square.github.io/okhttp/3.x/okhttp/okhttp3/package-summary.html" />
+      </JAVADOC>
       <SOURCES />
     </library>
   </component>
