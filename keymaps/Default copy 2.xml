@@ -17,6 +17,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
     <mouse-shortcut keystroke="control button142" />
   </action>
+  <action id="InspectCode">
+    <mouse-shortcut keystroke="button2 doubleClick" />
+  </action>
   <action id="IntroduceParameter" />
   <action id="Move">
     <keyboard-shortcut first-keystroke="f6" />
