@@ -29,4 +29,7 @@
       <option name="myExternalName" value="UNUSED ENTRY" />
     </info>
   </component>
+  <component name="TodoConfiguration">
+    <multiLine>false</multiLine>
+  </component>
 </application>
