@@ -114,7 +114,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="br" value="&lt;br&gt;" shortcut="SPACE" toReformat="true" toShortenFQNames="true">
+  <template name="br" value="&lt;br&gt;" shortcut="SPACE" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_COMMENT" value="true" />
     </context>

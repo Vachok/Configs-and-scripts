@@ -27,4 +27,11 @@
       <option name="WORKING_DIRECTORY" value="C:/Notepad" />
     </exec>
   </tool>
+  <tool name="plantuml" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="plantuml.jar" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/IdeaProjects/ftpplus/modules/networker/src/main/resources" />
+    </exec>
+  </tool>
 </toolSet>
