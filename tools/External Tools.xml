@@ -31,7 +31,7 @@
     <exec>
       <option name="COMMAND" value="plantuml.jar" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/IdeaProjects/ftpplus/modules/networker/src/main/resources" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/ikudryashov/IdeaProjects/ftpplus/modules/networker/src/main/resources" />
     </exec>
   </tool>
 </toolSet>
