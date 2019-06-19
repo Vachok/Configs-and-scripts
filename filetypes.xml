@@ -13,6 +13,7 @@
       <mapping pattern="Контакты" type="PLAIN_TEXT" />
       <mapping pattern="rr" type="PLAIN_TEXT" />
       <mapping pattern="dfs" type="PLAIN_TEXT" />
+      <mapping pattern="localhost" type="PLAIN_TEXT" />
       <mapping pattern="Входящие" type="PLAIN_TEXT" />
       <mapping pattern="goolemapsreq" type="PLAIN_TEXT" />
       <mapping pattern="Отправленные" type="PLAIN_TEXT" />
@@ -24,8 +25,9 @@
       <mapping pattern="DiapazonedScan" type="PLAIN_TEXT" />
       <mapping pattern="testpass" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
+      <mapping ext="map" type="PLAIN_TEXT" />
       <mapping ext="showcontacts" type="PLAIN_TEXT" />
-      <mapping ext="files" type="PLAIN_TEXT" />
+      <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="obj" type="PLAIN_TEXT" />
       <mapping ext="tmp51399" type="PLAIN_TEXT" />
       <mapping ext="ser" type="PLAIN_TEXT" />
@@ -42,11 +44,9 @@
       <mapping ext="list" type="PLAIN_TEXT" />
       <mapping ext="tmp48342" type="PLAIN_TEXT" />
       <mapping ext="316" type="PLAIN_TEXT" />
-      <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="ru" type="PLAIN_TEXT" />
       <mapping ext="me" type="PLAIN_TEXT" />
       <mapping ext="err" type="PLAIN_TEXT" />
-      <mapping ext="map" type="PLAIN_TEXT" />
       <mapping ext="tmp48261" type="PLAIN_TEXT" />
       <mapping ext="srctrldb" type="PLAIN_TEXT" />
       <mapping ext="mini" type="PLAIN_TEXT" />
@@ -54,12 +54,13 @@
       <mapping ext="pstcontenttofolderswithattachments" type="PLAIN_TEXT" />
       <mapping ext="tmp" type="PLAIN_TEXT" />
       <mapping ext="lck" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="trans" type="PLAIN_TEXT" />
       <mapping ext="tmp48173" type="PLAIN_TEXT" />
       <mapping ext="tmp48183" type="PLAIN_TEXT" />
       <mapping ext="f" type="PLAIN_TEXT" />
       <mapping ext="tmp48207" type="PLAIN_TEXT" />
-      <mapping ext="pem" type="PLAIN_TEXT" />
+      <mapping ext="files" type="PLAIN_TEXT" />
       <mapping ext="ips" type="PLAIN_TEXT" />
       <mapping ext="now" type="PLAIN_TEXT" />
       <mapping ext="tmp50814" type="PLAIN_TEXT" />
