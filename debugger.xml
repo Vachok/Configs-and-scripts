@@ -97,9 +97,6 @@
     </filter>
   </component>
   <component name="NodeRendererSettings">
-    <Renderer ID="ToStringRenderer">
-      <option name="ON_DEMAND" value="true" />
-    </Renderer>
     <Renderer ID="ClassRenderer">
       <option name="SHOW_STATIC" value="true" />
       <option name="SHOW_STATIC_FINAL" value="true" />
