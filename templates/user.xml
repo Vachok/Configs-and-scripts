@@ -119,4 +119,10 @@
       <option name="JAVA_COMMENT" value="true" />
     </context>
   </template>
+  <template name="aerr" value="org.testng.Assert.assertNull(e, e.getMessage()+&quot;\n&quot;+new ru.vachok.networker.TForms().fromArray(e, false));" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
