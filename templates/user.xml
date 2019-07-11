@@ -81,7 +81,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="erri" value="messageToUser.error(FileSystemWorker.error(getClass().getSimpleName()+&quot;.$METH$&quot;, e));&#10;Thread.currentThread().checkAccess();&#10;Thread.currentThread().interrupt();" shortcut="ENTER" description="Err to file if interrupt" toReformat="true" toShortenFQNames="true">
+  <template name="errif" value="messageToUser.error(FileSystemWorker.error(getClass().getSimpleName()+&quot;.$METH$&quot;, e));&#10;Thread.currentThread().checkAccess();&#10;Thread.currentThread().interrupt();" shortcut="ENTER" description="Err to file if interrupt" toReformat="true" toShortenFQNames="true">
     <variable name="METH" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
@@ -112,6 +112,12 @@
     </context>
   </template>
   <template name="aerr" value="Assert.assertNull(e, e.getMessage() + &quot;\n&quot; + new TForms().fromArray(e));" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="erri" value="System.err.println(e.getMessage());&#10;Thread.currentThread().checkAccess();&#10;Thread.currentThread().interrupt();" shortcut="ENTER" description="Err to file if interrupt" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
