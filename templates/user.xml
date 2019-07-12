@@ -34,7 +34,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="err" value="messageToUser.error(e.getMessage());" shortcut="SPACE" description="only err" toReformat="true" toShortenFQNames="true">
+  <template name="err" value="messageToUser.error(MessageFormat.format(&quot;NetListKeeper.getOnLinesResolve threw away: {0}, ({1})&quot;, e.getMessage(), e.getLocalizedMessage()));" shortcut="SPACE" description="only err" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
