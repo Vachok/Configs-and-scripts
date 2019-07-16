@@ -1,4 +1,5 @@
 <keymap version="1" name="Default copy 2" parent="$default">
+  <action id="ChangesView.UnshelveSilently" />
   <action id="CollapseAllRegions">
     <keyboard-shortcut first-keystroke="shift ctrl subtract" />
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
@@ -17,9 +18,13 @@
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
     <mouse-shortcut keystroke="control button142" />
   </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
   <action id="InspectCode">
     <mouse-shortcut keystroke="button2 doubleClick" />
   </action>
+  <action id="IntroduceField" />
   <action id="IntroduceParameter" />
   <action id="Move">
     <keyboard-shortcut first-keystroke="f6" />
@@ -28,6 +33,7 @@
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
+  <action id="ShowFilterPopup" />
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="shift ctrl alt l" />
     <mouse-shortcut keystroke="control button2" />
@@ -38,5 +44,9 @@
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
+  <action id="Vcs.UpdateProject">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
 </keymap>
