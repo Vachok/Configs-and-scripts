@@ -10,7 +10,7 @@
     <entry key="ide.mac.allowDarkWindowDecorations" value="true" />
     <entry key="ide.tooltip.initialDelay" value="880" />
     <entry key="debugger.valueTooltipAutoShowOnSelection" value="true" />
-    <entry key="debugger.showTypes" value="false" />
     <entry key="debugger.watches.in.variables" value="false" />
+    <entry key="debugger.showTypes" value="false" />
   </component>
 </application>

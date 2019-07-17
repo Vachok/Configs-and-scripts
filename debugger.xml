@@ -98,7 +98,6 @@
   </component>
   <component name="NodeRendererSettings">
     <Renderer ID="ToStringRenderer">
-      <option name="USE_CLASS_FILTERS" value="true" />
       <filter>
         <option name="PATTERN" value="ru.vachok.networker.*" />
         <option name="ENABLED" value="true" />
@@ -111,6 +110,24 @@
       <option name="SHOW_DECLARED_TYPE" value="true" />
       <option name="SHOW_OBJECT_ID" value="false" />
     </Renderer>
+    <CustomRenderers VERSION="8">
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="java.lang.String" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="java.lang.String" />
+          <option name="AppendDefault" value="true" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="sun.nio.fs.WindowsUserPrincipals$Group" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="sun.nio.fs.WindowsUserPrincipals$Group" />
+          <option name="AppendDefault" value="true" />
+        </Renderer>
+      </Renderer>
+    </CustomRenderers>
   </component>
   <component name="ThreadsViewSettings">
     <option name="SHOW_THREAD_GROUPS" value="true" />
