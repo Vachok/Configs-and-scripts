@@ -819,6 +819,7 @@
   <inspection_tool class="ConstantMathCall" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ConstantOnLHSOfComparison" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ConstantOnRHSOfComparison" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="ConstantOnWrongSideOfComparison" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ConstantStringIntern" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConstantTestNGAssertArgument" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ConstantValueVariableUse" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
@@ -1014,6 +1015,7 @@
   <inspection_tool class="ExpectedExceptionNeverThrown" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ExpectedExceptionNeverThrownTestNG" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ExplicitArgumentCanBeLambda" enabled="false" level="INFORMATION" enabled_by_default="false" />
+  <inspection_tool class="ExplicitArrayFilling" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ExplicitThis" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="ExtendsAnnotation" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ExtendsConcreteCollection" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1044,7 +1046,7 @@
   <inspection_tool class="FieldCanBeLocal" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="FieldCount" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="m_countConstantFields" value="false" />
-    <option name="m_considerStaticFinalFieldsConstant" value="false" />
+    <option name="m_considerStaticFinalFieldsConstant" value="true" />
     <option name="myCountEnumConstants" value="false" />
     <option name="m_limit" value="10" />
   </inspection_tool>
@@ -1318,12 +1320,14 @@
     <option name="suggestEnumSwitches" value="false" />
   </inspection_tool>
   <inspection_tool class="IfMayBeConditional" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="IfStatementMissingBreakInLoop" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="IfStatementWithIdenticalBranches" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="IfStatementWithTooManyBranches" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="m_limit" value="3" />
   </inspection_tool>
   <inspection_tool class="IgnoreCoverEntry" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="IgnoreDuplicateEntry" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="IgnoreFileDuplicateEntry" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="IgnoreIncorrectEntry" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="IgnoreRelativeEntry" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="IgnoreResultOfCall" enabled="true" level="WEAK WARNING" enabled_by_default="true">
@@ -1424,6 +1428,7 @@
   <inspection_tool class="InvalidComparatorMethodReference" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="InvalidParameterAnnotations" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="InvalidPropertyKeyForm" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="IterableUsedAsVararg" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="IteratorHasNextCallsIteratorNext" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="IteratorNextDoesNotThrowNoSuchElementException" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JDBCExecuteWithNonConstantString" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1597,6 +1602,7 @@
   <inspection_tool class="MalformedXPath" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ManualArrayCopy" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ManualArrayToCollectionCopy" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ManualMinMaxCalculation" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MapReplaceableByEnumMap" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MarkdownUnresolvedFileReference" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MarkedForRemoval" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -1703,6 +1709,7 @@
   </inspection_tool>
   <inspection_tool class="MultipleTopLevelClassesInFile" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="MultipleTypedDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="MultipleVariablesInDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MultiplyOrDivideByPowerOfTwo" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="checkDivision" value="false" />
   </inspection_tool>
@@ -1756,6 +1763,7 @@
     <option name="m_limit" value="30" />
   </inspection_tool>
   <inspection_tool class="NonExceptionNameEndsWithException" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="NonExtendableApiUsage" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="NonFinalClone" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="NonFinalFieldInEnum" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="NonFinalFieldInImmutable" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1873,6 +1881,7 @@
   </inspection_tool>
   <inspection_tool class="OverridableMethodCallDuringObjectConstruction" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="OverriddenMethodCallDuringObjectConstruction" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="OverrideOnly" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="OverwrittenKey" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="PackageDotHtmlMayBePackageInfo" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="PackageInMultipleModules" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -2116,6 +2125,7 @@
   <inspection_tool class="SerializableWithUnconstructableAncestor" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SetReplaceableByEnumSet" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SharedThreadLocalRandom" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="ShellCheck" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="ShiftOutOfRange" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SignalWithoutCorrespondingAwait" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SillyAssignment" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -2232,6 +2242,7 @@
   <inspection_tool class="SuspiciousAsDynamic" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="SuspiciousGetterSetter" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SuspiciousIndentAfterControlStatement" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SuspiciousIntegerDivAssignment" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SuspiciousListRemoveInLoop" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SuspiciousLiteralUnderscore" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SuspiciousLocalesLanguages" enabled="true" level="WARNING" enabled_by_default="true" />
