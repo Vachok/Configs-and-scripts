@@ -1,7 +1,6 @@
 <application>
   <component name="VisualVMLauncher">
     <option name="jdkHome" value="C:/Program Files/Java/jdk-12.0.1" />
-    <option name="useTabIndex" value="true" />
     <option name="visualVmExecutable" value="$USER_HOME$/IdeaProjects/ftpplus/modules/networker/visualvm_143/bin/visualvm.exe" />
   </component>
 </application>
