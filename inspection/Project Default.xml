@@ -1397,7 +1397,10 @@
     </scope>
     <option name="m_ignorePrimitives" value="true" />
   </inspection_tool>
-  <inspection_tool class="InstanceVariableOfConcreteClass" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+  <inspection_tool class="InstanceVariableOfConcreteClass" enabled="true" level="WEAK WARNING" enabled_by_default="false">
+    <scope name="Production" level="WEAK WARNING" enabled="true">
+      <option name="ignoreAbstractClasses" value="true" />
+    </scope>
     <option name="ignoreAbstractClasses" value="true" />
   </inspection_tool>
   <inspection_tool class="InstanceVariableUninitializedUse" enabled="true" level="WARNING" enabled_by_default="true">
