@@ -490,7 +490,9 @@
   </inspection_tool>
   <inspection_tool class="AnonymousClassVariableHidesContainingMethodVariable" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AnonymousHasLambdaAlternative" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="AnonymousInnerClass" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="AnonymousInnerClass" enabled="true" level="WEAK WARNING" enabled_by_default="false">
+    <scope name="Production" level="WEAK WARNING" enabled="true" />
+  </inspection_tool>
   <inspection_tool class="AnonymousInnerClassMayBeStatic" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AntDuplicateTargetsInspection" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="AntMissingPropertiesFileInspection" enabled="false" level="ERROR" enabled_by_default="false" />
@@ -542,13 +544,19 @@
   <inspection_tool class="AutoUnboxing" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AwaitNotInLoop" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AwaitWithoutCorrespondingSignal" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="BadExceptionCaught" enabled="false" level="WARNING" enabled_by_default="false">
+  <inspection_tool class="BadExceptionCaught" enabled="true" level="WARNING" enabled_by_default="true">
+    <scope name="Production" level="WARNING" enabled="false">
+      <option name="exceptionsString" value="" />
+      <option name="exceptions">
+        <value />
+      </option>
+    </scope>
     <option name="exceptionsString" value="" />
     <option name="exceptions">
       <value />
     </option>
   </inspection_tool>
-  <inspection_tool class="BadExceptionDeclared" enabled="false" level="WARNING" enabled_by_default="false">
+  <inspection_tool class="BadExceptionDeclared" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="exceptionsString" value="" />
     <option name="exceptions">
       <value />
@@ -556,7 +564,7 @@
     <option name="ignoreTestCases" value="false" />
     <option name="ignoreLibraryOverrides" value="false" />
   </inspection_tool>
-  <inspection_tool class="BadExceptionThrown" enabled="false" level="WARNING" enabled_by_default="false">
+  <inspection_tool class="BadExceptionThrown" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="exceptionsString" value="" />
     <option name="exceptions">
       <value />
@@ -655,7 +663,9 @@
   </inspection_tool>
   <inspection_tool class="CastToConcreteClass" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="CastToIncompatibleInterface" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="CatchMayIgnoreException" enabled="true" level="INFORMATION" enabled_by_default="true" />
+  <inspection_tool class="CatchMayIgnoreException" enabled="true" level="WARNING" enabled_by_default="true">
+    <scope name="Production" level="INFORMATION" enabled="true" />
+  </inspection_tool>
   <inspection_tool class="CaughtExceptionImmediatelyRethrown" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="ChainedEquality" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ChainedMethodCall" enabled="false" level="WEAK WARNING" enabled_by_default="false">
@@ -811,7 +821,9 @@
     <option name="SUGGEST_NULLABLE_ANNOTATIONS" value="false" />
     <option name="DONT_REPORT_TRUE_ASSERT_STATEMENTS" value="false" />
   </inspection_tool>
-  <inspection_tool class="ConstantDeclaredInAbstractClass" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConstantDeclaredInAbstractClass" enabled="true" level="WEAK WARNING" enabled_by_default="false">
+    <scope name="Production" level="WEAK WARNING" enabled="true" />
+  </inspection_tool>
   <inspection_tool class="ConstantDeclaredInInterface" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="ConstantExpression" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="ConstantIfStatement" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -819,7 +831,7 @@
   <inspection_tool class="ConstantMathCall" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ConstantOnLHSOfComparison" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ConstantOnRHSOfComparison" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="ConstantOnWrongSideOfComparison" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="ConstantOnWrongSideOfComparison" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="ConstantStringIntern" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConstantTestNGAssertArgument" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ConstantValueVariableUse" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
@@ -955,7 +967,15 @@
     <option name="m_ignoreTestCases" value="true" />
     <option name="m_ignoreIgnoreParameter" value="true" />
   </inspection_tool>
-  <inspection_tool class="EmptyClass" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+  <inspection_tool class="EmptyClass" enabled="true" level="WEAK WARNING" enabled_by_default="false">
+    <scope name="Production" level="WEAK WARNING" enabled="true">
+      <option name="ignorableAnnotations">
+        <value />
+      </option>
+      <option name="ignoreClassWithParameterization" value="false" />
+      <option name="ignoreThrowables" value="true" />
+      <option name="commentsAreContent" value="true" />
+    </scope>
     <option name="ignorableAnnotations">
       <value />
     </option>
@@ -984,7 +1004,7 @@
     <option name="m_reportEmptyBlocks" value="true" />
   </inspection_tool>
   <inspection_tool class="EmptySynchronizedStatement" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="EmptyTryBlock" enabled="true" level="INFORMATION" enabled_by_default="true" />
+  <inspection_tool class="EmptyTryBlock" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="EndlessStream" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="EnhancedSwitchBackwardMigration" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="EnhancedSwitchMigration" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -1003,10 +1023,14 @@
   <inspection_tool class="EqualsUsesNonFinalVariable" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="EqualsWhichDoesntCheckParameterClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="EqualsWithItself" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="ErrorRethrown" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="ExceptionFromCatchWhichDoesntWrap" enabled="false" level="WARNING" enabled_by_default="false">
-    <option name="ignoreGetMessage" value="false" />
-    <option name="ignoreCantWrap" value="false" />
+  <inspection_tool class="ErrorRethrown" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ExceptionFromCatchWhichDoesntWrap" enabled="true" level="WARNING" enabled_by_default="false">
+    <scope name="Production" level="WARNING" enabled="true">
+      <option name="ignoreGetMessage" value="true" />
+      <option name="ignoreCantWrap" value="true" />
+    </scope>
+    <option name="ignoreGetMessage" value="true" />
+    <option name="ignoreCantWrap" value="true" />
   </inspection_tool>
   <inspection_tool class="ExceptionNameDoesntEndWithException" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ExceptionPackage" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -1043,7 +1067,9 @@
   <inspection_tool class="FieldAccessedSynchronizedAndUnsynchronized" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="countGettersAndSetters" value="false" />
   </inspection_tool>
-  <inspection_tool class="FieldCanBeLocal" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="FieldCanBeLocal" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <scope name="Production" level="WARNING" enabled="true" />
+  </inspection_tool>
   <inspection_tool class="FieldCount" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="m_countConstantFields" value="false" />
     <option name="m_considerStaticFinalFieldsConstant" value="true" />
@@ -1059,10 +1085,14 @@
   <inspection_tool class="FieldNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="FieldNotUsedInToString" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="FileEqualsUsage" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="FinalClass" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
-  <inspection_tool class="FinalMethod" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="FinalClass" enabled="true" level="WEAK WARNING" enabled_by_default="false">
+    <scope name="Production" level="WEAK WARNING" enabled="true" />
+  </inspection_tool>
+  <inspection_tool class="FinalMethod" enabled="true" level="WEAK WARNING" enabled_by_default="false">
+    <scope name="Production" level="WEAK WARNING" enabled="true" />
+  </inspection_tool>
   <inspection_tool class="FinalMethodInFinalClass" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="FinalPrivateMethod" enabled="true" level="INFORMATION" enabled_by_default="true" />
+  <inspection_tool class="FinalPrivateMethod" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="FinalStaticMethod" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="Finalize" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="ignoreTrivialFinalizers" value="true" />
@@ -1320,7 +1350,7 @@
     <option name="suggestEnumSwitches" value="false" />
   </inspection_tool>
   <inspection_tool class="IfMayBeConditional" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="IfStatementMissingBreakInLoop" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="IfStatementMissingBreakInLoop" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="IfStatementWithIdenticalBranches" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="IfStatementWithTooManyBranches" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="m_limit" value="3" />
@@ -1431,7 +1461,7 @@
   <inspection_tool class="InvalidComparatorMethodReference" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="InvalidParameterAnnotations" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="InvalidPropertyKeyForm" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="IterableUsedAsVararg" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="IterableUsedAsVararg" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="IteratorHasNextCallsIteratorNext" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="IteratorNextDoesNotThrowNoSuchElementException" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JDBCExecuteWithNonConstantString" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1605,11 +1635,15 @@
   <inspection_tool class="MalformedXPath" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ManualArrayCopy" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ManualArrayToCollectionCopy" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="ManualMinMaxCalculation" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="ManualMinMaxCalculation" enabled="true" level="WEAK WARNING" enabled_by_default="false">
+    <scope name="Production" level="WEAK WARNING" enabled="true">
+      <option name="disableForNonIntegralTypes" value="true" />
+    </scope>
+  </inspection_tool>
   <inspection_tool class="MapReplaceableByEnumMap" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MarkdownUnresolvedFileReference" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MarkedForRemoval" enabled="true" level="ERROR" enabled_by_default="true" />
-  <inspection_tool class="MarkerInterface" enabled="true" level="INFORMATION" enabled_by_default="true" />
+  <inspection_tool class="MarkerInterface" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="MathRandomCastToInt" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MavenDuplicateDependenciesInspection" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MavenDuplicatePluginInspection" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -1710,9 +1744,13 @@
     <option name="ignoreEqualsMethod" value="true" />
     <option name="m_limit" value="2" />
   </inspection_tool>
-  <inspection_tool class="MultipleTopLevelClassesInFile" enabled="true" level="INFORMATION" enabled_by_default="true" />
+  <inspection_tool class="MultipleTopLevelClassesInFile" enabled="true" level="WARNING" enabled_by_default="true">
+    <scope name="Production" level="INFORMATION" enabled="true" />
+  </inspection_tool>
   <inspection_tool class="MultipleTypedDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="MultipleVariablesInDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="MultipleVariablesInDeclaration" enabled="true" level="WARNING" enabled_by_default="false">
+    <scope name="Production" level="WARNING" enabled="true" />
+  </inspection_tool>
   <inspection_tool class="MultiplyOrDivideByPowerOfTwo" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="checkDivision" value="false" />
   </inspection_tool>
@@ -1737,12 +1775,16 @@
   </inspection_tool>
   <inspection_tool class="NestedSwitchStatement" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="NestedSynchronizedStatement" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="NestedTryStatement" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="NestedTryStatement" enabled="true" level="WARNING" enabled_by_default="true">
+    <scope name="Project Files" level="WEAK WARNING" enabled="true" />
+  </inspection_tool>
   <inspection_tool class="NestingDepth" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="m_limit" value="5" />
   </inspection_tool>
   <inspection_tool class="NewClassNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="NewExceptionWithoutArguments" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="NewExceptionWithoutArguments" enabled="true" level="WARNING" enabled_by_default="true">
+    <scope name="Production" level="WEAK WARNING" enabled="true" />
+  </inspection_tool>
   <inspection_tool class="NewGroovyClassNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="NewInstanceOfSingleton" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="NewIssuesGlobalInspectionTool" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
@@ -1762,7 +1804,10 @@
     <option name="ignoreBooleanMethods" value="false" />
     <option name="onlyWarnOnBaseMethods" value="true" />
   </inspection_tool>
-  <inspection_tool class="NonCommentSourceStatements" enabled="false" level="WARNING" enabled_by_default="false">
+  <inspection_tool class="NonCommentSourceStatements" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <scope name="Production" level="WARNING" enabled="true">
+      <option name="m_limit" value="30" />
+    </scope>
     <option name="m_limit" value="30" />
   </inspection_tool>
   <inspection_tool class="NonExceptionNameEndsWithException" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1801,7 +1846,9 @@
   <inspection_tool class="NotifyCalledOnCondition" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="NotifyWithoutCorrespondingWait" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="NullArgumentToVariableArgMethod" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="NullThrown" enabled="true" level="INFORMATION" enabled_by_default="true" />
+  <inspection_tool class="NullThrown" enabled="true" level="INFORMATION" enabled_by_default="false">
+    <scope name="Production" level="WARNING" enabled="true" />
+  </inspection_tool>
   <inspection_tool class="NullableProblems" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <scope name="Changed Files" level="WARNING" enabled="true">
       <option name="REPORT_NULLABLE_METHOD_OVERRIDES_NOTNULL" value="true" />
@@ -1878,7 +1925,9 @@
   <inspection_tool class="OverlyLargePrimitiveArrayInitializer" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="m_limit" value="64" />
   </inspection_tool>
-  <inspection_tool class="OverlyLongLambda" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="OverlyLongLambda" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <scope name="Production" level="WARNING" enabled="true" />
+  </inspection_tool>
   <inspection_tool class="OverlyStrongTypeCast" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreInMatchingInstanceof" value="false" />
   </inspection_tool>
@@ -1961,7 +2010,7 @@
     <option name="ignoreEnums" value="false" />
     <option name="ignoreInterfaces" value="false" />
   </inspection_tool>
-  <inspection_tool class="ProtectedMemberInFinalClass" enabled="true" level="INFORMATION" enabled_by_default="true" />
+  <inspection_tool class="ProtectedMemberInFinalClass" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="PsiElementConcatenation" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="PublicConstructor" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="PublicConstructorInNonPublicClass" enabled="true" level="WEAK WARNING" enabled_by_default="true">
@@ -2080,7 +2129,9 @@
   <inspection_tool class="ResultIsResult" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="ResultOfObjectAllocationIgnored" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ResultSetIndexZero" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="ReturnFromFinallyBlock" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ReturnFromFinallyBlock" enabled="true" level="WARNING" enabled_by_default="false">
+    <scope name="Production" level="WARNING" enabled="true" />
+  </inspection_tool>
   <inspection_tool class="ReturnNull" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="m_reportObjectMethods" value="true" />
     <option name="m_reportArrayMethods" value="true" />
@@ -2152,7 +2203,9 @@
   <inspection_tool class="SingleClassImport" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SingleElementAnnotation" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="SingleStatementInBlock" enabled="true" level="INFORMATION" enabled_by_default="true" />
-  <inspection_tool class="Singleton" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="Singleton" enabled="true" level="UNUSED ENTRY" enabled_by_default="false">
+    <scope name="All Changed Files" level="UNUSED ENTRY" enabled="true" />
+  </inspection_tool>
   <inspection_tool class="SingletonConstructor" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="SizeReplaceableByIsEmpty" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SleepWhileHoldingLock" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -2245,7 +2298,7 @@
   <inspection_tool class="SuspiciousAsDynamic" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="SuspiciousGetterSetter" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SuspiciousIndentAfterControlStatement" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="SuspiciousIntegerDivAssignment" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SuspiciousIntegerDivAssignment" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SuspiciousListRemoveInLoop" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SuspiciousLiteralUnderscore" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SuspiciousLocalesLanguages" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -2315,7 +2368,7 @@
   <inspection_tool class="TestOnlyProblems" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="TextLabelInSwitchStatement" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ThisEscapedInConstructor" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
-  <inspection_tool class="ThreadDeathRethrown" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="ThreadDeathRethrown" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="ThreadDumpStack" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ThreadLocalNotStaticFinal" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ThreadPriority" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -2338,19 +2391,26 @@
   <inspection_tool class="ThrownExceptionsPerMethod" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="m_limit" value="3" />
   </inspection_tool>
-  <inspection_tool class="ThrowsRuntimeException" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="ThrowsRuntimeException" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="TimeToString" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="ToArrayCallWithZeroLengthArrayArgument" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="TodoComment" enabled="true" level="WARNING" enabled_by_default="false">
     <scope name="Changed Files" level="WARNING" enabled="true" />
     <scope name="Production" level="WEAK WARNING" enabled="true" />
   </inspection_tool>
-  <inspection_tool class="TooBroadCatch" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="TooBroadCatch" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="onlyWarnOnRootExceptions" value="true" />
+    <option name="ignoreThrown" value="true" />
+  </inspection_tool>
   <inspection_tool class="TooBroadScope" enabled="true" level="INFORMATION" enabled_by_default="true">
     <option name="m_allowConstructorAsInitializer" value="false" />
     <option name="m_onlyLookAtBlocks" value="false" />
   </inspection_tool>
-  <inspection_tool class="TooBroadThrows" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="TooBroadThrows" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="onlyWarnOnRootExceptions" value="true" />
+    <option name="ignoreLibraryOverrides" value="true" />
+    <option name="ignoreThrown" value="true" />
+  </inspection_tool>
   <inspection_tool class="TrailingSpacesInProperty" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="TransientFieldInNonSerializableClass" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="TransientFieldNotInitialized" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -2384,7 +2444,7 @@
   <inspection_tool class="UNCHECKED_WARNING" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="UNUSED_IMPORT" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnaryPlus" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="UncheckedExceptionClass" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="UncheckedExceptionClass" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="UnclearBinaryExpression" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="UnconditionalWait" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="UnconstructableTestCase" enabled="false" level="WARNING" enabled_by_default="false" />
