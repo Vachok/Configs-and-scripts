@@ -31,7 +31,6 @@
       <mapping ext="tmp51358" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="pstobjstr" type="PLAIN_TEXT" />
-      <mapping ext="now" type="PLAIN_TEXT" />
       <mapping ext="res" type="PLAIN_TEXT" />
       <mapping ext="msg" type="PLAIN_TEXT" />
       <mapping ext="lck" type="PLAIN_TEXT" />
@@ -46,11 +45,13 @@
       <mapping ext="rgh" type="PLAIN_TEXT" />
       <mapping ext="pstcontenttofolderswithattachments" type="PLAIN_TEXT" />
       <mapping ext="map" type="PLAIN_TEXT" />
+      <mapping ext="tmp48173" type="PLAIN_TEXT" />
       <mapping ext="tmp48261" type="PLAIN_TEXT" />
       <mapping ext="ssh" type="PLAIN_TEXT" />
       <mapping ext="info" type="PLAIN_TEXT" />
       <mapping ext="ips" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
+      <mapping ext="now" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
       <mapping ext="tmp48342" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
@@ -58,7 +59,6 @@
       <mapping ext="onlist" type="PLAIN_TEXT" />
       <mapping ext="distinct" type="PLAIN_TEXT" />
       <mapping ext="tmp48183" type="PLAIN_TEXT" />
-      <mapping ext="tmp48173" type="PLAIN_TEXT" />
       <mapping ext="ser" type="PLAIN_TEXT" />
       <mapping ext="trans" type="PLAIN_TEXT" />
       <mapping ext="dev" type="PLAIN_TEXT" />
@@ -70,8 +70,8 @@
       <mapping ext="f" type="PLAIN_TEXT" />
       <mapping ext="err" type="PLAIN_TEXT" />
       <mapping ext="4" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="ru" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
