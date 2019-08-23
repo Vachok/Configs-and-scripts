@@ -35,7 +35,6 @@
       <mapping ext="tv" type="PLAIN_TEXT" />
       <mapping ext="dev" type="PLAIN_TEXT" />
       <mapping ext="pstobjstr" type="PLAIN_TEXT" />
-      <mapping ext="ssh" type="PLAIN_TEXT" />
       <mapping ext="tmp51358" type="PLAIN_TEXT" />
       <mapping ext="own" type="PLAIN_TEXT" />
       <mapping ext="rgh" type="PLAIN_TEXT" />
@@ -51,6 +50,7 @@
       <mapping ext="tmp48261" type="PLAIN_TEXT" />
       <mapping ext="srctrldb" type="PLAIN_TEXT" />
       <mapping ext="mini" type="PLAIN_TEXT" />
+      <mapping ext="ssh" type="PLAIN_TEXT" />
       <mapping ext="srctrlbm" type="PLAIN_TEXT" />
       <mapping ext="pstcontenttofolderswithattachments" type="PLAIN_TEXT" />
       <mapping ext="tmp" type="PLAIN_TEXT" />
