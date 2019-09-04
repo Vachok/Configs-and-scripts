@@ -4,7 +4,7 @@
     <property name="created">2018-06-20T12:10:09</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2018.1.4.0.0</property>
-    <property name="modified">2019-08-30T09:34:21</property>
+    <property name="modified">2019-09-04T10:47:07</property>
     <property name="originalScheme">Darcula copy2</property>
     <property name="rainbow JAVA">true</property>
   </metaInfo>
@@ -425,6 +425,14 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="SCOPE_KEY_All Changed Files">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="SCOPE_KEY_Production">
+      <value />
+    </option>
     <option name="SONARLINT_BLOCKER">
       <value>
         <option name="FOREGROUND" value="ff0114" />
@@ -523,9 +531,11 @@
     </option>
     <option name="Unused entry">
       <value>
-        <option name="FOREGROUND" value="808080" />
+        <option name="FOREGROUND" value="4e4e4e" />
+        <option name="BACKGROUND" value="181b1d" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="a0522d" />
+        <option name="EFFECT_COLOR" value="808080" />
+        <option name="ERROR_STRIPE_COLOR" value="bb0bc" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
