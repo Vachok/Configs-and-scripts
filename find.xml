@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="Directory '...\src\main\java\ru\vachok\networker\net [networker.main]'" />
     <option name="defaultScopeName" value="Directory '...\src\main\java\ru\vachok\networker\net [networker.main]'" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Directory '...\src\main\java\ru\vachok\networker\net [networker.main]'" />
   </component>
 </application>
