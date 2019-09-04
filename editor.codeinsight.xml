@@ -4,11 +4,13 @@
     <option name="COLLAPSE_DOC_COMMENTS" value="true" />
   </component>
   <component name="CodeInsightSettings">
-    <option name="SHOW_SOURCE_INFERRED_ANNOTATIONS" value="false" />
     <option name="ADD_IMPORTS_ON_PASTE" value="1" />
   </component>
   <component name="DaemonCodeAnalyzerSettings" profile="Project Default" />
   <component name="JavaCodeFoldingSettings">
+    <option name="collapseAnonymousClasses" value="true" />
+    <option name="collapseInnerClasses" value="true" />
+    <option name="collapseMultilineComments" value="true" />
     <option name="collapseOneLineMethods" value="false" />
   </component>
   <component name="XmlFoldingSettings">
