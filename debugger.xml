@@ -5,6 +5,7 @@
     <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
     <option name="WATCH_RETURN_VALUES" value="true" />
     <option name="AUTO_VARIABLES_MODE" value="true" />
+    <option name="INSTRUMENTING_AGENT" value="false" />
     <filter>
       <option name="PATTERN" value="com.sun.*" />
       <option name="ENABLED" value="true" />
