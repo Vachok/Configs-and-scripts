@@ -95,7 +95,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="sberr" value="stringBuilder.append(e.getMessage()).append(&quot;\n&quot;).append(new TForms().fromArray(e, false));" description="" toReformat="true" toShortenFQNames="true">
+  <template name="sberr" value="stringBuilder.append(e.getMessage()).append(&quot;\n&quot;).append(AbstractForms.fromArray(e));" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
