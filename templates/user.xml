@@ -113,7 +113,7 @@
       <option name="JAVA_COMMENT" value="true" />
     </context>
   </template>
-  <template name="aerr" value="Assert.assertNull(e, e.getMessage() + &quot;\n&quot; + new TForms().fromArray(e));" description="" toReformat="true" toShortenFQNames="true">
+  <template name="aerr" value="Assert.assertNull(e, e.getMessage() + &quot;\n&quot; + AbstractForms.fromArray(e));" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
