@@ -132,10 +132,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="er" value="messageToUser.warn($CLASS$.class.getSimpleName(), &quot;$METH$&quot; ,e.getMessage() +&quot; see line: $LINE$&quot;);" shortcut="SPACE" description="only err" toReformat="true" toShortenFQNames="true">
+  <template name="er" value="messageToUser.warn($CLASS$.class.getSimpleName(), &quot;$METH$&quot; ,e.getMessage() + Thread.currentThread().getState().name());" shortcut="SPACE" description="only err" toReformat="true" toShortenFQNames="true">
     <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
     <variable name="METH" expression="methodName()" defaultValue="" alwaysStopAt="false" />
-    <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
