@@ -34,7 +34,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="err" value="messageToUser.error(MessageFormat.format(&quot;$CLASS$.$METHOD$&quot;, e.getMessage(), AbstractForms.exceptionNetworker(e.getStackTrace())));" shortcut="SPACE" description="only err" toReformat="true" toShortenFQNames="true">
+  <template name="err" value="messageToUser.error(MessageFormat.format(&quot;$CLASS$.$METHOD$ {0}\n{1}&quot;, e.getMessage(), AbstractForms.exceptionNetworker(e.getStackTrace())));" shortcut="SPACE" description="only err" toReformat="true" toShortenFQNames="true">
     <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="false" />
     <variable name="METHOD" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <context>
