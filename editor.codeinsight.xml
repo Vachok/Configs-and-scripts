@@ -5,6 +5,7 @@
   </component>
   <component name="CodeInsightSettings">
     <option name="ADD_IMPORTS_ON_PASTE" value="1" />
+    <option name="USE_INSTANCEOF_ON_EQUALS_PARAMETER" value="true" />
   </component>
   <component name="DaemonCodeAnalyzerSettings" profile="Project Default" />
   <component name="JavaCodeFoldingSettings">
