@@ -55,7 +55,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ferr" value="messageToUser.error(FileSystemWorker.error(getClass().getSimpleName()+&quot;.$METH$&quot;, e));" shortcut="ENTER" description="Err to file" toReformat="true" toShortenFQNames="true">
+  <template name="ferr" value="messageToUser.error(getClass().getSimpleName(), &quot;$METH$&quot; ,FileSystemWorker.error(getClass().getSimpleName()+&quot;.$METH$&quot;, e));" shortcut="ENTER" description="Err to file" toReformat="true" toShortenFQNames="true">
     <variable name="METH" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
