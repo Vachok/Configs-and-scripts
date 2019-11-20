@@ -26,7 +26,6 @@
       <mapping pattern="DiapazonedScan" type="PLAIN_TEXT" />
       <mapping pattern="testpass" type="PLAIN_TEXT" />
       <mapping ext="showcontacts" type="PLAIN_TEXT" />
-      <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="obj" type="PLAIN_TEXT" />
       <mapping ext="tmp51399" type="PLAIN_TEXT" />
       <mapping ext="ser" type="PLAIN_TEXT" />
@@ -43,6 +42,7 @@
       <mapping ext="info" type="PLAIN_TEXT" />
       <mapping ext="tmp48342" type="PLAIN_TEXT" />
       <mapping ext="316" type="PLAIN_TEXT" />
+      <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="me" type="PLAIN_TEXT" />
       <mapping ext="err" type="PLAIN_TEXT" />
       <mapping ext="test" type="PLAIN_TEXT" />
