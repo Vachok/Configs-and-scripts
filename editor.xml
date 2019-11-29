@@ -1,4 +1,12 @@
 <application>
+  <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_METHODS" value="true" />
+    <option name="COLLAPSE_DOC_COMMENTS" value="true" />
+  </component>
+  <component name="CodeInsightSettings">
+    <option name="USE_INSTANCEOF_ON_EQUALS_PARAMETER" value="true" />
+  </component>
+  <component name="DaemonCodeAnalyzerSettings" profile="Project Default" />
   <component name="DefaultFont">
     <option name="FONT_FAMILY" value="Fira Code" />
     <option name="LINE_SPACING" value="0.8" />
@@ -19,16 +27,17 @@
       <option name="myVal" value="50" />
       <option name="myExternalName" value="UNUSED ENTRY" />
     </info>
-    <info color="be9117">
-      <option name="BACKGROUND" value="52503a" />
-      <option name="ERROR_STRIPE_COLOR" value="be9117" />
-      <option name="EFFECT_TYPE" value="2" />
-      <option name="myName" value="UNUSED ENTRY" />
-      <option name="myVal" value="50" />
-      <option name="myExternalName" value="UNUSED ENTRY" />
-    </info>
+  </component>
+  <component name="JavaCodeFoldingSettings">
+    <option name="collapseAnonymousClasses" value="true" />
+    <option name="collapseInnerClasses" value="true" />
+    <option name="collapseMultilineComments" value="true" />
+    <option name="collapseOneLineMethods" value="false" />
   </component>
   <component name="TodoConfiguration">
     <multiLine>false</multiLine>
+  </component>
+  <component name="XmlFoldingSettings">
+    <option name="COLLAPSE_HTML_STYLE_ATTRIBUTE" value="false" />
   </component>
 </application>
