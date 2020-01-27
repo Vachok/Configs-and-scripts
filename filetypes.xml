@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="Дневник" type="PLAIN_TEXT" />
       <mapping pattern="visit_C8A82BB3A1521A39C7E4B80F98A19ED5" type="PLAIN_TEXT" />
       <mapping pattern="pass" type="PLAIN_TEXT" />
