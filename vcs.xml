@@ -70,6 +70,10 @@
           <option name="url" value="https://github.com/Vachok/fl.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="kudr@srv-inetstat.eatmeat.ru:/home/kudr/pchelper" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\ikudryashov\IdeaProjects" />
