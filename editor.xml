@@ -14,11 +14,19 @@
     <option name="SECONDARY_FONT_FAMILY" value="DialogInput" />
   </component>
   <component name="EditorSettings">
-    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+    <option name="USE_SOFT_WRAPS" value="" />
     <option name="CARET_BLINKING_PERIOD" value="700" />
     <option name="IS_DND_ENABLED" value="false" />
   </component>
   <component name="InspectionProfileManager">
+    <info color="be9117">
+      <option name="BACKGROUND" value="52503a" />
+      <option name="ERROR_STRIPE_COLOR" value="be9117" />
+      <option name="EFFECT_TYPE" value="2" />
+      <option name="myName" value="UNUSED ENTRY" />
+      <option name="myVal" value="50" />
+      <option name="myExternalName" value="UNUSED ENTRY" />
+    </info>
     <info color="be9117">
       <option name="BACKGROUND" value="52503a" />
       <option name="ERROR_STRIPE_COLOR" value="be9117" />
