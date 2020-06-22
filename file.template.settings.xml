@@ -1,7 +1,0 @@
-<application>
-  <component name="ExportableFileTemplateSettings">
-    <code_templates>
-      <template name="Implemented Method Body.java" reformat="true" live-template-enabled="true" enabled="true" />
-    </code_templates>
-  </component>
-</application>
