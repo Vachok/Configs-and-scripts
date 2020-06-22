@@ -18,6 +18,14 @@
     </group>
     <group value="Tool_External Tools_Putty" is_action="true" action_type="1" position="0">
       <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Putty" is_action="true" action_type="1" position="0">
+      <path value="root" />
       <path value="Project View Popup Menu" />
       <path value="External Tools" />
       <path value="External Tools" />
@@ -49,6 +57,14 @@
     </group>
     <group value="Tool_External Tools_TC" is_action="true" action_type="1" position="1">
       <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_TC" is_action="true" action_type="1" position="1">
+      <path value="root" />
       <path value="Project View Popup Menu" />
       <path value="External Tools" />
       <path value="External Tools" />
@@ -80,6 +96,14 @@
     </group>
     <group value="Tool_External Tools_classpath" is_action="true" action_type="1" position="2">
       <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_classpath" is_action="true" action_type="1" position="2">
+      <path value="root" />
       <path value="Project View Popup Menu" />
       <path value="External Tools" />
       <path value="External Tools" />
@@ -111,6 +135,14 @@
     </group>
     <group value="Tool_External Tools_Notepad++" is_action="true" action_type="1" position="3">
       <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Notepad++" is_action="true" action_type="1" position="3">
+      <path value="root" />
       <path value="Project View Popup Menu" />
       <path value="External Tools" />
       <path value="External Tools" />
@@ -136,6 +168,14 @@
       <path value="root" />
       <path value="Editor Popup Menu" />
       <path value="Editor Popup Menu Actions (2)" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_plantuml" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Editor Tab Popup Menu" />
+      <path value="Editor Tab Popup Menu Actions (1)" />
       <path value="External Tools" />
       <path value="External Tools" />
       <option name="myInitialPosition" value="-1" />
