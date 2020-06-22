@@ -1,11 +1,7 @@
 <application>
   <component name="DebuggerSettings">
     <option name="FORCE_CLASSIC_VM" value="false" />
-    <option name="ENABLE_MEMORY_AGENT" value="true" />
-    <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
-    <option name="WATCH_RETURN_VALUES" value="true" />
-    <option name="AUTO_VARIABLES_MODE" value="true" />
-    <option name="INSTRUMENTING_AGENT" value="false" />
+    <option name="SKIP_GETTERS" value="true" />
     <filter>
       <option name="PATTERN" value="com.sun.*" />
       <option name="ENABLED" value="true" />
@@ -81,78 +77,20 @@
       <option name="ENABLED" value="true" />
       <option name="INCLUDE" value="true" />
     </filter>
-    <filter>
-      <option name="PATTERN" value="global.Weather" />
-      <option name="ENABLED" value="true" />
-      <option name="INCLUDE" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="kotlin.*" />
-      <option name="ENABLED" value="true" />
-      <option name="INCLUDE" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="kotlin.*" />
-      <option name="ENABLED" value="true" />
-      <option name="INCLUDE" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="kotlin.*" />
-      <option name="ENABLED" value="true" />
-      <option name="INCLUDE" value="true" />
-    </filter>
-  </component>
-  <component name="NodeRendererSettings">
-    <Renderer ID="ToStringRenderer">
-      <filter>
-        <option name="PATTERN" value="ru.vachok.networker.*" />
-        <option name="ENABLED" value="true" />
-        <option name="INCLUDE" value="true" />
-      </filter>
-    </Renderer>
-    <Renderer ID="ClassRenderer">
-      <option name="SHOW_STATIC" value="true" />
-      <option name="SHOW_STATIC_FINAL" value="true" />
-      <option name="SHOW_DECLARED_TYPE" value="true" />
-      <option name="SHOW_OBJECT_ID" value="false" />
-    </Renderer>
-    <CustomRenderers VERSION="8">
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="java.lang.String" />
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="java.lang.String" />
-          <option name="AppendDefault" value="true" />
-          <ChildrenExpression Name="">
-            <TextWithImports text="&#13;&#13;JAVA" type="expression" />
-          </ChildrenExpression>
-        </Renderer>
-      </Renderer>
-      <Renderer ID="CompoundTypeRenderer">
-        <option name="ENABLED" value="true" />
-        <option name="QUALIFIED_NAME" value="sun.nio.fs.WindowsUserPrincipals$Group" />
-        <Renderer ID="EnumerationChildrenRenderer" role="children">
-          <option name="QUALIFIED_NAME" value="sun.nio.fs.WindowsUserPrincipals$Group" />
-          <option name="AppendDefault" value="true" />
-        </Renderer>
-      </Renderer>
-    </CustomRenderers>
-  </component>
-  <component name="ThreadsViewSettings">
-    <option name="SHOW_THREAD_GROUPS" value="true" />
-    <option name="SHOW_SOURCE_NAME" value="true" />
-    <option name="SHOW_ARGUMENTS_TYPES" value="true" />
   </component>
   <component name="XDebuggerSettings">
     <data-views>
-      <option name="showLibraryStackFrames" value="false" />
       <sort-values>true</sort-values>
     </data-views>
     <general>
       <option name="hideDebuggerOnProcessTermination" value="true" />
-      <scroll-to-center>true</scroll-to-center>
     </general>
     <debuggers>
+      <debugger id="ObjectiveC">
+        <configuration>
+          <option name="VALUES_FILTER_ENABLED" value="false" />
+        </configuration>
+      </debugger>
       <debugger id="kotlin_debugger">
         <configuration>
           <option name="DEBUG_IS_FILTER_FOR_STDLIB_ALREADY_ADDED" value="true" />

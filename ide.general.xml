@@ -2,15 +2,7 @@
   <component name="GeneralSettings">
     <option name="autoSaveIfInactive" value="true" />
     <option name="confirmOpenNewProject2" value="1" />
-    <option name="defaultProjectDirectory" value="C:\Users\ikudryashov\IdeaProjects" />
     <option name="processCloseConfirmation" value="TERMINATE" />
     <option name="showTipsOnStartup" value="false" />
-  </component>
-  <component name="Registry">
-    <entry key="ide.mac.allowDarkWindowDecorations" value="true" />
-    <entry key="ide.tooltip.initialDelay" value="880" />
-    <entry key="debugger.valueTooltipAutoShowOnSelection" value="true" />
-    <entry key="debugger.watches.in.variables" value="false" />
-    <entry key="debugger.showTypes" value="false" />
   </component>
 </application>

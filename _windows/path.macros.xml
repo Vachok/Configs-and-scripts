@@ -1,7 +1,5 @@
 <application>
   <component name="PathMacrosImpl">
-    <macro name="KOTLIN_BUNDLED" value="C:\Users\ikudryashov\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\193.6494.35\plugins\Kotlin\kotlinc" />
-    <macro name="MAVEN_REPOSITORY" value="C:\Users\ikudryashov\.m2\repository" />
-    <macro name="MySQL" value="C:/Program Files/MySQL/MySQL Server 5.7" />
+    <macro name="KOTLIN_BUNDLED" value="C:\Users\ikudryashov\AppData\Local\JetBrains\Toolbox\apps\AndroidStudio\ch-0\192.6241897.plugins\Kotlin\kotlinc" />
   </component>
 </application>
