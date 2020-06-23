@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '...\app\build.gradle [app]'" />
-    <option name="defaultScopeName" value="File '...\app\build.gradle [app]'" />
-    <option name="SEARCH_SCOPE" value="File '...\app\build.gradle [app]'" />
+    <option name="customScope" value="Project 'VaBook Player'" />
+    <option name="defaultScopeName" value="Project 'VaBook Player'" />
+    <option name="SEARCH_SCOPE" value="Project 'VaBook Player'" />
   </component>
 </application>
