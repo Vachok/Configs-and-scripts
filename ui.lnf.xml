@@ -1,9 +1,4 @@
 <application>
-  <component name="DependencyUISettings">
-    <option name="UI_SHOW_MODULE_GROUPS" value="false" />
-    <option name="UI_FILTER_OUT_OF_CYCLE_PACKAGES" value="false" />
-    <option name="SCOPE_TYPE" value="file" />
-  </component>
   <component name="UISettings">
     <option name="COLOR_BLINDNESS" value="deuteranopia" />
     <option name="PRESENTATION_MODE_FONT_SIZE" value="26" />
