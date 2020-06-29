@@ -6,18 +6,18 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="cw" value="Crashlytics.log(Log.WARN, TAG, &quot;$VAR$&quot;);" toReformat="false" toShortenFQNames="true">
+  <template name="cw" value="Crashlytics.log(Log.WARN, TAG, &quot;$VAR$&quot;);" description="" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="methodName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="er" value="Crashlytics.log(Log.ERROR, TAG, AbstractForms.fromArray(e));" toReformat="false" toShortenFQNames="true">
+  <template name="er" value="Crashlytics.log(Log.ERROR, TAG, AbstractForms.fromArray(e));" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="ci" value="Crashlytics.log(Log.INFO, TAG, $END$);" toReformat="false" toShortenFQNames="true">
+  <template name="ci" value="Crashlytics.log(Log.INFO, TAG, $END$);" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
