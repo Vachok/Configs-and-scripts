@@ -29,4 +29,14 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="af" value="AbstractForms.fromArray($END$)" description="AbstractForms" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="err" value="Context applicationContext = FirebaseApp.getInstance().getApplicationContext();&#10;Intent intent = new Intent(applicationContext, ErrActivity.class);&#10;intent.putExtra(ConstantsFor.RESOURCES.getString(R.string.error_intent_param_name), AbstractForms.fromArray(e));&#10;intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);&#10;applicationContext.startActivity(intent);&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>

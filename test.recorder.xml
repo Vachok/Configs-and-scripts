@@ -1,0 +1,7 @@
+<application>
+  <component name="TestRecorderSettings">
+    <option name="CLEAN_BEFORE_START" value="false" />
+    <option name="CLEAN_AFTER_FINISH" value="false" />
+    <option name="STOP_APP_AFTER_RECORDING" value="false" />
+  </component>
+</application>
