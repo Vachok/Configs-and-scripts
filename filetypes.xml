@@ -5,6 +5,7 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="booksdb" type="PLAIN_TEXT" />
       <mapping pattern="gestures" type="PLAIN_TEXT" />
+      <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping pattern="indexdb" type="PLAIN_TEXT" />
       <mapping pattern="MainActivity" type="PLAIN_TEXT" />
       <mapping pattern="PlayBookFragment" type="PLAIN_TEXT" />
