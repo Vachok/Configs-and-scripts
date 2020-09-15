@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '...\app\src\main\assets\Тонкое_искусство_пофигизма.json [app]'" />
-    <option name="defaultScopeName" value="File '...\app\src\main\assets\Тонкое_искусство_пофигизма.json [app]'" />
-    <option name="SEARCH_SCOPE" value="File '...\app\src\main\assets\Тонкое_искусство_пофигизма.json [app]'" />
+    <option name="customScope" value="File '...\app\src\main\java\ru\vachok\vaplayer\ui\handler\MainHandler.java [app]'" />
+    <option name="defaultScopeName" value="File '...\app\src\main\java\ru\vachok\vaplayer\ui\handler\MainHandler.java [app]'" />
+    <option name="SEARCH_SCOPE" value="File '...\app\src\main\java\ru\vachok\vaplayer\ui\handler\MainHandler.java [app]'" />
   </component>
 </application>
