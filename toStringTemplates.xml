@@ -5,7 +5,7 @@
       <list>
         <TemplateResource>
           <option name="fileName" value="JSON" />
-          <option name="template" value="public java.lang.String toString() {&#10;final com.google.gson.JsonObject jo = new com.google.gson.JsonObject();&#10;jo.addProperty(ConstantsFor.JSONNAME_CLASS, &quot;$classname&quot;);&#10;#set ($i = 0)&#10;#foreach ($member in $members)&#10;#if ($i == 0)&#10;jo.addProperty(&quot;##&#10;#else&#10;jo.addProperty(&quot;, ##&#10;#end&#10;#if ($member.string)&#10;$member.name&quot;##&#10;#else&#10;$member.name&quot;##&#10;#end&#10;#if ($member.primitiveArray || $member.objectArray)&#10;,java.util.Arrays.toString($member.name));&#10;#elseif ($member.string)&#10;,$member.accessor);&#10;#else&#10;,$member.accessor);&#10;#end&#10;#set ($i = $i + 1)&#10;#end&#10;return jo.toString();&#10;}" />
+          <option name="template" value="public java.lang.String toString() {&#10;final com.google.gson.JsonObject jo = new com.google.gson.JsonObject();&#10;jo.addProperty(ConstantsFor.JSONNAME_CLASS, &quot;$classname&quot;);&#10;#set ($i = 0)&#10;#foreach ($member in $members)&#10;#if ($i == 0)&#10;jo.addProperty(&quot;##&#10;#else&#10;jo.addProperty(&quot;##&#10;#end&#10;#if ($member.string)&#10;$member.name&quot;##&#10;#else&#10;$member.name&quot;##&#10;#end&#10;#if ($member.primitiveArray || $member.objectArray)&#10;,java.util.Arrays.toString($member.name));&#10;#elseif ($member.string)&#10;,$member.accessor);&#10;#else&#10;,$member.accessor);&#10;#end&#10;#set ($i = $i + 1)&#10;#end&#10;return jo.toString();&#10;}" />
         </TemplateResource>
       </list>
     </option>
