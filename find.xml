@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '...\app\src\main\java\ru\vachok\vaplayer\player\local\LocalPlayer.java [VaBook_Player.app]'" />
-    <option name="defaultScopeName" value="File '...\app\src\main\java\ru\vachok\vaplayer\player\local\LocalPlayer.java [VaBook_Player.app]'" />
-    <option name="SEARCH_SCOPE" value="File '...\app\src\main\java\ru\vachok\vaplayer\player\local\LocalPlayer.java [VaBook_Player.app]'" />
+    <option name="customScope" value="File '...\app\src\main\java\ru\vachok\vaplayer\player\StreamBookReader.java [VaBook_Player.app]'" />
+    <option name="defaultScopeName" value="File '...\app\src\main\java\ru\vachok\vaplayer\player\StreamBookReader.java [VaBook_Player.app]'" />
+    <option name="SEARCH_SCOPE" value="File '...\app\src\main\java\ru\vachok\vaplayer\player\StreamBookReader.java [VaBook_Player.app]'" />
   </component>
 </application>
