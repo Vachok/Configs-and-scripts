@@ -1,18 +1,19 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="webp" type="Image" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping pattern="MainActivity" type="PLAIN_TEXT" />
-      <mapping pattern="booksdb" type="PLAIN_TEXT" />
-      <mapping pattern="README" type="PLAIN_TEXT" />
-      <mapping pattern="Спящие красавицы" type="PLAIN_TEXT" />
       <mapping pattern="gestures" type="PLAIN_TEXT" />
       <mapping pattern="indexdb" type="PLAIN_TEXT" />
+      <mapping pattern="README" type="PLAIN_TEXT" />
+      <mapping pattern="MainActivity" type="PLAIN_TEXT" />
+      <mapping pattern="Спящие красавицы" type="PLAIN_TEXT" />
+      <mapping pattern="booksdb" type="PLAIN_TEXT" />
       <mapping pattern="PlayBookFragment" type="PLAIN_TEXT" />
+      <mapping ext="db-journal" type="PLAIN_TEXT" />
       <mapping ext="err" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
-      <mapping ext="db-journal" type="PLAIN_TEXT" />
       <mapping ext="443" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
