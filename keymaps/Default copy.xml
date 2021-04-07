@@ -29,6 +29,9 @@
     <keyboard-shortcut first-keystroke="ctrl b" />
     <mouse-shortcut keystroke="control button1" />
   </action>
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
