@@ -5,8 +5,8 @@
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <mapping pattern="5760166711861829953" type="Image" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping pattern="booksdb" type="PLAIN_TEXT" />
       <mapping pattern="MainActivity" type="PLAIN_TEXT" />
+      <mapping pattern="booksdb" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping pattern="Спящие красавицы" type="PLAIN_TEXT" />
       <mapping pattern="gestures" type="PLAIN_TEXT" />
