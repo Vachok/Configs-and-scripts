@@ -12,6 +12,27 @@
                   <list>
                     <GrepExpressionItem>
                       <option name="continueMatching" value="true" />
+                      <option name="grepExpression" value="BookViewMod" />
+                      <option name="highlightOnlyMatchingText" value="true" />
+                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-13415954" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="foregroundColor">
+                            <GrepColor>
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="continueMatching" value="true" />
                       <option name="grepExpression" value="ConstantsFor" />
                       <option name="highlightOnlyMatchingText" value="true" />
                       <option name="operationOnMatch" value="CONTINUE_MATCHING" />
@@ -2538,7 +2559,6 @@
             </list>
           </option>
           <option name="id" value="1513795723295" />
-          <option name="maxLengthToMatch" value="200" />
           <option name="name" value="default" />
           <option name="showStatsInConsoleByDefault" value="true" />
         </Profile>
